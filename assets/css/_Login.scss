@@ -1,0 +1,98 @@
+header{
+
+
+    ul{
+        margin: 0;
+        li{
+            a{
+                color: var(--black);
+                &:hover{
+                font-weight: 500;
+
+                }
+            }
+            .active{
+                font-weight: 500;
+            }
+        }
+    }
+    select{
+        border: none !important;
+        width: 70px;
+        box-shadow: none;
+        outline: none;
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+        &:focus{
+            outline: none 
+            !important;
+            box-shadow: none !important;
+        }
+    }
+}
+.setion-login{
+    width: 136px;
+
+}
+.nvabar-setion{
+    background-color: var(--theam-colour);
+    .navbar-brand{
+        width: 150px;
+        margin: 0;
+    }    
+    .nav-title{
+        color: var(--white);
+        font-size: 22px;
+    }
+}
+.loging-page-section{
+    margin-top: 20px;
+    .left-contain{
+        background-color: var(--theam-colour);
+        padding: 50PX;
+        .text-container{
+            .text-title{
+                font-size: 46px;
+                color: var(--white);
+                font-weight: 300;
+                span{
+                    font-size: 46px;
+                    font-weight: 700 !important;
+                }
+            }
+        }
+        .info-title{
+            font-size: 24px;
+            color: var(--white);
+            padding-top: 40px;
+        }
+    }
+    .right-contain{
+        background-color: var(--light-blue);
+        padding: 50PX;
+        .from-section{
+            a{
+                color: var(--white);
+            }
+            .input-text{
+                padding: 15px 10px;
+                border: none;
+                margin: 5px 0px;
+            }
+            .btn-sing-in{
+                border:none;
+                padding: 10px 35px;
+                background: var(--theam-colour);
+                border-radius: 25px ;
+                color: var(--white);
+                &:hover{
+                    background-color: transparent;
+                    border: 1px solid white;
+                }
+            }
+            .Registe-text{
+                color: var(--white);
+            }
+        }
+    }
+}

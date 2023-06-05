@@ -1,0 +1,57 @@
+@media (max-width: 991px) {
+  .nvabar-setion .navbar-brand {
+    width: 70px;
+  }
+  .nvabar-setion .nav-title {
+    font-size: 17px;
+  }
+  .loging-page-section .left-contain {
+    padding: 30px;
+  }
+  .loging-page-section .left-contain .text-container .text-title {
+    font-size: 26px;
+  }
+  .loging-page-section .left-contain .text-container .text-title span {
+    font-size: 26px;
+  }
+  .loging-page-section .left-contain .text-container .info-title {
+    font-size: 17px;
+    color: var(--white);
+    padding-top: 30px;
+  }
+  .loging-page-section .right-contain {
+    padding: 30PX;
+  }
+  .loging-page-section .right-contain .from-section .input-text {
+    padding: 10px 5px;
+  }
+  .loging-page-section .right-contain .from-section .btn-sing-in {
+    padding: 10px 25px;
+  }
+}
+@media (max-width: 280px) {
+  .nvabar-setion .navbar-brand {
+    width: 50px;
+  }
+  .nvabar-setion .nav-title {
+    font-size: 14px;
+  }
+  .loging-page-section .left-contain {
+    padding: 20px;
+  }
+  .loging-page-section .left-contain .text-container .text-title {
+    font-size: 36px;
+  }
+  .loging-page-section .left-contain .text-container .text-title span {
+    font-size: 36px;
+  }
+  .loging-page-section .right-contain {
+    padding: 15PX;
+  }
+  .loging-page-section .right-contain .from-section .input-text {
+    padding: 7px 5px;
+  }
+  .loging-page-section .right-contain .from-section .btn-sing-in {
+    padding: 7px 10px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

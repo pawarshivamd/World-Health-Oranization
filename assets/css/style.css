@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  font-size: 90.5%;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+img {
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+:root {
+  --theam-colour:#008DC9;
+  --white:#fff;
+  --black:#000;
+  --light-blue:#009FE2;
+}
+
+header ul {
+  margin: 0;
+}
+header ul li a {
+  color: var(--black);
+}
+header ul li a:hover {
+  font-weight: 500;
+}
+header ul li .active {
+  font-weight: 500;
+}
+header select {
+  border: none !important;
+  width: 70px;
+  box-shadow: none;
+  outline: none;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+header select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.setion-login {
+  width: 136px;
+}
+
+.nvabar-setion {
+  background-color: var(--theam-colour);
+}
+.nvabar-setion .navbar-brand {
+  width: 150px;
+  margin: 0;
+}
+.nvabar-setion .nav-title {
+  color: var(--white);
+  font-size: 22px;
+}
+
+.loging-page-section {
+  margin-top: 20px;
+}
+.loging-page-section .left-contain {
+  background-color: var(--theam-colour);
+  padding: 50PX;
+}
+.loging-page-section .left-contain .text-container .text-title {
+  font-size: 46px;
+  color: var(--white);
+  font-weight: 300;
+}
+.loging-page-section .left-contain .text-container .text-title span {
+  font-size: 46px;
+  font-weight: 700 !important;
+}
+.loging-page-section .left-contain .info-title {
+  font-size: 24px;
+  color: var(--white);
+  padding-top: 40px;
+}
+.loging-page-section .right-contain {
+  background-color: var(--light-blue);
+  padding: 50PX;
+}
+.loging-page-section .right-contain .from-section a {
+  color: var(--white);
+}
+.loging-page-section .right-contain .from-section .input-text {
+  padding: 15px 10px;
+  border: none;
+  margin: 5px 0px;
+}
+.loging-page-section .right-contain .from-section .btn-sing-in {
+  border: none;
+  padding: 10px 35px;
+  background: var(--theam-colour);
+  border-radius: 25px;
+  color: var(--white);
+}
+.loging-page-section .right-contain .from-section .btn-sing-in:hover {
+  background-color: transparent;
+  border: 1px solid white;
+}
+.loging-page-section .right-contain .from-section .Registe-text {
+  color: var(--white);
+}/*# sourceMappingURL=style.css.map */
