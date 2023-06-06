@@ -30,7 +30,7 @@
   }
 }
 @media (min-width: 991px) {
-  .Document-page-section .news-contain-section .dropdown:hover .dropdown-menu {
+  .Document-page-section .Doc-contain-section .dropdown:hover .dropdown-menu {
     position: absolute !important;
     display: block !important;
     margin-top: 3px;
