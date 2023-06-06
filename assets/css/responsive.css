@@ -29,6 +29,13 @@
     padding: 10px 25px;
   }
 }
+@media (min-width: 991px) {
+  .Document-page-section .news-contain-section .dropdown:hover .dropdown-menu {
+    position: absolute !important;
+    display: block !important;
+    margin-top: 3px;
+  }
+}
 @media (max-width: 280px) {
   .nvabar-setion .navbar-brand {
     width: 50px;

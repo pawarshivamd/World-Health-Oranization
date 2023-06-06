@@ -43,24 +43,65 @@ input:focus {
   outline: none;
 }
 
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 :root {
   --theam-colour:#008DC9;
   --white:#fff;
   --black:#000;
   --light-blue:#009FE2;
+  --dark-blue:#002273;
+  --sky-blue:#F2FBFF;
+  --dark-green:#3ABE21;
+  --gray:#707070 ;
+  --light-gray:#F3F3F3;
+  --orange:#FF6600;
+  --siment:#828282;
+  --unnamed-color-ffb032: #FFB032;
+  --unnamed-color-e6f0f1: #E6F0F1;
+  --unnamed-color-ff0000: #FF0000;
+  --unnamed-color-7a7a7a: #7A7A7A;
+  --unnamed-color-ffffff: #FFFFFF;
+  --unnamed-color-545454: #545454;
 }
 
+header {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+}
 header ul {
   margin: 0;
 }
-header ul li a {
+header ul li .login-i {
   color: var(--black);
 }
-header ul li a:hover {
+header ul li .login-i:hover {
   font-weight: 500;
 }
 header ul li .active {
-  font-weight: 500;
+  font-weight: bold;
+}
+header ul li .contact-admin {
+  color: var(--black);
+}
+header ul li .contact-admin:hover {
+  color: var(--dark-blue);
+}
+header ul li .user-dropdown .user-icon {
+  width: 20px !important;
+  display: block;
+  float: left;
+  margin-right: 7px;
+}
+header ul li .user-dropdown-menu {
+  width: 100%;
+}
+header ul li .user-dropdown-menu li a:hover {
+  color: var(--dark-blue);
 }
 header select {
   border: none !important;
@@ -91,8 +132,268 @@ header select:focus {
   font-size: 22px;
 }
 
+.button {
+  border: 1px solid black;
+  background-color: transparent;
+  padding: 5px 10px;
+}
+
+.all-blog-contain {
+  margin: 10px 0px;
+}
+.all-blog-contain .btn-box {
+  width: 167px;
+}
+.all-blog-contain .btn-box .Download-btn {
+  border: none;
+  border-radius: 30px;
+  background-color: var(--theam-colour);
+  font-size: 20px;
+  padding: 5px 10px;
+  color: white;
+}
+.all-blog-contain .btn-box .Download-btn:hover {
+  background-color: var(--light-blue);
+}
+.all-blog-contain .date {
+  color: var(--siment);
+}
+.all-blog-contain .info-text {
+  font-size: 16px;
+  padding: 10px 0px;
+  font-weight: 500;
+}
+.all-blog-contain .pre-next-setion {
+  display: flex;
+  justify-content: space-between;
+}
+.all-blog-contain .pre-next-setion .preview-tile {
+  font-size: 18px;
+}
+.all-blog-contain .pre-next-setion .next-title {
+  font-size: 18px;
+}
+.all-blog-contain .pre-next-setion .active {
+  color: var(--light-blue);
+  text-decoration: underline;
+}
+
+.secondary-menu-section {
+  background-color: var(--dark-green);
+  padding: 0;
+}
+.secondary-menu-section .select-menu-box {
+  border: 0.5px solid var(--gray);
+  background-color: var(--light-gray);
+}
+.secondary-menu-section ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.secondary-menu-section ul li {
+  padding: 0px 20px;
+}
+.secondary-menu-section ul li a {
+  display: flex !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+.secondary-menu-section ul li a iconify-icon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: var(--black);
+}
+.secondary-menu-section ul li a:hover {
+  color: var(--dark-blue);
+  border-bottom: 2px solid var(--orange);
+  transition: 0.3s ease-in-out;
+}
+.secondary-menu-section ul li a .logo-img {
+  width: 15px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+.secondary-menu-section ul li .active {
+  color: var(--dark-blue);
+  border-bottom: 2px solid var(--orange);
+}
+
+.Latest-updates-setion {
+  border: 0.5px solid var(--gray);
+  position: sticky;
+  top: 10px;
+  margin: 10px 0px;
+}
+.Latest-updates-setion .latest-box {
+  padding: 20px;
+  border-bottom: 1px solid var(--gray);
+}
+.Latest-updates-setion .latest-box .main-title {
+  color: var(--theam-colour);
+  margin-bottom: 30px;
+}
+.Latest-updates-setion .latest-box .info-title {
+  color: var(--black);
+  font-size: 17px;
+  cursor: pointer;
+}
+.Latest-updates-setion .latest-box .info-title:hover {
+  color: var(--dark-blue);
+  text-decoration: underline;
+}
+.Latest-updates-setion .latest-box .date {
+  color: var(--siment);
+}
+
+/* ================ Document-page-section Start ===================== */
+.Document-page-section .Doc-contain-section {
+  margin: 10px 0px;
+}
+.Document-page-section .Doc-contain-section .search-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--gray);
+  margin: 0px 0px 10px 0px;
+}
+.Document-page-section .Doc-contain-section .search-section .search__input {
+  width: 98%;
+  border: none;
+  padding: 5px 10px;
+}
+.Document-page-section .Doc-contain-section .search-section .search__button {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+}
+.Document-page-section .Doc-contain-section .search-section .search__button .search__icon {
+  font-size: 20px;
+  color: var(--black);
+}
+.Document-page-section .Doc-contain-section .dropdown {
+  border: 1px solid var(--gray);
+  margin: 5px 0px;
+}
+.Document-page-section .Doc-contain-section .dropdown .dropdown-title {
+  position: relative;
+  padding: 7px 5px;
+  display: flex;
+  background-color: var(--light-gray);
+}
+.Document-page-section .Doc-contain-section .dropdown .dropdown-title::after {
+  border: none;
+}
+.Document-page-section .Doc-contain-section .dropdown .dropdown-title .icon-box iconify-icon {
+  rotate: 180deg;
+}
+.Document-page-section .Doc-contain-section .dropdown .dropdown-title:hover iconify-icon {
+  rotate: 0deg;
+}
+.Document-page-section .Doc-contain-section .dropdown .dropdown-menu {
+  width: 100%;
+  background-color: var(--light-gray);
+}
+.Document-page-section .Doc-contain-section .dropdown .dropdown-menu li:hover {
+  background-color: var(--white);
+}
+.Document-page-section .Doc-contain-section .dropdown .dropdown-menu li:hover a {
+  color: var(--dark-blue);
+}
+.Document-page-section .Doc-card-section {
+  display: flex;
+  background-color: var(--sky-blue);
+  padding: 10px;
+  margin-top: 10px;
+}
+.Document-page-section .Doc-card-section .number-cards {
+  text-align: center;
+  margin-top: 4px;
+  font-weight: 600;
+}
+
+/* ================ Document-page-section End ===================== */
+/* ================ News-page-section Start ===================== */
+.News-page-section .news-grid-section {
+  margin-bottom: 10px;
+}
+.News-page-section .news-grid-section .card-box {
+  margin-top: 10px;
+  border: 1px solid var(--gray);
+}
+.News-page-section .news-grid-section .card-box .card-body {
+  padding: 10px 20px;
+}
+.News-page-section .news-grid-section .card-box .card-body .date {
+  color: var(--siment);
+  padding-bottom: 20px;
+}
+.News-page-section .news-grid-section .card-box .card-body .card-text {
+  font-size: 20px;
+  color: var(--black);
+}
+
+/* ================ News-page-section End ===================== */
+/* ============= Event-page-section start  =============== */
+.Event-page-section .Event-body {
+  margin-top: 10px;
+}
+.Event-page-section .Event-body .event-card-body {
+  background-color: var(--light-gray);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.Event-page-section .Event-body .event-card-body .event-contain-body {
+  padding: 10px 0px;
+}
+.Event-page-section .Event-body .event-card-body .event-contain-body a h5 {
+  color: var(--black);
+  padding: 5px 0px;
+}
+.Event-page-section .Event-body .event-card-body .event-contain-body .date {
+  color: var(--siment);
+  padding: 5px 0px;
+}
+
+/* ============= Event-page-section End  =============== */
+/* ================== footer section start =============== */
+footer {
+  background-color: var(--theam-colour);
+}
+footer .connect-info {
+  color: var(--light-gray);
+}
+footer .footer-icon-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 0px;
+  margin: 0;
+}
+footer .footer-icon-box .icon {
+  padding: 0px 10px;
+  border-right: 1px solid var(--light-gray);
+}
+footer .footer-icon-box .icon iconify-icon {
+  font-size: 20px;
+  color: var(--light-gray);
+}
+footer .footer-icon-box .icon-info {
+  border: none;
+}
+footer .footer-icon-box .icon-info iconify-icon {
+  rotate: 45deg;
+}
+
+/* ================== footer section End =============== */
+/* ============ loging-page-section Start ============ */
 .loging-page-section {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .loging-page-section .left-contain {
   background-color: var(--theam-colour);
