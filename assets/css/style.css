@@ -343,7 +343,7 @@ header select:focus {
 }
 .all-blog-contain .main-title {
   color: var(--black);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 18px;
   cursor: pointer;
 }
@@ -421,11 +421,11 @@ header select:focus {
 }
 .Document-page-section .Doc-card-section .number-cards {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .Document-page-section .Doc-card-section .Doc-card-title {
   color: var(--black);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 18px;
   cursor: pointer;
 }
@@ -451,7 +451,7 @@ header select:focus {
 }
 .News-page-section .news-grid-section .card-box .card-body .card-text {
   padding: 20px 0px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--black);
   line-height: 28px;
 }
@@ -474,7 +474,7 @@ header select:focus {
 }
 .Event-page-section .Event-body .event-card-body .event-contain-body a .main-title {
   padding: 20px 0px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--black);
   line-height: 28px;
 }
