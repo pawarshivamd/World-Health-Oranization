@@ -50,6 +50,18 @@
 }
 
 @media (min-width:991px) {
+    .secondary-menu-section{
+        .dropdown-section{
+            &:hover{
+                .dropdown-menu{
+                    position: absolute !important;
+                   display: block !important;
+                   margin-top: 0px;
+                }
+            }
+        }
+    }
+
     .Document-page-section{
         .Doc-contain-section{
             .dropdown{
@@ -57,7 +69,7 @@
                     .dropdown-menu{
                         position: absolute !important;
                        display: block !important;
-                       margin-top: 3px;
+                       margin-top: 1px;
                     }
                 }
             }

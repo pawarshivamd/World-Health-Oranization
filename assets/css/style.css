@@ -68,6 +68,57 @@ select:focus {
   --unnamed-color-545454: #545454;
 }
 
+/* ============ loging-page-section Start ============ */
+.loging-page-section {
+  margin-top: 40px;
+}
+.loging-page-section .left-contain {
+  background-color: var(--theam-colour);
+  padding: 50PX;
+}
+.loging-page-section .left-contain .text-container .text-title {
+  font-size: 46px;
+  color: var(--white);
+  font-weight: 200;
+}
+.loging-page-section .left-contain .text-container .text-title span {
+  font-size: 46px;
+  font-weight: 600 !important;
+}
+.loging-page-section .left-contain .info-title {
+  font-size: 24px;
+  color: var(--white);
+  padding-top: 40px;
+  font-weight: 300;
+}
+.loging-page-section .right-contain {
+  background-color: var(--light-blue);
+  padding: 50PX;
+}
+.loging-page-section .right-contain .from-section a {
+  color: var(--white);
+}
+.loging-page-section .right-contain .from-section .input-text {
+  padding: 15px 10px;
+  border: none;
+  margin: 5px 0px;
+}
+.loging-page-section .right-contain .from-section .btn-sing-in {
+  border: none;
+  padding: 10px 35px;
+  background: var(--theam-colour);
+  border-radius: 25px;
+  color: var(--white);
+}
+.loging-page-section .right-contain .from-section .btn-sing-in:hover {
+  background-color: transparent;
+  border: 1px solid white;
+}
+.loging-page-section .right-contain .from-section .Registe-text {
+  color: var(--white);
+}
+
+/* ==============   header section start  ============== */
 header {
   min-height: 40px;
   display: flex;
@@ -83,7 +134,7 @@ header ul li .login-i:hover {
   font-weight: 500;
 }
 header ul li .active {
-  font-weight: bold;
+  font-weight: 500;
 }
 header ul li .contact-admin {
   color: var(--black);
@@ -99,6 +150,7 @@ header ul li .user-dropdown .user-icon {
 }
 header ul li .user-dropdown-menu {
   width: 100%;
+  z-index: 9999;
 }
 header ul li .user-dropdown-menu li a:hover {
   color: var(--dark-blue);
@@ -116,12 +168,11 @@ header select:focus {
   box-shadow: none !important;
 }
 
-.setion-login {
-  width: 136px;
-}
-
+/* ================  header section End  ============= */
+/* ==============  navabar section start ================  */
 .nvabar-setion {
   background-color: var(--theam-colour);
+  padding: 0;
 }
 .nvabar-setion .navbar-brand {
   width: 150px;
@@ -132,103 +183,124 @@ header select:focus {
   font-size: 22px;
 }
 
+/* ==============  navabar section End ================  */
+/* ================== secondary-menu-section start ================ */
+.secondary-menu-section {
+  background-color: var(--dark-green);
+  padding: 0;
+}
+.secondary-menu-section .dropdown-section .dropdown-title {
+  position: relative;
+  width: 96%;
+  padding: 10px 5px;
+  display: flex;
+  background-color: var(--light-gray);
+}
+.secondary-menu-section .dropdown-section .dropdown-title::after {
+  border: none;
+}
+.secondary-menu-section .dropdown-section .dropdown-title .icon-box iconify-icon {
+  rotate: 180deg;
+}
+.secondary-menu-section .dropdown-section .dropdown-title:hover .up-down-arro {
+  rotate: 0deg;
+}
+.secondary-menu-section .dropdown-section .dropdown-menu {
+  border-top: none;
+  border-radius: 0;
+  margin-top: 0;
+  width: 96%;
+  background-color: var(--light-gray);
+}
+.secondary-menu-section .dropdown-section .dropdown-menu li:hover {
+  background-color: var(--white);
+}
+.secondary-menu-section .dropdown-section .dropdown-menu li:hover a {
+  color: var(--dark-blue);
+}
+.secondary-menu-section .dropdown-section .dropdown-menu:hover .up-down-arro {
+  rotate: 0deg;
+}
+.secondary-menu-section .select-menu-box {
+  border: 0.5px solid var(--gray);
+  background-color: var(--light-gray);
+}
+.secondary-menu-section .menu-iteam {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.secondary-menu-section .menu-iteam li {
+  padding: 0px 20px;
+}
+.secondary-menu-section .menu-iteam li a {
+  display: flex !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+.secondary-menu-section .menu-iteam li a iconify-icon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: var(--black);
+}
+.secondary-menu-section .menu-iteam li a:hover {
+  color: var(--dark-blue);
+  border-bottom: 2px solid var(--orange);
+  transition: 0.3s ease-in-out;
+}
+.secondary-menu-section .menu-iteam li a .logo-img {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+.secondary-menu-section .menu-iteam li .active {
+  color: var(--dark-blue);
+  border-bottom: 2px solid var(--orange);
+}
+
+/* ================== secondary-menu-section End ================ */
+.pre-next-setion {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.pre-next-setion .preview-tile {
+  font-size: 18px;
+  cursor: pointer;
+}
+.pre-next-setion .preview-tile:hover {
+  color: var(--light-blue);
+  text-decoration: underline;
+}
+.pre-next-setion .next-title {
+  font-size: 18px;
+  cursor: pointer;
+}
+.pre-next-setion .next-title:hover {
+  color: var(--light-blue);
+  text-decoration: underline;
+}
+.pre-next-setion .active {
+  color: var(--light-blue);
+  text-decoration: underline;
+}
+
 .button {
   border: 1px solid black;
   background-color: transparent;
   padding: 5px 10px;
 }
 
-.all-blog-contain {
-  margin: 10px 0px;
-}
-.all-blog-contain .btn-box {
-  width: 167px;
-}
-.all-blog-contain .btn-box .Download-btn {
-  border: none;
-  border-radius: 30px;
-  background-color: var(--theam-colour);
-  font-size: 20px;
-  padding: 5px 10px;
-  color: white;
-}
-.all-blog-contain .btn-box .Download-btn:hover {
-  background-color: var(--light-blue);
-}
-.all-blog-contain .date {
-  color: var(--siment);
-}
-.all-blog-contain .info-text {
-  font-size: 16px;
-  padding: 10px 0px;
-  font-weight: 500;
-}
-.all-blog-contain .pre-next-setion {
-  display: flex;
-  justify-content: space-between;
-}
-.all-blog-contain .pre-next-setion .preview-tile {
-  font-size: 18px;
-}
-.all-blog-contain .pre-next-setion .next-title {
-  font-size: 18px;
-}
-.all-blog-contain .pre-next-setion .active {
-  color: var(--light-blue);
-  text-decoration: underline;
-}
-
-.secondary-menu-section {
-  background-color: var(--dark-green);
-  padding: 0;
-}
-.secondary-menu-section .select-menu-box {
-  border: 0.5px solid var(--gray);
-  background-color: var(--light-gray);
-}
-.secondary-menu-section ul {
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-  margin: 0;
-}
-.secondary-menu-section ul li {
-  padding: 0px 20px;
-}
-.secondary-menu-section ul li a {
-  display: flex !important;
-  font-size: 16px;
-  font-weight: 500;
-}
-.secondary-menu-section ul li a iconify-icon {
-  font-size: 20px;
-  margin-right: 10px;
-  color: var(--black);
-}
-.secondary-menu-section ul li a:hover {
-  color: var(--dark-blue);
-  border-bottom: 2px solid var(--orange);
-  transition: 0.3s ease-in-out;
-}
-.secondary-menu-section ul li a .logo-img {
-  width: 15px;
-  display: block;
-  float: left;
-  margin-right: 10px;
-}
-.secondary-menu-section ul li .active {
-  color: var(--dark-blue);
-  border-bottom: 2px solid var(--orange);
-}
-
+/* =================   all pages same aside    latest updates section  start ============= */
 .Latest-updates-setion {
   border: 0.5px solid var(--gray);
   position: sticky;
-  top: 10px;
+  top: 146px;
   margin: 10px 0px;
 }
 .Latest-updates-setion .latest-box {
-  padding: 20px;
+  padding: 10px 20px;
   border-bottom: 1px solid var(--gray);
 }
 .Latest-updates-setion .latest-box .main-title {
@@ -236,6 +308,7 @@ header select:focus {
   margin-bottom: 30px;
 }
 .Latest-updates-setion .latest-box .info-title {
+  line-height: 15px;
   color: var(--black);
   font-size: 17px;
   cursor: pointer;
@@ -248,6 +321,38 @@ header select:focus {
   color: var(--siment);
 }
 
+/* =================   all pages same aside    latest updates section  End ============= */
+/* =================   all pages same blog-post-section section  start ============= */
+.all-blog-contain {
+  margin: 10px 0px;
+}
+.all-blog-contain .btn-box .Download-btn {
+  width: 175px;
+  border: none;
+  border-radius: 30px;
+  background-color: var(--theam-colour);
+  font-size: 17px;
+  padding: 5px 10px;
+  color: white;
+}
+.all-blog-contain .btn-box .Download-btn:hover {
+  background-color: var(--light-blue);
+}
+.all-blog-contain .date {
+  color: var(--siment);
+}
+.all-blog-contain .main-title {
+  color: var(--black);
+  font-size: 1.5rem;
+  line-height: 18px;
+  cursor: pointer;
+}
+.all-blog-contain .info-text {
+  font-size: 14.48px;
+  padding: 10px 0px;
+}
+
+/* =================   all pages same blog-post-section section  End ============= */
 /* ================ Document-page-section Start ===================== */
 .Document-page-section .Doc-contain-section {
   margin: 10px 0px;
@@ -296,6 +401,9 @@ header select:focus {
   rotate: 0deg;
 }
 .Document-page-section .Doc-contain-section .dropdown .dropdown-menu {
+  border-top: none;
+  border-radius: 0;
+  margin-top: 0;
   width: 100%;
   background-color: var(--light-gray);
 }
@@ -313,8 +421,16 @@ header select:focus {
 }
 .Document-page-section .Doc-card-section .number-cards {
   text-align: center;
-  margin-top: 4px;
-  font-weight: 600;
+  font-size: 1.5rem;
+}
+.Document-page-section .Doc-card-section .Doc-card-title {
+  color: var(--black);
+  font-size: 1.5rem;
+  line-height: 18px;
+  cursor: pointer;
+}
+.Document-page-section .Doc-card-section .Doc-card-title:hover {
+  color: var(--theam-colour);
 }
 
 /* ================ Document-page-section End ===================== */
@@ -323,7 +439,8 @@ header select:focus {
   margin-bottom: 10px;
 }
 .News-page-section .news-grid-section .card-box {
-  margin-top: 10px;
+  margin-top: 1.5rem;
+  border-radius: 0;
   border: 1px solid var(--gray);
 }
 .News-page-section .news-grid-section .card-box .card-body {
@@ -331,11 +448,15 @@ header select:focus {
 }
 .News-page-section .news-grid-section .card-box .card-body .date {
   color: var(--siment);
-  padding-bottom: 20px;
 }
 .News-page-section .news-grid-section .card-box .card-body .card-text {
-  font-size: 20px;
+  padding: 20px 0px;
+  font-size: 1.5rem;
   color: var(--black);
+  line-height: 28px;
+}
+.News-page-section .news-grid-section .card-box .card-body .card-text:hover {
+  color: var(--theam-colour);
 }
 
 /* ================ News-page-section End ===================== */
@@ -351,9 +472,14 @@ header select:focus {
 .Event-page-section .Event-body .event-card-body .event-contain-body {
   padding: 10px 0px;
 }
-.Event-page-section .Event-body .event-card-body .event-contain-body a h5 {
+.Event-page-section .Event-body .event-card-body .event-contain-body a .main-title {
+  padding: 20px 0px;
+  font-size: 1.5rem;
   color: var(--black);
-  padding: 5px 0px;
+  line-height: 28px;
+}
+.Event-page-section .Event-body .event-card-body .event-contain-body a .main-title:hover {
+  color: var(--theam-colour);
 }
 .Event-page-section .Event-body .event-card-body .event-contain-body .date {
   color: var(--siment);
@@ -363,6 +489,8 @@ header select:focus {
 /* ============= Event-page-section End  =============== */
 /* ================== footer section start =============== */
 footer {
+  margin-top: auto;
+  bottom: 0px !important;
   background-color: var(--theam-colour);
 }
 footer .connect-info {
@@ -379,7 +507,7 @@ footer .footer-icon-box .icon {
   padding: 0px 10px;
   border-right: 1px solid var(--light-gray);
 }
-footer .footer-icon-box .icon iconify-icon {
+footer .footer-icon-box .icon i {
   font-size: 20px;
   color: var(--light-gray);
 }
@@ -390,52 +518,4 @@ footer .footer-icon-box .icon-info iconify-icon {
   rotate: 45deg;
 }
 
-/* ================== footer section End =============== */
-/* ============ loging-page-section Start ============ */
-.loging-page-section {
-  margin-top: 40px;
-}
-.loging-page-section .left-contain {
-  background-color: var(--theam-colour);
-  padding: 50PX;
-}
-.loging-page-section .left-contain .text-container .text-title {
-  font-size: 46px;
-  color: var(--white);
-  font-weight: 300;
-}
-.loging-page-section .left-contain .text-container .text-title span {
-  font-size: 46px;
-  font-weight: 700 !important;
-}
-.loging-page-section .left-contain .info-title {
-  font-size: 24px;
-  color: var(--white);
-  padding-top: 40px;
-}
-.loging-page-section .right-contain {
-  background-color: var(--light-blue);
-  padding: 50PX;
-}
-.loging-page-section .right-contain .from-section a {
-  color: var(--white);
-}
-.loging-page-section .right-contain .from-section .input-text {
-  padding: 15px 10px;
-  border: none;
-  margin: 5px 0px;
-}
-.loging-page-section .right-contain .from-section .btn-sing-in {
-  border: none;
-  padding: 10px 35px;
-  background: var(--theam-colour);
-  border-radius: 25px;
-  color: var(--white);
-}
-.loging-page-section .right-contain .from-section .btn-sing-in:hover {
-  background-color: transparent;
-  border: 1px solid white;
-}
-.loging-page-section .right-contain .from-section .Registe-text {
-  color: var(--white);
-}/*# sourceMappingURL=style.css.map */
+/* ================== footer section End =============== *//*# sourceMappingURL=style.css.map */
