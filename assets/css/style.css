@@ -218,6 +218,9 @@ header select:focus {
 .secondary-menu-section .dropdown-section .dropdown-menu li:hover a {
   color: var(--dark-blue);
 }
+.secondary-menu-section .dropdown-section .dropdown-menu li:hover a:focus {
+  background-color: transparent;
+}
 .secondary-menu-section .dropdown-section .dropdown-menu:hover .up-down-arro {
   rotate: 0deg;
 }
@@ -414,6 +417,9 @@ header select:focus {
 .Document-page-section .Doc-contain-section .dropdown .dropdown-menu li:hover a {
   color: var(--dark-blue);
 }
+.Document-page-section .Doc-contain-section .dropdown .dropdown-menu li:hover a:focus {
+  background-color: transparent;
+}
 .Document-page-section .Doc-card-section {
   display: flex;
   background-color: var(--sky-blue);
@@ -543,6 +549,9 @@ header select:focus {
 .Document-details-page-section .doc-details-right-section .doc-details-box .doc-contain-box .title-text {
   color: var(--dark-blue);
   font-size: 1.3rem;
+}
+.Document-details-page-section .doc-details-right-section .doc-details-box .back-btn-box {
+  margin-right: 40px;
 }
 .Document-details-page-section .doc-details-right-section .doc-details-box .back-btn-box .Back-doc {
   color: var(--light-blue);

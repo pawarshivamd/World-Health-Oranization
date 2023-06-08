@@ -138,9 +138,12 @@ header {
 
                     a {
                         color: var(--dark-blue);
+
+                        &:focus{
+                            background-color: transparent;
+                        }
                     }
                 }
-
             }
 
             &:hover {
@@ -399,6 +402,9 @@ header {
 
                         a {
                             color: var(--dark-blue);
+                            &:focus{
+                                background-color: transparent;
+                            }
                         }
                     }
 
@@ -577,6 +583,7 @@ header {
             }
 
             .back-btn-box {
+                margin-right: 40px;
                 .Back-doc {
                     color: var(--light-blue);
                     text-decoration: underline;
