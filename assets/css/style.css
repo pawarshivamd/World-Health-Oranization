@@ -659,6 +659,9 @@ footer .footer-icon-box .icon i {
   font-size: 20px;
   color: var(--light-gray);
 }
+footer .footer-icon-box .icon-b {
+  border: none;
+}
 footer .footer-icon-box .icon-info {
   border: none;
 }
