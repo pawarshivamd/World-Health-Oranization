@@ -37,7 +37,7 @@
                 margin: 5px 0px;
             }
             .btn-sing-in{
-                border:none;
+                border:1px solid var(--theam-colour);
                 padding: 10px 35px;
                 background: var(--theam-colour);
                 border-radius: 25px ;
@@ -50,6 +50,9 @@
             .Registe-text{
                 color: var(--white);
             }
+            .captcha-section{
+                margin: 10px 0;
+            } 
         }
     }
 }

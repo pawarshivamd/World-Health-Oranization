@@ -104,7 +104,7 @@ select:focus {
   margin: 5px 0px;
 }
 .loging-page-section .right-contain .from-section .btn-sing-in {
-  border: none;
+  border: 1px solid var(--theam-colour);
   padding: 10px 35px;
   background: var(--theam-colour);
   border-radius: 25px;
@@ -116,6 +116,9 @@ select:focus {
 }
 .loging-page-section .right-contain .from-section .Registe-text {
   color: var(--white);
+}
+.loging-page-section .right-contain .from-section .captcha-section {
+  margin: 10px 0;
 }
 
 /* ==============   header section start  ============== */

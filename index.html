@@ -31,7 +31,7 @@
             integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     
     
-    
+            <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdxM3wmAAAAAH-6AEfHTlDnD8HWOTjyIvL_LRDA"></script>
     
     
         <link rel="stylesheet" href="./assets/css/style.css">
@@ -45,7 +45,7 @@
             <div class="container">
                 <div class=" ms-auto">
                     <ul class=" d-flex justify-content-end align-items-center">
-                        <li><a href="Documents-page.html" class="login-i active">Login</a></li>
+                        <li><a href="#" class="login-i active">Login</a></li>
                         <li><a href="#" class="login-i">/Register</a></li>
                         <div class="ms-3">
                             <select class="form-select" aria-label="Default select example">
@@ -87,6 +87,11 @@
                                 <div class="text-end mt-2">
                                     <a href="#" class="underline">Forgot password?</a>
                                 </div>
+
+                                <!-- <div class=" captcha-section">
+                                    <p>Please check the box below to proceed</p>
+                                <div class="g-recaptcha" data-sitekey="6LdxM3wmAAAAAH-6AEfHTlDnD8HWOTjyIvL_LRDA"></div>
+                                </div> -->
                                 <div class="d-flex justify-content-between align-items-center mt-2">
                                     <button type="submit" class="btn-sing-in">Sign in</button>
                                     <p class="Registe-text">Not a member? <a href="#" class="underline">Register</a></p>
@@ -105,7 +110,7 @@
     
         <!-- iconify icon -->
         <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-        <!-- <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script> -->
+
         <!-- bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -118,6 +123,17 @@
     </html>
 </head>
 
-
+<script>
+    function onClick(e) {
+      e.preventDefault();
+      grecaptcha.enterprise.ready(async () => {
+        const token = await grecaptcha.enterprise.execute('6LdxM3wmAAAAAH-6AEfHTlDnD8HWOTjyIvL_LRDA', {action: 'LOGIN'});
+        // IMPORTANT: The 'token' that results from execute is an encrypted response sent by
+        // reCAPTCHA Enterprise to the end user's browser.
+        // This token must be validated by creating an assessment.
+        // See https://cloud.google.com/recaptcha-enterprise/docs/create-assessment
+      });
+    }
+  </script>
 <script src="assets/js/script.js"></script>
 </html>
