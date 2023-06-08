@@ -259,7 +259,7 @@ header {
         .info-title {
             line-height: 15px;
             color: var(--black);
-            font-size: 17px;
+            font-size: 1.2rem;
             cursor: pointer;
 
             &:hover {
@@ -512,8 +512,10 @@ header {
         .doc-details-box {
             border-bottom: 1px solid var(--gray);
             padding-bottom: 50px;
+
             .doc-details-title {
                 margin-top: 22px;
+
                 .main-title {
                     color: var(--black);
                     font-size: 1.3rem;
@@ -548,97 +550,129 @@ header {
                     }
                 }
             }
-            .list-group-doc{
-                padding: 10px 0;
-             .list-inline-box{
-                display: flex;
-                background-color: var(--sky-blue);
-                padding: 10px 5px;
-                margin: 10px 0;
-                .number-list{
-                    margin-inline: 20px;
-                }
 
-             }   
+            .list-group-doc {
+                padding: 10px 0;
+
+                .list-inline-box {
+                    display: flex;
+                    background-color: var(--sky-blue);
+                    padding: 10px 5px;
+                    margin: 10px 0;
+
+                    .number-list {
+                        margin-inline: 20px;
+                    }
+
+                }
             }
-            .doc-contain-box{
+
+            .doc-contain-box {
                 margin: 25px 0;
-                .title-text{
+
+                .title-text {
                     color: var(--dark-blue);
                     font-size: 1.3rem;
-                } 
+                }
             }
-            .back-btn-box{
-                .Back-doc{
+
+            .back-btn-box {
+                .Back-doc {
                     color: var(--light-blue);
                     text-decoration: underline;
                 }
             }
         }
-        .reviews-section{
+
+        .reviews-section {
             margin: 50px 0;
-            .reviews-box{
+
+            .reviews-box {
                 display: flex;
                 margin: 20px 0;
-                .img-section{
+
+                .img-section {
                     width: 100px;
                     display: flex;
                     justify-content: center;
-                    .img-reviews-box{
-                        border: 1px solid var(--gray);
-                        border-radius: 50%; 
+
+                    .img-reviews-box {
+
+                        border-radius: 50%;
                         width: 66px;
-                        height: 66px;  
-                        img{
+                        height: 66px;
+
+                        img {
                             object-fit: cover;
                             height: 100%;
                             border-radius: 50%;
-                        }                     
+                        }
                     }
                 }
-                .reviews-chate-comment-box{
-                    border: 1px solid var(--siment);
-                    border-radius: 10px;
-                    height: 100px;
-                }
-                .reviews-chate-box{
+
+                .reviews-commnent {
                     width: 500px;
                     margin-left: 20px;
-                    .name-title{
+
+                    .reviews-chate-comment-box {
+                        width: min(100% - 0px, 89%);
+
+                        textarea {
+                            width: 100%;
+                            border: 1px solid var(--siment);
+                            padding: 10px;
+
+                            &:focus {
+                                outline: none;
+                            }
+                        }
+                    }
+
+                    .post-btn {
+
+                        margin-top: 20px;
+                        cursor: pointer;
+
+                        p {
+                            background-color: var(--theam-colour);
+                            width: 70px;
+                            height: 45px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            text-align: center;
+                            /* padding: 10px 0px; */
+                            border-radius: 40px;
+                            color: var(--white);
+                            cursor: pointer;
+
+                            &:hover {
+                                background-color: var(--light-blue);
+                            }
+                        }
+                    }
+                }
+
+                .reviews-chate-box {
+                    width: 500px;
+                    margin-left: 20px;
+
+                    .name-title {
                         font-size: 1.3rem;
-                        .date-post{
+
+                        .date-post {
                             color: var(--siment);
                             font-size: 1rem;
                             margin-left: 20px;
                         }
                     }
-                    .Description-text{
+
+                    .Description-text {
                         padding: 10px 0;
                     }
                 }
             }
-            .post-btn{
-                margin-left: 20px;
-                margin-top: 20px;
-                cursor: pointer;
 
-                p{
-                    background-color: var(--theam-colour);
-                    width: 70px;
-                    height: 45px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    text-align: center;
-                    /* padding: 10px 0px; */
-                    border-radius: 40px;
-                    color: var(--white);
-                    cursor: pointer;
-                    &:hover{
-                        background-color: var(--light-blue);
-                    }
-                }
-            }
         }
     }
 }

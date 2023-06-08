@@ -311,7 +311,7 @@ header select:focus {
 .Latest-updates-setion .latest-box .info-title {
   line-height: 15px;
   color: var(--black);
-  font-size: 17px;
+  font-size: 1.2rem;
   cursor: pointer;
 }
 .Latest-updates-setion .latest-box .info-title:hover {
@@ -561,7 +561,6 @@ header select:focus {
   justify-content: center;
 }
 .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section .img-reviews-box {
-  border: 1px solid var(--gray);
   border-radius: 50%;
   width: 66px;
   height: 66px;
@@ -572,10 +571,40 @@ header select:focus {
   height: 100%;
   border-radius: 50%;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-comment-box {
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-commnent {
+  width: 500px;
+  margin-left: 20px;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-commnent .reviews-chate-comment-box {
+  width: min(100% - 0px, 89%);
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-commnent .reviews-chate-comment-box textarea {
+  width: 100%;
   border: 1px solid var(--siment);
-  border-radius: 10px;
-  height: 100px;
+  padding: 10px;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-commnent .reviews-chate-comment-box textarea:focus {
+  outline: none;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-commnent .post-btn {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-commnent .post-btn p {
+  background-color: var(--theam-colour);
+  width: 70px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding: 10px 0px; */
+  border-radius: 40px;
+  color: var(--white);
+  cursor: pointer;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-commnent .post-btn p:hover {
+  background-color: var(--light-blue);
 }
 .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box {
   width: 500px;
@@ -591,27 +620,6 @@ header select:focus {
 }
 .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .Description-text {
   padding: 10px 0;
-}
-.Document-details-page-section .doc-details-right-section .reviews-section .post-btn {
-  margin-left: 20px;
-  margin-top: 20px;
-  cursor: pointer;
-}
-.Document-details-page-section .doc-details-right-section .reviews-section .post-btn p {
-  background-color: var(--theam-colour);
-  width: 70px;
-  height: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  /* padding: 10px 0px; */
-  border-radius: 40px;
-  color: var(--white);
-  cursor: pointer;
-}
-.Document-details-page-section .doc-details-right-section .reviews-section .post-btn p:hover {
-  background-color: var(--light-blue);
 }
 
 /* ============= Document-details-page-section End  =============== */

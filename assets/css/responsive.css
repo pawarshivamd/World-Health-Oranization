@@ -28,6 +28,22 @@
   .loging-page-section .right-contain .from-section .btn-sing-in {
     padding: 10px 25px;
   }
+  .Latest-updates-setion {
+    top: 99px;
+  }
+  .Document-details-page-section .doc-details-right-section .doc-details-box .back-btn-box {
+    margin-right: 20px;
+  }
+  .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section .img-reviews-box {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+  }
 }
 @media (min-width: 991px) {
   .secondary-menu-section .dropdown-section:hover .dropdown-menu {
