@@ -296,7 +296,7 @@ header select:focus {
 .Latest-updates-setion {
   border: 0.5px solid var(--gray);
   position: sticky;
-  top: 146px;
+  top: 129px;
   margin: 10px 0px;
 }
 .Latest-updates-setion .latest-box {
@@ -421,7 +421,8 @@ header select:focus {
 }
 .Document-page-section .Doc-card-section .number-cards {
   text-align: center;
-  font-size: 1.3rem;
+  font-weight: 300;
+  font-size: 1.5rem;
 }
 .Document-page-section .Doc-card-section .Doc-card-title {
   color: var(--black);
@@ -470,7 +471,7 @@ header select:focus {
   margin-bottom: 10px;
 }
 .Event-page-section .Event-body .event-card-body .event-contain-body {
-  padding: 10px 0px;
+  padding: 10px 10px;
 }
 .Event-page-section .Event-body .event-card-body .event-contain-body a .main-title {
   padding: 20px 0px;
@@ -487,6 +488,125 @@ header select:focus {
 }
 
 /* ============= Event-page-section End  =============== */
+/* ============= Document-details-page-section Start  =============== */
+.Document-details-page-section .doc-details-right-section {
+  margin-top: 10px;
+}
+.Document-details-page-section .doc-details-right-section .doc-details-box {
+  border-bottom: 1px solid var(--gray);
+  padding-bottom: 50px;
+}
+.Document-details-page-section .doc-details-right-section .doc-details-box .doc-details-title .main-title {
+  color: var(--black);
+  font-size: 1.3rem;
+  line-height: 18px;
+  cursor: pointer;
+}
+.Document-details-page-section .doc-details-right-section .doc-details-box .doc-details-title .main-title:hover {
+  color: var(--theam-colour);
+}
+.Document-details-page-section .doc-details-right-section .doc-details-box .doc-details-title .text-info-box {
+  padding: 10px 0px;
+}
+.Document-details-page-section .doc-details-right-section .doc-details-box .doc-details-btn-setion .all-btn-setion {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  flex-wrap: wrap;
+}
+.Document-details-page-section .doc-details-right-section .doc-details-box .doc-details-btn-setion .all-btn-setion .btn-box {
+  border: 1px solid var(--orange);
+  padding: 7px 15px;
+  border-radius: 20px;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+.Document-details-page-section .doc-details-right-section .doc-details-box .list-group-doc {
+  padding: 10px 0;
+}
+.Document-details-page-section .doc-details-right-section .doc-details-box .list-group-doc .list-inline-box {
+  display: flex;
+  background-color: var(--sky-blue);
+  padding: 10px 5px;
+  margin: 10px 0;
+}
+.Document-details-page-section .doc-details-right-section .doc-details-box .list-group-doc .list-inline-box .number-list {
+  margin-inline: 20px;
+}
+.Document-details-page-section .doc-details-right-section .doc-details-box .doc-contain-box {
+  margin: 25px 0;
+}
+.Document-details-page-section .doc-details-right-section .doc-details-box .doc-contain-box .title-text {
+  color: var(--dark-blue);
+  font-size: 1.3rem;
+}
+.Document-details-page-section .doc-details-right-section .doc-details-box .back-btn-box .Back-doc {
+  color: var(--light-blue);
+  text-decoration: underline;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section {
+  margin: 50px 0;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box {
+  display: flex;
+  margin: 20px 0;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section .img-reviews-box {
+  border: 1px solid var(--gray);
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section .img-reviews-box img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  border-radius: 50%;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-comment-box {
+  border: 1px solid var(--siment);
+  border-radius: 10px;
+  height: 100px;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box {
+  width: 500px;
+  margin-left: 20px;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .name-title {
+  font-size: 1.3rem;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .name-title .date-post {
+  color: var(--siment);
+  font-size: 1rem;
+  margin-left: 20px;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .Description-text {
+  padding: 10px 0;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .post-btn {
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .post-btn p {
+  background-color: var(--theam-colour);
+  width: 80px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: var(--white);
+  cursor: pointer;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .post-btn p:hover {
+  background-color: var(--light-blue);
+}
+
+/* ============= Document-details-page-section End  =============== */
 /* ================== footer section start =============== */
 footer {
   margin-top: auto;
