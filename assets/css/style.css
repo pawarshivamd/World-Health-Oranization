@@ -306,6 +306,7 @@ header select:focus {
 .Latest-updates-setion .latest-box .main-title {
   color: var(--theam-colour);
   margin-bottom: 30px;
+  font-weight: 400;
 }
 .Latest-updates-setion .latest-box .info-title {
   line-height: 15px;
@@ -496,6 +497,9 @@ header select:focus {
   border-bottom: 1px solid var(--gray);
   padding-bottom: 50px;
 }
+.Document-details-page-section .doc-details-right-section .doc-details-box .doc-details-title {
+  margin-top: 22px;
+}
 .Document-details-page-section .doc-details-right-section .doc-details-box .doc-details-title .main-title {
   color: var(--black);
   font-size: 1.3rem;
@@ -595,10 +599,14 @@ header select:focus {
 }
 .Document-details-page-section .doc-details-right-section .reviews-section .post-btn p {
   background-color: var(--theam-colour);
-  width: 80px;
+  width: 70px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 10px 20px;
-  border-radius: 20px;
+  /* padding: 10px 0px; */
+  border-radius: 40px;
   color: var(--white);
   cursor: pointer;
 }

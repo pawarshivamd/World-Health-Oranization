@@ -253,6 +253,7 @@ header {
         .main-title {
             color: var(--theam-colour);
             margin-bottom: 30px;
+            font-weight: 400;
         }
 
         .info-title {
@@ -512,6 +513,7 @@ header {
             border-bottom: 1px solid var(--gray);
             padding-bottom: 50px;
             .doc-details-title {
+                margin-top: 22px;
                 .main-title {
                     color: var(--black);
                     font-size: 1.3rem;
@@ -622,10 +624,14 @@ header {
 
                 p{
                     background-color: var(--theam-colour);
-                    width: 80px;
+                    width: 70px;
+                    height: 45px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     text-align: center;
-                    padding: 10px 20px;
-                    border-radius: 20px;
+                    /* padding: 10px 0px; */
+                    border-radius: 40px;
                     color: var(--white);
                     cursor: pointer;
                     &:hover{
