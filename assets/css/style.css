@@ -60,10 +60,11 @@ select:focus {
   --light-gray:#F3F3F3;
   --orange:#FF6600;
   --siment:#828282;
+  --secondery-bule-dark:#C8EFFF;
+  --t-color-7a7a7a: #7A7A7A;
   --unnamed-color-ffb032: #FFB032;
   --unnamed-color-e6f0f1: #E6F0F1;
   --unnamed-color-ff0000: #FF0000;
-  --unnamed-color-7a7a7a: #7A7A7A;
   --unnamed-color-ffffff: #FFFFFF;
   --unnamed-color-545454: #545454;
 }
@@ -299,32 +300,32 @@ header select:focus {
 }
 
 /* =================   all pages same aside    latest updates section  start ============= */
-.Latest-updates-setion {
+.Latest-updates-section {
   border: 0.5px solid var(--gray);
   position: sticky;
   top: 129px;
   margin: 10px 0px;
 }
-.Latest-updates-setion .latest-box {
+.Latest-updates-section .latest-box {
   padding: 10px 20px;
   border-bottom: 1px solid var(--gray);
 }
-.Latest-updates-setion .latest-box .main-title {
+.Latest-updates-section .latest-box .main-title {
   color: var(--theam-colour);
   margin-bottom: 30px;
   font-weight: 400;
 }
-.Latest-updates-setion .latest-box .info-title {
+.Latest-updates-section .latest-box .info-title {
   line-height: 15px;
   color: var(--black);
   font-size: 1.2rem;
   cursor: pointer;
 }
-.Latest-updates-setion .latest-box .info-title:hover {
+.Latest-updates-section .latest-box .info-title:hover {
   color: var(--dark-blue);
   text-decoration: underline;
 }
-.Latest-updates-setion .latest-box .date {
+.Latest-updates-section .latest-box .date {
   color: var(--siment);
 }
 
@@ -635,6 +636,134 @@ header select:focus {
 }
 
 /* ============= Document-details-page-section End  =============== */
+/* ================ Discussion forum  page Start =================== */
+.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section {
+  padding: 20px 0;
+}
+.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table {
+  width: 100%;
+  border-spacing: 0px 5px !important;
+  border-collapse: separate !important;
+}
+.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table thead tr {
+  background-color: var(--secondery-bule-dark);
+}
+.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table thead tr th {
+  padding: 15px;
+  color: var(--t-color-7a7a7a);
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table thead tr .Topic-section {
+  background-color: var(--secondery-bule-dark);
+  width: 70% !important;
+}
+.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr:nth-child(odd) {
+  background-color: var(--sky-blue);
+}
+.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr:nth-child(even) {
+  background-color: var(--secondery-bule-dark);
+}
+.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr th {
+  padding: 15px;
+}
+.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr td {
+  padding: 15px;
+}
+.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr td .dic-title {
+  font-size: 16px;
+}
+.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr td .dic-title a {
+  color: var(--black);
+}
+.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr td .dic-date {
+  font-size: 12px;
+}
+.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr .dic-number {
+  font-size: 12px;
+}
+
+/* ================ Discussion forum page End =================== */
+/* ========= Discussion-comments-page-section Start =========== */
+/* ========= Discussion-comments-page-section Start =========== */
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion {
+  background-color: var(--light-blue);
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box {
+  display: flex;
+  margin: 20px 0;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box {
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  border-radius: 50%;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent {
+  width: 500px;
+  margin-left: 20px;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .reviews-chate-comment-box {
+  width: min(100% - 0px, 89%);
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .reviews-chate-comment-box textarea {
+  width: 100%;
+  border: 1px solid var(--siment);
+  padding: 10px;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .reviews-chate-comment-box textarea:focus {
+  outline: none;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .post-btn {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .post-btn p {
+  background-color: var(--theam-colour);
+  width: 70px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding: 10px 0px; */
+  border-radius: 40px;
+  color: var(--white);
+  cursor: pointer;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .post-btn p:hover {
+  background-color: var(--light-blue);
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box {
+  width: 500px;
+  margin-left: 20px;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .name-title {
+  font-size: 1.3rem;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .name-title .date-post {
+  color: var(--siment);
+  font-size: 1rem;
+  margin-left: 20px;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .Description-text {
+  padding: 10px 0;
+}
+
+/* ========= Discussion-comments-page-section End =========== */
 /* ================== footer section start =============== */
 footer {
   margin-top: auto;

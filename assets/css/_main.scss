@@ -243,7 +243,7 @@ header {
 }
 
 /* =================   all pages same aside    latest updates section  start ============= */
-.Latest-updates-setion {
+.Latest-updates-section {
     border: 0.5px solid var(--gray);
     position: sticky;
     top: 129px;
@@ -685,6 +685,173 @@ header {
 }
 
 /* ============= Document-details-page-section End  =============== */
+
+/* ================ Discussion forum  page Start =================== */
+.Discussion-forum-page-section{
+    .Discussion-right-Section{
+        .Discussion-table-section{
+            // overflow-x: scroll;
+            padding: 20px 0;
+            .dic-table{
+                width: 100%;
+                border-spacing: 0px 5px !important;
+                border-collapse: separate !important; 
+                thead{
+                    tr{
+                        background-color: var(--secondery-bule-dark);
+                        th{
+                            padding: 15px;
+                            color: var(--t-color-7a7a7a) ;
+                            font-size: 1.3rem;
+                            font-weight: 400;
+                        }
+                        .Topic-section{
+                        background-color: var(--secondery-bule-dark);
+
+                            width: 70% !important;
+                        }
+                    }
+
+                }
+                tbody{
+                    tr{
+                        &:nth-child(odd){
+
+                            background-color: var(--sky-blue);
+                        }
+                        &:nth-child(even){
+
+                            background-color: var(--secondery-bule-dark);
+                        }
+                        th{
+                            padding: 15px;
+                        }
+                        td{
+                            padding: 15px;
+                            
+                            .dic-title{
+                                font-size: 16px;
+                                a{
+                                    color: var(--black);
+                                    
+                                }
+                            }
+                            .dic-date{
+                                font-size: 12px;
+                            }
+                        }
+                        .dic-number{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* ================ Discussion forum page End =================== */
+
+/* ========= Discussion-comments-page-section Start =========== */
+/* ========= Discussion-comments-page-section Start =========== */
+.Discussion-comments-page-section{
+    .Discussion-comments-box{
+        .dic-comment-head-setion{
+            background-color: var(--light-blue);
+            padding: 20px 0 ;
+            display: flex;
+            justify-content: space-around;
+        }
+        .dic-comment-box{
+            .reviews-box {
+                display: flex;
+                margin: 20px 0;
+
+                .img-section {
+                    width: 100px;
+                    display: flex;
+                    justify-content: center;
+
+                    .img-reviews-box {
+
+                        border-radius: 50%;
+                        width: 66px;
+                        height: 66px;
+
+                        img {
+                            object-fit: cover;
+                            height: 100%;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+
+                .reviews-commnent {
+                    width: 500px;
+                    margin-left: 20px;
+
+                    .reviews-chate-comment-box {
+                        width: min(100% - 0px, 89%);
+
+                        textarea {
+                            width: 100%;
+                            border: 1px solid var(--siment);
+                            padding: 10px;
+
+                            &:focus {
+                                outline: none;
+                            }
+                        }
+                    }
+
+                    .post-btn {
+
+                        margin-top: 20px;
+                        cursor: pointer;
+
+                        p {
+                            background-color: var(--theam-colour);
+                            width: 70px;
+                            height: 45px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            text-align: center;
+                            /* padding: 10px 0px; */
+                            border-radius: 40px;
+                            color: var(--white);
+                            cursor: pointer;
+
+                            &:hover {
+                                background-color: var(--light-blue);
+                            }
+                        }
+                    }
+                }
+
+                .reviews-chate-box {
+                    width: 500px;
+                    margin-left: 20px;
+
+                    .name-title {
+                        font-size: 1.3rem;
+
+                        .date-post {
+                            color: var(--siment);
+                            font-size: 1rem;
+                            margin-left: 20px;
+                        }
+                    }
+
+                    .Description-text {
+                        padding: 10px 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ========= Discussion-comments-page-section End =========== */
 
 /* ================== footer section start =============== */
 footer {
