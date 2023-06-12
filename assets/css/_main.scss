@@ -792,13 +792,29 @@ header {
                 border: 1px solid var(--white);
                 a{
                     color: var(--theam-colour);
+                    .add{
+                        display: none;
+                    }
+                }
+                &:hover{
+                    .add{
+                        display: block;
+                        color: var(--white);
+                    }
+                    .back{
+                        display: none;
+                    }
+                    background-color: var(--theam-colour);
+                    border: 1px solid var(--theam-colour);
+
                 }
             }
         }
         .dic-comment-box{
             border: 1px solid var(--gray);
-            border-radius: 10px;
+            border-radius: 13px;
             margin: 10px 0;
+            padding: 20px 0;
             .reviews-box-colour{
                 background-color: var(--sky-blue);
             }
@@ -900,6 +916,7 @@ header {
                             width: 100%;
                             border: 1px solid var(--gray);
                             padding: 10px;
+                            border-radius: 9px;
                         }
                         .post-btn{
                             margin-top: 10px;
@@ -927,7 +944,49 @@ header {
 }
 
 /* ========= Discussion-comments-page-section End =========== */
-
+.Quiz-page-section{
+    .Quiz-right-section{
+        margin-top: 10px;
+        .Quiz-que-box{
+            background-color: #EEEEEE;
+            padding: 20px;
+            margin-bottom: 15px ;
+            .Quiz-title{
+                p{
+                    padding: 10px 0;
+                    a{
+                        color: var(--black);
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+            form{
+                .input-box{
+                    display: flex;
+                    align-items: baseline;
+                }
+                input{
+                    margin: 8px 0;
+                    width: 20px;
+                }
+                label{
+                    margin-left: 10px;
+                }
+                button{
+                    margin:15px 0;
+                    border: 1px solid var(--theam-colour);
+                    border-radius: 40px;
+                    padding: 7px 30px;
+                    color: var(--white);
+                    background-color: var(--theam-colour);
+                    &:hover{
+                        background-color: var(--light-blue);
+                    }
+                }
+            }
+        }
+    }
+}
 /* ================== footer section start =============== */
 footer {
     margin-top: auto;

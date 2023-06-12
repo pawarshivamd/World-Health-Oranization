@@ -726,10 +726,25 @@ header select:focus {
 .Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion .back-btn a {
   color: var(--theam-colour);
 }
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion .back-btn a .add {
+  display: none;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion .back-btn:hover {
+  background-color: var(--theam-colour);
+  border: 1px solid var(--theam-colour);
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion .back-btn:hover .add {
+  display: block;
+  color: var(--white);
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion .back-btn:hover .back {
+  display: none;
+}
 .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box {
   border: 1px solid var(--gray);
-  border-radius: 10px;
+  border-radius: 13px;
   margin: 10px 0;
+  padding: 20px 0;
 }
 .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box-colour {
   background-color: var(--sky-blue);
@@ -819,6 +834,7 @@ header select:focus {
   width: 100%;
   border: 1px solid var(--gray);
   padding: 10px;
+  border-radius: 9px;
 }
 .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .form-comment .post-btn {
   margin-top: 10px;
@@ -840,6 +856,44 @@ header select:focus {
 }
 
 /* ========= Discussion-comments-page-section End =========== */
+.Quiz-page-section .Quiz-right-section {
+  margin-top: 10px;
+}
+.Quiz-page-section .Quiz-right-section .Quiz-que-box {
+  background-color: #EEEEEE;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.Quiz-page-section .Quiz-right-section .Quiz-que-box .Quiz-title p {
+  padding: 10px 0;
+}
+.Quiz-page-section .Quiz-right-section .Quiz-que-box .Quiz-title p a {
+  color: var(--black);
+  font-size: 1.3rem;
+}
+.Quiz-page-section .Quiz-right-section .Quiz-que-box form .input-box {
+  display: flex;
+  align-items: baseline;
+}
+.Quiz-page-section .Quiz-right-section .Quiz-que-box form input {
+  margin: 8px 0;
+  width: 20px;
+}
+.Quiz-page-section .Quiz-right-section .Quiz-que-box form label {
+  margin-left: 10px;
+}
+.Quiz-page-section .Quiz-right-section .Quiz-que-box form button {
+  margin: 15px 0;
+  border: 1px solid var(--theam-colour);
+  border-radius: 40px;
+  padding: 7px 30px;
+  color: var(--white);
+  background-color: var(--theam-colour);
+}
+.Quiz-page-section .Quiz-right-section .Quiz-que-box form button:hover {
+  background-color: var(--light-blue);
+}
+
 /* ================== footer section start =============== */
 footer {
   margin-top: auto;
