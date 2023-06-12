@@ -139,7 +139,7 @@ header {
                     a {
                         color: var(--dark-blue);
 
-                        &:focus{
+                        &:focus {
                             background-color: transparent;
                         }
                     }
@@ -236,6 +236,7 @@ header {
         text-decoration: underline;
     }
 }
+
 /* ================== Previous & Next button bottom section End ===========*/
 .button {
     border: 1px solid black;
@@ -406,7 +407,8 @@ header {
 
                         a {
                             color: var(--dark-blue);
-                            &:focus{
+
+                            &:focus {
                                 background-color: transparent;
                             }
                         }
@@ -440,18 +442,21 @@ header {
             }
         }
 
-        .edit-setion{
+        .edit-setion {
             display: flex;
             justify-content: space-evenly;
-            div{
+
+            div {
                 border-left: 1px solid black;
                 padding: 10px;
-                i{
+
+                i {
                     font-size: 1.3rem;
                 }
             }
         }
-        .temorary-access{
+
+        .temorary-access {
             color: var(--theam-colour);
             text-decoration: underline;
         }
@@ -604,6 +609,7 @@ header {
 
             .back-btn-box {
                 margin-right: 40px;
+
                 .Back-doc {
                     color: var(--light-blue);
                     text-decoration: underline;
@@ -707,60 +713,71 @@ header {
 /* ============= Document-details-page-section End  =============== */
 
 /* ================ Discussion forum  page Start =================== */
-.Discussion-forum-page-section{
-    .Discussion-right-Section{
-        .Discussion-table-section{
+.Discussion-forum-page-section {
+    .Discussion-right-Section {
+        .Discussion-table-section {
             // overflow-x: scroll;
             margin-top: 5px;
-            .dic-table{
+
+            .dic-table {
                 width: 100%;
                 border-spacing: 0px 5px !important;
-                border-collapse: separate !important; 
-                thead{
-                    tr{
+                border-collapse: separate !important;
+
+                thead {
+                    tr {
                         background-color: var(--secondery-bule-dark);
-                        th{
+
+                        th {
                             padding: 15px;
-                            color: var(--t-color-7a7a7a) ;
+                            color: var(--t-color-7a7a7a);
                             font-size: 1.3rem;
                             font-weight: 400;
                         }
-                        .Topic-section{
-                        background-color: var(--secondery-bule-dark);
+
+                        .Topic-section {
+                            background-color: var(--secondery-bule-dark);
 
                             width: 70% !important;
                         }
                     }
 
                 }
-                tbody{
-                    tr{
-                        &:nth-child(odd){
+
+                tbody {
+                    tr {
+                        &:nth-child(odd) {
 
                             background-color: var(--sky-blue);
                         }
-                        &:nth-child(even){
+
+                        &:nth-child(even) {
 
                             background-color: var(--secondery-bule-dark);
                         }
-                        th{
+
+                        th {
                             padding: 15px;
                         }
-                        td{
+
+                        td {
                             padding: 15px;
-                            
-                            .dic-title{
+
+                            .dic-title {
                                 font-size: 16px;
-                                a{
+
+                                a {
                                     color: var(--black);
-                                    
+
                                 }
                             }
-                            .dic-date{
+
+                            .dic-date {
                                 font-size: 12px;
                             }
                         }
-                        .dic-number{
+
+                        .dic-number {
                             font-size: 12px;
                         }
                     }
@@ -769,60 +786,72 @@ header {
         }
     }
 }
+
 /* ================ Discussion forum page End =================== */
 
 
 /* ========= Discussion-comments-page-section Start =========== */
-.Discussion-comments-page-section{
-    .Discussion-comments-box{
-        .dic-comment-head-setion{
-            margin:10px 0;
+.Discussion-comments-page-section {
+    .Discussion-comments-box {
+        .dic-comment-head-setion {
+            margin: 10px 0;
             background-color: var(--light-blue);
-            padding: 20px 0 ;
+            padding: 20px 0;
             display: flex;
             justify-content: space-around;
             align-items: center;
-            p{
+
+            p {
                 color: var(--white);
                 font-size: 1.3rem;
             }
-            .back-btn{
-                padding: 10px 20px ;
+
+            .back-btn {
+                padding: 10px 20px;
                 width: 80px;
                 border-radius: 40px;
                 border: 1px solid var(--white);
-                a{
+
+                a {
                     color: var(--theam-colour);
-                    .add{
+
+                    .add {
                         display: none;
                     }
                 }
-                &:hover{
-                    .add{
+
+                &:hover {
+                    .add {
                         display: block;
                         color: var(--white);
                     }
-                    .back{
+
+                    .back {
                         display: none;
                     }
+
                     background-color: var(--theam-colour);
                     border: 1px solid var(--theam-colour);
 
                 }
             }
         }
-        .dic-comment-box{
+
+        .dic-comment-box {
             border: 1px solid var(--gray);
             border-radius: 13px;
             margin: 10px 0;
             padding: 20px 0;
-            .reviews-box-colour{
+
+            .reviews-box-colour {
                 background-color: var(--sky-blue);
             }
+
             .reviews-box {
                 display: flex;
                 margin: 0px 0;
                 padding: 10px 10px;
+
                 .img-section {
                     width: 100px;
                     display: flex;
@@ -888,38 +917,45 @@ header {
                 .reviews-chate-box {
                     width: 500px;
                     margin-left: 20px;
-                    .title-Setion-dic{
+
+                    .title-Setion-dic {
                         display: flex;
                         justify-content: space-between;
                     }
+
                     .name-title {
                         font-size: 1.3rem;
 
                     }
+
                     .date-post {
                         color: var(--siment);
                         font-size: 1rem;
                         margin-left: 20px;
                     }
-                    
+
                     .Description-text {
                         padding: 10px 0;
                     }
-                    .comment-i{
+
+                    .comment-i {
                         color: var(--theam-colour);
-                        a{
-                        color: var(--theam-colour);
+
+                        a {
+                            color: var(--theam-colour);
 
                         }
                     }
-                    .form-comment{
-                        textarea{
+
+                    .form-comment {
+                        textarea {
                             width: 100%;
                             border: 1px solid var(--gray);
                             padding: 10px;
                             border-radius: 9px;
                         }
-                        .post-btn{
+
+                        .post-btn {
                             margin-top: 10px;
                             border: 1px solid var(--theam-colour);
                             background-color: var(--theam-colour);
@@ -933,7 +969,8 @@ header {
                             border-radius: 40px;
                             color: var(--white);
                             cursor: pointer;
-                            &:hover{
+
+                            &:hover {
                                 background-color: var(--light-blue);
                             }
                         }
@@ -945,42 +982,52 @@ header {
 }
 
 /* ========= Discussion-comments-page-section End =========== */
-.Quiz-page-section{
-    .Quiz-right-section{
+
+/* =========== Quiz-page-section Start =============*/
+.Quiz-page-section {
+    .Quiz-right-section {
         margin-top: 10px;
-        .Quiz-que-box{
+
+        .Quiz-que-box {
             background-color: #EEEEEE;
             padding: 20px;
-            margin-bottom: 15px ;
-            .Quiz-title{
-                p{
+            margin-bottom: 15px;
+
+            .Quiz-title {
+                p {
                     padding: 10px 0;
-                    a{
+
+                    a {
                         color: var(--black);
                         font-size: 1.3rem;
                     }
                 }
             }
-            form{
-                .input-box{
+
+            form {
+                .input-box {
                     display: flex;
                     align-items: baseline;
                 }
-                input{
+
+                input {
                     margin: 8px 0;
                     width: 20px;
                 }
-                label{
+
+                label {
                     margin-left: 10px;
                 }
-                button{
-                    margin:15px 0;
+
+                button {
+                    margin: 15px 0;
                     border: 1px solid var(--theam-colour);
                     border-radius: 40px;
                     padding: 7px 30px;
                     color: var(--white);
                     background-color: var(--theam-colour);
-                    &:hover{
+
+                    &:hover {
                         background-color: var(--light-blue);
                     }
                 }
@@ -988,59 +1035,205 @@ header {
         }
     }
 }
-.Quiz-answer-page-section{
-    .Quiz-answer-right-section{
-        .Quiz-que-box{
+
+/* =========== Quiz-page-section End =============*/
+
+/* =========== Quiz-answer-page-section Start =============*/
+.Quiz-answer-page-section {
+    .Quiz-answer-right-section {
+        .Quiz-que-box {
             background-color: #EEEEEE;
             padding: 20px;
-            margin-bottom: 15px ;
-            .Quiz-title{
-                p{
+            margin-bottom: 15px;
+
+            .Quiz-title {
+                p {
                     padding: 10px 0;
-                    a{
+
+                    a {
                         color: var(--black);
                         font-size: 1.3rem;
                     }
                 }
             }
-            form{
+
+            form {
                 padding: 0 30px;
-                .input-box{
+
+                .input-box {
                     display: flex;
                     align-items: baseline;
                 }
-                .progress-setion-box{
+
+                .progress-setion-box {
 
                     margin: 10px 0;
-                    .progress{
+
+                    .progress {
                         border: 1px solid #D9D9D9;
                         background-color: #D9D9D9;
                         height: 15px;
-                        .progress-bar{
+
+                        .progress-bar {
                             background-color: var(--dark-green);
-                            border-top-right-radius:7px;
+                            border-top-right-radius: 7px;
                             border-bottom-right-radius: 7px;
                             text-align: end;
                             padding: 7px 10px 7px 0px;
                         }
                     }
-                    }
-                input{
+                }
+
+                input {
                     margin: 8px 0;
                     width: 20px;
                 }
-                label{
+
+                label {
                     margin-left: 10px;
                 }
-                button{
-                    margin:15px 0;
+
+                button {
+                    margin: 15px 0;
                     border: 1px solid var(--theam-colour);
                     border-radius: 40px;
                     padding: 7px 30px;
                     color: var(--white);
                     background-color: var(--theam-colour);
-                    &:hover{
+
+                    &:hover {
                         background-color: var(--light-blue);
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* =========== Quiz-answer-page-section End =============*/
+/* ============= member-page-setion-start =============*/
+
+/* ============= member-page-setion-End =============*/
+
+.Member-page-section {
+    .member-contain-section {
+        margin: 10px 0px;
+
+        .search-section {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid var(--gray);
+            margin: 0px 0px 10px 0px;
+
+            .search__input {
+                width: 98%;
+                border: none;
+                padding: 5px 10px;
+            }
+
+            .search__button {
+                background: transparent;
+                border: none;
+                display: flex;
+                align-items: center;
+                margin-right: 6px;
+
+                .search__icon {
+                    font-size: 20px;
+                    color: var(--black);
+                }
+            }
+        }
+
+        .dropdown {
+            border: 1px solid var(--gray);
+            margin: 5px 0px;
+
+            .dropdown-title {
+                position: relative;
+                padding: 7px 5px;
+                display: flex;
+                background-color: var(--light-gray);
+
+                &::after {
+                    border: none;
+                }
+
+                .icon-box {
+                    iconify-icon {
+                        rotate: 180deg;
+                    }
+                }
+
+                &:hover {
+                    iconify-icon {
+                        rotate: 0deg;
+                    }
+
+                }
+            }
+
+            .dropdown-menu {
+                border-top: none;
+                border-radius: 0;
+                margin-top: 0;
+                width: 100%;
+                background-color: var(--light-gray);
+
+                li {
+
+                    &:hover {
+                        background-color: var(--white);
+
+                        a {
+                            color: var(--dark-blue);
+
+                            &:focus {
+                                background-color: transparent;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .member-boday {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px 0px;
+            margin-top: 10px;
+
+            .card {
+                // width: min(100% - 30px, 230px ) !important;
+                border: none;
+                display: flex;
+                justify-content: center;
+
+                .img-box {
+                    overflow: hidden;
+                    height: 150px;
+                    width: min(100% - 10px, 150px);
+                    margin-inline: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .card-body {
+                    .card-text {
+                        text-align: center;
+
+                        a {
+                            color: var(--black);
+                            font-size: 1.1rem;
+
+                            &:hover {
+                                color: var(--theam-colour);
+                            }
+                        }
                     }
                 }
             }
@@ -1075,9 +1268,11 @@ footer {
                 color: var(--light-gray);
             }
         }
-        .icon-b{
+
+        .icon-b {
             border: none;
         }
+
         .icon-info {
             border: none;
 

@@ -9,12 +9,11 @@
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
-
     <!-- font-awesome icon link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 
 
@@ -98,7 +97,7 @@
                     <ul class="navbar-nav menu-iteam  mb-2 mb-lg-0 ">
 
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="Documents-page.html">
+                            <a class="nav-link" aria-current="page" href="Documents-page.html">
                                 <div class="logo-img"><i class="fa-solid fa-book"></i></div><span> Documents
                                 </span>
                             </a>
@@ -121,7 +120,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="Quiz-page.html">
+                            <a class="nav-link" href="Quiz-page.html">
                                 <div class=" logo-img"><i class="fa-solid fa-chart-simple"></i></div><span> Quiz</span>
                             </a>
                         </li>
@@ -134,7 +133,7 @@
     </div>
 
 
-    <div class="Quiz-answer-page-section">
+    <div class="Member-page-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 order-2 order-lg-1  order-md-1">
@@ -187,129 +186,175 @@
                     </aside>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12 order-1 order-lg-2  order-md-2">
-                    <div class="Quiz-answer-right-section">
-                        <div class="Quiz-que-box">
-                            <div class="Quiz-title">
-                                <p><a href="">Single choice question will come here</a></p>
-                            </div>
-                            <form action="">
-                                <div class="progress-setion-box">
-                                    <div>Answer 1 will come here answer 1 Answer 1 will
-                                        come here
-                                        answer</div>
-                                    <div class="progress" role="progressbar" aria-label="Example with label"
-                                        aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar " style="width: 60%">60%</div>
-                                    </div>
-                                </div>
-                                <div class="progress-setion-box">
-                                    <div>Answer 1 will come here answer 1</div>
-                                    <div class="progress" role="progressbar" aria-label="Example with label"
-                                        aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar" style="width: 20%">20%</div>
-                                    </div>
-                                </div>
-                                <div class="progress-setion-box">
-                                    <div>Answer 1 will come here answer 1</div>
-                                    <div class="progress" role="progressbar" aria-label="Example with label"
-                                        aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar" style="width: 15%">15%</div>
-                                    </div>
-                                </div>
-                                <div class="progress-setion-box">
-                                    <div>Answer 1 will come here answer 1</div>
-                                    <div class="progress" role="progressbar" aria-label="Example with label"
-                                        aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar" style="width: 10%">10%</div>
-                                    </div>
-                                </div>
-                            </form>
+                    <div class="member-contain-section">
 
+                        <div class="search-section">
+                            <input type="text" class="search__input" placeholder="Search">
+                            <button class="search__button">
+                                <i class="fa-solid fa-magnifying-glass  search__icon"></i>
+                            </button>
                         </div>
-                        <!-- 2 -->
-                        <div class="Quiz-que-box">
-                            <div class="Quiz-title">
-                                <p><a href="">True/False question will come here</a></p>
-                            </div>
-                            <form action="">
-                                <div class="progress-setion-box">
-                                    <div>True</div>
-                                    <div class="progress" role="progressbar" aria-label="Example with label"
-                                        aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar" style="width: 60%">60%</div>
-                                    </div>
-                                </div>
-                                <div class="progress-setion-box">
-                                    <div>False</div>
-                                    <div class="progress" role="progressbar" aria-label="Example with label"
-                                        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar" style="width: 40%">40%</div>
-                                    </div>
-                                </div>
-                            </form>
 
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="dropdown  ">
+                                    <div class=" dropdown-toggle dropdown-title " data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <span> Type of Document </span>
+                                        <span class="ms-auto icon-box"><iconify-icon
+                                                icon="teenyicons:up-solid"></iconify-icon></span>
+                                    </div>
+                                    <ul class="dropdown-menu ">
+                                        <li><a class="dropdown-item" href="#">Notification form </a></li>
+                                        <li><a class="dropdown-item" href="#">Investigation form</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="dropdown">
+                                    <div class=" dropdown-toggle dropdown-title" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <span> Age Range</span>
+                                        <span class="ms-auto icon-box"><iconify-icon
+                                                icon="teenyicons:up-solid"></iconify-icon></span>
+
+                                    </div>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Newborn</a></li>
+                                        <li><a class="dropdown-item" href="#">Infant</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="dropdown">
+                                    <div class=" dropdown-toggle dropdown-title" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <span> Status </span>
+                                        <span class="ms-auto icon-box"><iconify-icon
+                                                icon="teenyicons:up-solid"></iconify-icon></span>
+
+                                    </div>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Newborn</a></li>
+                                        <li><a class="dropdown-item" href="#">Infant</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <!-- 3 -->
-                        <div class="Quiz-que-box">
-                            <div class="Quiz-title">
-                                <p><a href="">Multiple choice question will come here</a></p>
+                        <div class=" member-boday">
+                            <!-- 1 -->
+                            <div class="card col-lg-4 col-md-6 col-sm-12">
+                                <div class="img-box">
+                                    <a href="Members-detailed.html">
+                                        <img src="assets/img/all/Mask Group 3@2x.png" alt="...">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><a href="Members-detailed.html"> Members name will come here
+                                        </a></p>
+                                </div>
                             </div>
-                            <form action="">
-                                <div class="progress-setion-box">
-                                    <div>Answer 1 will come here answer 1 Answer 1 will
-                                        come here
-                                        answer</div>
-                                    <div class="progress" role="progressbar" aria-label="Example with label"
-                                        aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar " style="width: 60%">60%</div>
-                                    </div>
+                            <!-- 2 -->
+                            <div class="card col-lg-4 col-md-6 col-sm-12">
+                                <div class="img-box">
+                                    <a href="Members-detailed.html">
+                                        <img src="assets/img/all/Mask Group 4@2x 2.png" alt="...">
+                                    </a>
                                 </div>
-                                <div class="progress-setion-box">
-                                    <div>Answer 1 will come here answer 1</div>
-                                    <div class="progress" role="progressbar" aria-label="Example with label"
-                                        aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar" style="width: 20%">20%</div>
-                                    </div>
+                                <div class="card-body">
+                                    <p class="card-text"><a href="Members-detailed.html"> Members name will come here
+                                        </a></p>
                                 </div>
-                                <div class="progress-setion-box">
-                                    <div>Answer 1 will come here answer 1</div>
-                                    <div class="progress" role="progressbar" aria-label="Example with label"
-                                        aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar" style="width: 15%">15%</div>
-                                    </div>
-                                </div>
-                                <div class="progress-setion-box">
-                                    <div>Answer 1 will come here answer 1</div>
-                                    <div class="progress" role="progressbar" aria-label="Example with label"
-                                        aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar" style="width: 10%">10%</div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <!-- 4 -->
-                        <div class="Quiz-que-box">
-                            <div class="Quiz-title">
-                                <p><a href="">Yes/no question will come here</a></p>
                             </div>
-                            <form action="" class="p-0">
-                                <div class="input-box">
-
-                                    <input type="radio" id="Yes" name="answer" value="Yes">
-                                    <label for="Yes" class="col-11"> Yes</label><br>
+                            <!-- 3 -->
+                            <div class="card col-lg-4 col-md-6 col-sm-12">
+                                <div class="img-box">
+                                    <a href="Members-detailed.html">
+                                        <img src="assets/img/all/Mask Group 3@2x.png" alt="...">
+                                    </a>
                                 </div>
-                                <div class="d-flex  align-baseline">
-                                    <input type="radio" id="No" name="answer" value="No">
-                                    <label for="No" class="col-11">No</label><br>
+                                <div class="card-body">
+                                    <p class="card-text"><a href="Members-detailed.html"> Members name will come here
+                                        </a></p>
                                 </div>
-
-                                <button>Submit</button>
-                            </form>
-
+                            </div>
+                            <!-- 4 -->
+                            <div class="card col-lg-4 col-md-6 col-sm-12">
+                                <div class="img-box">
+                                    <a href="Members-detailed.html">
+                                        <img src="assets/img/all/Mask Group 3@2x.png" alt="...">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><a href="Members-detailed.html"> Members name will come here
+                                        </a></p>
+                                </div>
+                            </div>
+                            <!-- 5 -->
+                            <div class="card col-lg-4 col-md-6 col-sm-12">
+                                <div class="img-box">
+                                    <a href="Members-detailed.html">
+                                        <img src="assets/img/all/Mask Group 4@2x 2.png" alt="...">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><a href="Members-detailed.html"> Members name will come here
+                                        </a></p>
+                                </div>
+                            </div>
+                            <!-- 6 -->
+                            <div class="card col-lg-4 col-md-6 col-sm-12">
+                                <div class="img-box">
+                                    <a href="Members-detailed.html">
+                                        <img src="assets/img/all/Mask Group 3@2x.png" alt="...">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><a href="Members-detailed.html"> Members name will come here
+                                        </a></p>
+                                </div>
+                            </div>
+                            <!-- 7 -->
+                            <div class="card col-lg-4 col-md-6 col-sm-12">
+                                <div class="img-box">
+                                    <a href="Members-detailed.html">
+                                        <img src="assets/img/all/Mask Group 3@2x.png" alt="...">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><a href="Members-detailed.html"> Members name will come here
+                                        </a></p>
+                                </div>
+                            </div>
+                            <!-- 8 -->
+                            <div class="card col-lg-4 col-md-6 col-sm-12">
+                                <div class="img-box">
+                                    <a href="Members-detailed.html">
+                                        <img src="assets/img/all/Mask Group 4@2x 2.png" alt="...">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><a href="Members-detailed.html"> Members name will come here
+                                        </a></p>
+                                </div>
+                            </div>
+                            <!-- 9 -->
+                            <div class="card col-lg-4 col-md-6 col-sm-12">
+                                <div class="img-box">
+                                    <a href="Members-detailed.html">
+                                        <img src="assets/img/all/Mask Group 3@2x.png" alt="...">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text"><a href="Members-detailed.html"> Members name will come here
+                                        </a></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 
@@ -328,6 +373,7 @@
                             <li class="icon"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
                             <li class="icon"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
                             <li class="icon icon-b"><a href="#"><i class="fa-solid fa-rss"></i></a></li>
+
                         </ul>
                     </div>
                 </div>
@@ -345,7 +391,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
         integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
         crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

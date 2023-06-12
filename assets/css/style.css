@@ -857,6 +857,7 @@ header select:focus {
 }
 
 /* ========= Discussion-comments-page-section End =========== */
+/* =========== Quiz-page-section Start =============*/
 .Quiz-page-section .Quiz-right-section {
   margin-top: 10px;
 }
@@ -895,6 +896,8 @@ header select:focus {
   background-color: var(--light-blue);
 }
 
+/* =========== Quiz-page-section End =============*/
+/* =========== Quiz-answer-page-section Start =============*/
 .Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box {
   background-color: #EEEEEE;
   padding: 20px;
@@ -946,6 +949,102 @@ header select:focus {
 }
 .Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form button:hover {
   background-color: var(--light-blue);
+}
+
+/* =========== Quiz-answer-page-section End =============*/
+/* ============= member-page-setion-start =============*/
+/* ============= member-page-setion-End =============*/
+.Member-page-section .member-contain-section {
+  margin: 10px 0px;
+}
+.Member-page-section .member-contain-section .search-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--gray);
+  margin: 0px 0px 10px 0px;
+}
+.Member-page-section .member-contain-section .search-section .search__input {
+  width: 98%;
+  border: none;
+  padding: 5px 10px;
+}
+.Member-page-section .member-contain-section .search-section .search__button {
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+}
+.Member-page-section .member-contain-section .search-section .search__button .search__icon {
+  font-size: 20px;
+  color: var(--black);
+}
+.Member-page-section .member-contain-section .dropdown {
+  border: 1px solid var(--gray);
+  margin: 5px 0px;
+}
+.Member-page-section .member-contain-section .dropdown .dropdown-title {
+  position: relative;
+  padding: 7px 5px;
+  display: flex;
+  background-color: var(--light-gray);
+}
+.Member-page-section .member-contain-section .dropdown .dropdown-title::after {
+  border: none;
+}
+.Member-page-section .member-contain-section .dropdown .dropdown-title .icon-box iconify-icon {
+  rotate: 180deg;
+}
+.Member-page-section .member-contain-section .dropdown .dropdown-title:hover iconify-icon {
+  rotate: 0deg;
+}
+.Member-page-section .member-contain-section .dropdown .dropdown-menu {
+  border-top: none;
+  border-radius: 0;
+  margin-top: 0;
+  width: 100%;
+  background-color: var(--light-gray);
+}
+.Member-page-section .member-contain-section .dropdown .dropdown-menu li:hover {
+  background-color: var(--white);
+}
+.Member-page-section .member-contain-section .dropdown .dropdown-menu li:hover a {
+  color: var(--dark-blue);
+}
+.Member-page-section .member-contain-section .dropdown .dropdown-menu li:hover a:focus {
+  background-color: transparent;
+}
+.Member-page-section .member-contain-section .member-boday {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 0px;
+  margin-top: 10px;
+}
+.Member-page-section .member-contain-section .member-boday .card {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+.Member-page-section .member-contain-section .member-boday .card .img-box {
+  overflow: hidden;
+  height: 150px;
+  width: min(100% - 10px, 150px);
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Member-page-section .member-contain-section .member-boday .card .card-body .card-text {
+  text-align: center;
+}
+.Member-page-section .member-contain-section .member-boday .card .card-body .card-text a {
+  color: var(--black);
+  font-size: 1.1rem;
+}
+.Member-page-section .member-contain-section .member-boday .card .card-body .card-text a:hover {
+  color: var(--theam-colour);
 }
 
 /* ================== footer section start =============== */

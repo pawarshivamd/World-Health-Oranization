@@ -89,6 +89,11 @@
     display: block !important;
     margin-top: 1px;
   }
+  .Member-page-section .member-contain-section .dropdown:hover .dropdown-menu {
+    position: absolute !important;
+    display: block !important;
+    margin-top: 1px;
+  }
 }
 @media (max-width: 767px) {
   .nvabar-setion .nav-title {
@@ -128,6 +133,9 @@
   /* ========= Discussion-comments-page-section End =========== */
   .Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form {
     padding: 0 0px;
+  }
+  .Member-page-section .member-contain-section .member-boday {
+    justify-content: center;
   }
 }
 @media (max-width: 280px) {
