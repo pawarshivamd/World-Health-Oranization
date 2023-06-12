@@ -67,6 +67,16 @@
     width: 80px;
   }
   /* ======== Document-details-page-section End =========*/
+  /* ========= Discussion-comments-page-section Start =========== */
+  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section {
+    width: 80px;
+  }
+  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  /* ========= Discussion-comments-page-section End =========== */
 }
 @media (min-width: 991px) {
   .secondary-menu-section .dropdown-section:hover .dropdown-menu {
@@ -91,6 +101,31 @@
   .secondary-menu-section .dropdown-section .dropdown-menu {
     width: 128%;
   }
+  /* ========= Discussion-comments-page-section Start =========== */
+  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion {
+    margin: 10px 0;
+    padding: 20px 0;
+  }
+  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion p {
+    color: var(--white);
+    font-size: 0.9rem;
+  }
+  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion .back-btn {
+    padding: 5px 15px;
+  }
+  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box {
+    border-radius: 50%;
+  }
+  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .title-Setion-dic {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .title-Setion-dic .date-post {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  /* ========= Discussion-comments-page-section End =========== */
 }
 @media (max-width: 280px) {
   .nvabar-setion .navbar-brand {

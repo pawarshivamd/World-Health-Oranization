@@ -48,6 +48,10 @@ select:focus {
   box-shadow: none !important;
 }
 
+textarea:focus {
+  outline: none;
+}
+
 :root {
   --theam-colour:#008DC9;
   --white:#fff;
@@ -267,6 +271,7 @@ header select:focus {
 }
 
 /* ================== secondary-menu-section End ================ */
+/* ================== Previous & Next button bottom section start ===========*/
 .pre-next-setion {
   margin: 10px 0;
   display: flex;
@@ -293,6 +298,7 @@ header select:focus {
   text-decoration: underline;
 }
 
+/* ================== Previous & Next button bottom section End ===========*/
 .button {
   border: 1px solid black;
   background-color: transparent;
@@ -443,6 +449,21 @@ header select:focus {
 }
 .Document-page-section .Doc-card-section .Doc-card-title:hover {
   color: var(--theam-colour);
+}
+.Document-page-section .Doc-card-section .edit-setion {
+  display: flex;
+  justify-content: space-evenly;
+}
+.Document-page-section .Doc-card-section .edit-setion div {
+  border-left: 1px solid black;
+  padding: 10px;
+}
+.Document-page-section .Doc-card-section .edit-setion div i {
+  font-size: 1.3rem;
+}
+.Document-page-section .Doc-card-section .temorary-access {
+  color: var(--theam-colour);
+  text-decoration: underline;
 }
 
 /* ================ Document-page-section End ===================== */
@@ -638,7 +659,7 @@ header select:focus {
 /* ============= Document-details-page-section End  =============== */
 /* ================ Discussion forum  page Start =================== */
 .Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section {
-  padding: 20px 0;
+  margin-top: 5px;
 }
 .Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table {
   width: 100%;
@@ -685,16 +706,38 @@ header select:focus {
 
 /* ================ Discussion forum page End =================== */
 /* ========= Discussion-comments-page-section Start =========== */
-/* ========= Discussion-comments-page-section Start =========== */
 .Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion {
+  margin: 10px 0;
   background-color: var(--light-blue);
   padding: 20px 0;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion p {
+  color: var(--white);
+  font-size: 1.3rem;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion .back-btn {
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: 1px solid var(--white);
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion .back-btn a {
+  color: var(--theam-colour);
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box {
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+  margin: 10px 0;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box-colour {
+  background-color: var(--sky-blue);
 }
 .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box {
   display: flex;
-  margin: 20px 0;
+  margin: 0px 0;
+  padding: 10px 10px;
 }
 .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section {
   width: 100px;
@@ -751,16 +794,49 @@ header select:focus {
   width: 500px;
   margin-left: 20px;
 }
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .title-Setion-dic {
+  display: flex;
+  justify-content: space-between;
+}
 .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .name-title {
   font-size: 1.3rem;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .name-title .date-post {
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .date-post {
   color: var(--siment);
   font-size: 1rem;
   margin-left: 20px;
 }
 .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .Description-text {
   padding: 10px 0;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .comment-i {
+  color: var(--theam-colour);
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .comment-i a {
+  color: var(--theam-colour);
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .form-comment textarea {
+  width: 100%;
+  border: 1px solid var(--gray);
+  padding: 10px;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .form-comment .post-btn {
+  margin-top: 10px;
+  border: 1px solid var(--theam-colour);
+  background-color: var(--theam-colour);
+  width: 70px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding: 10px 0px; */
+  border-radius: 40px;
+  color: var(--white);
+  cursor: pointer;
+}
+.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .form-comment .post-btn:hover {
+  background-color: var(--light-blue);
 }
 
 /* ========= Discussion-comments-page-section End =========== */
