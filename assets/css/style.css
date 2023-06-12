@@ -895,6 +895,59 @@ header select:focus {
   background-color: var(--light-blue);
 }
 
+.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box {
+  background-color: #EEEEEE;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box .Quiz-title p {
+  padding: 10px 0;
+}
+.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box .Quiz-title p a {
+  color: var(--black);
+  font-size: 1.3rem;
+}
+.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form {
+  padding: 0 30px;
+}
+.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form .input-box {
+  display: flex;
+  align-items: baseline;
+}
+.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form .progress-setion-box {
+  margin: 10px 0;
+}
+.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form .progress-setion-box .progress {
+  border: 1px solid #D9D9D9;
+  background-color: #D9D9D9;
+  height: 15px;
+}
+.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form .progress-setion-box .progress .progress-bar {
+  background-color: var(--dark-green);
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  text-align: end;
+  padding: 7px 10px 7px 0px;
+}
+.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form input {
+  margin: 8px 0;
+  width: 20px;
+}
+.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form label {
+  margin-left: 10px;
+}
+.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form button {
+  margin: 15px 0;
+  border: 1px solid var(--theam-colour);
+  border-radius: 40px;
+  padding: 7px 30px;
+  color: var(--white);
+  background-color: var(--theam-colour);
+}
+.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form button:hover {
+  background-color: var(--light-blue);
+}
+
 /* ================== footer section start =============== */
 footer {
   margin-top: auto;
