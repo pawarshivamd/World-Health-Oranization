@@ -1240,6 +1240,46 @@ header {
         }
     }
 }
+/* ============= Member-detail-page-section start ====================*/
+.Member-detail-page-section{
+    .member-detail-contain-section{
+        margin-top: 10px;
+        .member-detail-head-section{
+            background-color: var(--light-gray);
+            padding: 15px;
+            .title-text{
+                font-size: 1.3rem;
+            }
+            .img-box{
+                overflow: hidden;
+                    height: 150px;
+                    width: min(100% - 10px, 150px);
+                    margin-inline: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+            }
+            .e-mail-section{
+                display: flex;
+                align-items: baseline;
+                margin: 10px 0;
+                a{
+                    margin-left: 10px;
+                    color: var(--black);
+                }
+            }
+            .link-body{
+                margin: 10px 0;
+                a{
+                    color: var(--orange);
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+/* ============= Member-detail-page-section End ====================*/
 
 /* ================== footer section start =============== */
 footer {
