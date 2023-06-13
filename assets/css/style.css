@@ -1173,6 +1173,16 @@ header select:focus {
   font-size: 1.3rem;
   color: #545454;
 }
+.countries-communities-page-section .countries-communities-body .input-box {
+  display: flex;
+  align-items: center;
+}
+.countries-communities-page-section .countries-communities-body .input-box input {
+  accent-color: var(--theam-colour);
+}
+.countries-communities-page-section .countries-communities-body .input-box label {
+  margin-left: 10px;
+}
 .countries-communities-page-section .countries-communities-body .table-section .tab-pane {
   overflow-x: auto;
 }

@@ -1405,7 +1405,16 @@ header {
                 color: #545454;
             }
         }
-
+        .input-box{
+            display: flex;
+            align-items: center;
+            input{
+                accent-color: var(--theam-colour);
+            }
+            label{
+                margin-left: 10px;
+            }
+        }
         .table-section {
             .tab-pane {
                 overflow-x: auto;
