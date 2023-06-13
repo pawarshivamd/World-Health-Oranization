@@ -67,10 +67,6 @@ textarea:focus {
   --secondery-bule-dark:#C8EFFF;
   --t-color-7a7a7a: #7A7A7A;
   --unnamed-color-e6f0f1: #E6F0F1;
-  --unnamed-color-ffb032: #FFB032;
-  --unnamed-color-ff0000: #FF0000;
-  --unnamed-color-ffffff: #FFFFFF;
-  --unnamed-color-545454: #545454;
 }
 
 /* ============ loging-page-section Start ============ */
@@ -1126,6 +1122,39 @@ header select:focus {
 }
 
 /* ============= Member-detail-page-section End ====================*/
+.contact-admin-page-section .contact-admin-body {
+  margin-top: 10px;
+}
+.contact-admin-page-section .contact-admin-body .head-title p {
+  font-size: 1.3rem;
+  color: #545454;
+}
+.contact-admin-page-section .contact-admin-body .connect-form-setion form .cheakbox-section {
+  display: inline-flex;
+  margin: 10px 0;
+}
+.contact-admin-page-section .contact-admin-body .connect-form-setion form textarea {
+  width: 100%;
+  border: 0.5px solid var(--gray);
+  padding: 10px;
+  margin: 10px 0;
+}
+.contact-admin-page-section .contact-admin-body .connect-form-setion form .btn-section button {
+  color: var(--white);
+  border-radius: 30px;
+  border: 1px solid var(--theam-colour);
+  background-color: var(--theam-colour);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  padding: 8px 5px;
+}
+.contact-admin-page-section .contact-admin-body .connect-form-setion form .btn-section button:hover {
+  border: 1px solid var(--light-blue);
+  background-color: var(--light-blue);
+}
+
 /* ================== footer section start =============== */
 footer {
   margin-top: auto;
