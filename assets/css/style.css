@@ -615,6 +615,7 @@ header select:focus {
   width: 100%;
   border: 1px solid var(--siment);
   padding: 10px;
+  border-radius: 9px;
 }
 .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-commnent .reviews-chate-comment-box textarea:focus {
   outline: none;
@@ -643,10 +644,14 @@ header select:focus {
   width: 500px;
   margin-left: 20px;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .name-title {
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc {
+  display: flex;
+  justify-content: space-between;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc .name-title {
   font-size: 1.3rem;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .name-title .date-post {
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc .date-post {
   color: var(--siment);
   font-size: 1rem;
   margin-left: 20px;
@@ -1089,7 +1094,7 @@ header select:focus {
   flex-wrap: wrap;
 }
 .Member-detail-page-section .member-detail-contain-section .member-box .first-title {
-  padding: 10px;
+  padding: 5px 10px;
   display: flex;
   background-color: #D2D6D2;
   place-items: center;
@@ -1103,7 +1108,7 @@ header select:focus {
   margin: 10px 0;
 }
 .Member-detail-page-section .member-detail-contain-section .btn-section {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .Member-detail-page-section .member-detail-contain-section .btn-section button {
   color: var(--white);
@@ -1122,6 +1127,7 @@ header select:focus {
 }
 
 /* ============= Member-detail-page-section End ====================*/
+/* ========= contact-admin-page-section Start ============*/
 .contact-admin-page-section .contact-admin-body {
   margin-top: 10px;
 }
@@ -1131,7 +1137,7 @@ header select:focus {
 }
 .contact-admin-page-section .contact-admin-body .connect-form-setion form .cheakbox-section {
   display: inline-flex;
-  margin: 10px 0;
+  margin: 3px 0;
 }
 .contact-admin-page-section .contact-admin-body .connect-form-setion form textarea {
   width: 100%;
@@ -1155,6 +1161,74 @@ header select:focus {
   background-color: var(--light-blue);
 }
 
+/* ========= contact-admin-page-section End ============*/
+/* ============ countries-communities-page-section start ============== */
+.countries-communities-page-section .countries-communities-body {
+  margin-top: 10px;
+}
+.countries-communities-page-section .countries-communities-body .head-title {
+  margin: 10px 0;
+}
+.countries-communities-page-section .countries-communities-body .head-title p {
+  font-size: 1.3rem;
+  color: #545454;
+}
+.countries-communities-page-section .countries-communities-body .table-section .tab-pane {
+  overflow-x: auto;
+}
+.countries-communities-page-section .countries-communities-body .table-section .dic-table {
+  margin-top: 15px;
+  min-width: 700px;
+  border-spacing: 0px 5px !important;
+  border-collapse: separate !important;
+}
+.countries-communities-page-section .countries-communities-body .table-section .dic-table thead tr {
+  background-color: var(--secondery-bule-dark);
+}
+.countries-communities-page-section .countries-communities-body .table-section .dic-table thead tr th {
+  padding: 15px;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.countries-communities-page-section .countries-communities-body .table-section .dic-table thead tr .country {
+  width: 300px;
+}
+.countries-communities-page-section .countries-communities-body .table-section .dic-table tbody tr {
+  background-color: var(--sky-blue);
+}
+.countries-communities-page-section .countries-communities-body .table-section .dic-table tbody tr td {
+  padding: 15px;
+}
+.countries-communities-page-section .countries-communities-body .table-section .dic-table tbody tr td a {
+  font-size: 16px;
+  color: var(--black);
+}
+.countries-communities-page-section .countries-communities-body .table-section .dic-table tbody tr .dic-number {
+  font-size: 12px;
+}
+
+/* ============ countries-communities-page-section End ============== */
+/* =============== Users-Community-page-section start ==================*/
+.Users-Community-page-section .Users-Community-right-body {
+  margin: 10px 0;
+}
+.Users-Community-page-section .Users-Community-right-body .head-title {
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+.Users-Community-page-section .Users-Community-right-body .btn-section {
+  margin-top: 20px;
+}
+.Users-Community-page-section .Users-Community-right-body .btn-section .btn-box {
+  border: 1px solid var(--orange);
+  padding: 7px 15px;
+  border-radius: 20px;
+  margin: 5px 10px;
+  cursor: pointer;
+  color: black;
+}
+
+/* =============== Users-Community-page-section End ==================*/
 /* ================== footer section start =============== */
 footer {
   margin-top: auto;

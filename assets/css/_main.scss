@@ -49,7 +49,8 @@ header {
                         &:hover {
                             color: var(--dark-blue);
                         }
-                        &:focus{
+
+                        &:focus {
                             background-color: transparent !important;
                         }
                     }
@@ -657,7 +658,7 @@ header {
                             width: 100%;
                             border: 1px solid var(--siment);
                             padding: 10px;
-
+                            border-radius: 9px;
                             &:focus {
                                 outline: none;
                             }
@@ -692,10 +693,13 @@ header {
                 .reviews-chate-box {
                     width: 500px;
                     margin-left: 20px;
-
-                    .name-title {
-                        font-size: 1.3rem;
-
+                    .title-Setion-doc{
+                        display: flex;
+                        justify-content: space-between;
+                        .name-title {
+                            font-size: 1.3rem;
+    
+                        }
                         .date-post {
                             color: var(--siment);
                             font-size: 1rem;
@@ -1242,67 +1246,81 @@ header {
         }
     }
 }
+
 /* ============= member-page-setion-End =============*/
 
 /* ============= Member-detail-page-section start ====================*/
-.Member-detail-page-section{
-    .member-detail-contain-section{
+.Member-detail-page-section {
+    .member-detail-contain-section {
         margin-top: 10px;
-        .member-detail-head-section{
+
+        .member-detail-head-section {
             background-color: var(--light-gray);
             padding: 15px;
-            .title-text{
+
+            .title-text {
                 font-size: 1.3rem;
             }
-            .img-box{
+
+            .img-box {
                 overflow: hidden;
-                    height: 150px;
-                    width: min(100% - 10px, 150px);
-                    margin-inline: auto;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                height: 150px;
+                width: min(100% - 10px, 150px);
+                margin-inline: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
-            .e-mail-section{
+
+            .e-mail-section {
                 display: flex;
                 align-items: baseline;
                 margin: 10px 0;
-                a{
+
+                a {
                     margin-left: 10px;
                     color: var(--black);
                 }
             }
-            .link-body{
+
+            .link-body {
                 margin: 10px 0;
-                a{
+
+                a {
                     color: var(--orange);
                     text-decoration: underline;
                 }
             }
         }
-        .member-box{
+
+        .member-box {
             margin: 10px 0;
             display: flex;
             align-items: initial;
             flex-wrap: wrap;
-            .first-title{
-                padding: 10px;
+
+            .first-title {
+                padding:5px 10px;
                 display: flex;
                 background-color: #D2D6D2;
                 place-items: center;
                 font-size: 1.3rem;
             }
-            .second-p{
+
+            .second-p {
                 padding: 10px;
                 background-color: var(--unnamed-color-e6f0f1);
             }
         }
-        .member-contain{
+
+        .member-contain {
             margin: 10px 0;
         }
-        .btn-section{
-            margin-top: 4rem;
-            button{
+
+        .btn-section {
+            margin-top: 2rem;
+
+            button {
                 color: var(--white);
                 border-radius: 30px;
                 border: 1px solid var(--theam-colour);
@@ -1312,7 +1330,8 @@ header {
                 align-items: center;
                 width: 170px;
                 padding: 8px 5px;
-                &:hover{
+
+                &:hover {
                     border: 1px solid var(--light-blue);
                     background-color: var(--light-blue);
                 }
@@ -1322,48 +1341,149 @@ header {
 }
 
 /* ============= Member-detail-page-section End ====================*/
-.contact-admin-page-section{
-    .contact-admin-body{
+/* ========= contact-admin-page-section Start ============*/
+.contact-admin-page-section {
+    .contact-admin-body {
         margin-top: 10px;
-        .head-title{
-            p{
+
+        .head-title {
+            
+            p {
                 font-size: 1.3rem;
-                color:#545454 ;
+                color: #545454;
             }
         }
-        .connect-form-setion{
-            form{
-              .cheakbox-section{
-                display: inline-flex;
-                margin: 10px 0;
-              }  
-              textarea{
-                width: 100%;
-                border: 0.5px solid var(--gray);
-                padding: 10px;
-                margin: 10px 0;
-              }
-              .btn-section{
-                button{
-                    color: var(--white);
-                    border-radius: 30px;
-                    border: 1px solid var(--theam-colour);
-                    background-color: var(--theam-colour);
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 100px;
-                    padding: 8px 5px;
-                    &:hover{
-                        border: 1px solid var(--light-blue);
-                        background-color: var(--light-blue);
+
+        .connect-form-setion {
+            form {
+                .cheakbox-section {
+                    display: inline-flex;
+                    margin: 3px 0;
+                }
+
+                textarea {
+                    width: 100%;
+                    border: 0.5px solid var(--gray);
+                    padding: 10px;
+                    margin: 10px 0;
+                }
+
+                .btn-section {
+                    button {
+                        color: var(--white);
+                        border-radius: 30px;
+                        border: 1px solid var(--theam-colour);
+                        background-color: var(--theam-colour);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100px;
+                        padding: 8px 5px;
+
+                        &:hover {
+                            border: 1px solid var(--light-blue);
+                            background-color: var(--light-blue);
+                        }
                     }
                 }
-              }
             }
         }
     }
 }
+
+/* ========= contact-admin-page-section End ============*/
+/* ============ countries-communities-page-section start ============== */
+.countries-communities-page-section {
+    .countries-communities-body {
+        margin-top: 10px;
+
+        .head-title {
+            margin: 10px 0;
+
+            p {
+                font-size: 1.3rem;
+                color: #545454;
+            }
+        }
+
+        .table-section {
+            .tab-pane {
+                overflow-x: auto;
+            }
+
+            .dic-table {
+                margin-top: 15px;
+                min-width: 700px;
+                border-spacing: 0px 5px !important;
+                border-collapse: separate !important;
+
+                thead {
+                    tr {
+                        background-color: var(--secondery-bule-dark);
+
+                        th {
+                            padding: 15px;
+                            font-size: 1.3rem;
+                            font-weight: 400;
+                        }
+
+                        .country {
+                            width: 300px;
+                        }
+                    }
+
+                }
+
+                tbody {
+                    tr {
+                        background-color: var(--sky-blue);
+
+                        td {
+                            padding: 15px;
+
+                            a {
+                                font-size: 16px;
+                                color: var(--black);
+                            }
+                        }
+
+                        .dic-number {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+/* ============ countries-communities-page-section End ============== */
+/* =============== Users-Community-page-section start ==================*/
+.Users-Community-page-section {
+    .Users-Community-right-body {
+        margin: 10px 0;
+        .head-title {
+            font-size: 1.3rem;
+            margin: 10px 0;
+        }
+
+        .btn-section {
+            margin-top: 20px;
+            .btn-box {
+                border: 1px solid var(--orange);
+                padding: 7px 15px;
+                border-radius: 20px;
+                margin: 5px 10px;
+                cursor: pointer;
+                color: black;
+            }
+        }
+    }
+}
+
+/* =============== Users-Community-page-section End ==================*/
+
 /* ================== footer section start =============== */
 footer {
     margin-top: auto;

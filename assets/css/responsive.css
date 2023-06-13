@@ -77,6 +77,9 @@
     height: 50px;
   }
   /* ========= Discussion-comments-page-section End =========== */
+  .countries-communities-page-section .countries-communities-body .table-section .dic-table thead tr .country {
+    width: 244px;
+  }
 }
 @media (min-width: 991px) {
   .secondary-menu-section .dropdown-section:hover .dropdown-menu {
@@ -136,6 +139,19 @@
   }
   .Member-page-section .member-contain-section .member-boday {
     justify-content: center;
+  }
+  .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc .date-post {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .Document-page-section .Doc-card-section .edit-setion div {
+    border-left: 1px solid black;
+    padding: 5px;
   }
 }
 @media (max-width: 280px) {
