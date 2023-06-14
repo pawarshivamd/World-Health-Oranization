@@ -10,8 +10,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-<!-- font-awesome icon link -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font-awesome icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
@@ -22,111 +24,115 @@
 </head>
 
 <body>
-  <!-- header section Start -->
-  <header>
-    <div class="container">
-        <div class=" ms-auto">
-            <ul class=" d-flex justify-content-end align-items-center">
-                <li><a href="Contact-admin.html" class="contact-admin">Contact admin</a></li>
-                <li class="ms-lg-3 ms-md-3 ms-sm-0">
-                    <div class="dropdown">
+    <!-- header section Start -->
+    <header>
+        <div class="container">
+            <div class=" ms-auto">
+                <ul class=" d-flex justify-content-end align-items-center">
+                    <li><a href="Contact-admin.html" class="contact-admin">Contact admin</a></li>
+                    <li class="ms-lg-3 ms-md-3 ms-sm-0">
+                        <div class="dropdown">
 
-                        <div class="  dropdown-toggle user-dropdown" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            <div class="user-icon"><img src="assets/img/icon/user.png" alt=""> </div> Welcome Mr.
-                            Persons Name
+                            <div class="  dropdown-toggle user-dropdown" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <div class="user-icon"><img src="assets/img/icon/user.png" alt=""> </div> Welcome Mr.
+                                Persons Name
 
+                            </div>
+                            <ul class="dropdown-menu user-dropdown-menu">
+                                <li><a class="dropdown-item" href="#">View profile</a></li>
+                                <li><a class="dropdown-item" href="#">Edit profile</a></li>
+                                <li><a class="dropdown-item" href="Members-page.html">View Members</a></li>
+                                <li><a class="dropdown-item" href="Countries-Communities.html">Country/Community</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
                         </div>
-                        <ul class="dropdown-menu user-dropdown-menu">
-                            <li><a class="dropdown-item" href="#">View profile</a></li>
-                            <li><a class="dropdown-item" href="#">Edit profile</a></li>
-                            <li><a class="dropdown-item" href="Members-page.html">View Members</a></li>
-                            <li><a class="dropdown-item" href="Countries-Communities.html">Country/Community</a></li>
-                            <li><a class="dropdown-item" href="#">Logout</a></li>
-                        </ul>
+                    </li>
+                    <div class="ms-lg-3 ms-md-3 ms-sm-0">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>English</option>
+                            <option>English</option>
+                            <option>English</option>
+                        </select>
                     </div>
-                </li>
-                <div class="ms-lg-3 ms-md-3 ms-sm-0">
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>English</option>
-                        <option>English</option>
-                        <option>English</option>
-                    </select>
-                </div>
-            </ul>
-        </div>
-    </div>
-</header>
-<!-- header section end -->
-
-<div class="sticky-top"> 
-<!-- nvabar-setion start -->
-<nav class="navbar   nvabar-setion">
-    <div class="container">
-        <a class="navbar-brand "><img src="assets/img/logo/Group 34437@2x.png" alt=""></a>
-        <div class="d-flex">
-            <p class="nav-title"> Imputabiliteafro expert platform </p>
-        </div>
-    </div>
-</nav>
-<!-- nvabar-setion End -->
-<!-- secondary-menu-section start -->
-<div class="navbar navbar-expand-lg secondary-menu-section">
-    <div class="container">
-        <div class="col-lg-4 col-md-4 ">
-            <div class="dropdown  dropdown-section">
-                <div class=" dropdown-toggle dropdown-title " data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    <span>  Select Spaces </span>
-                    <span class="ms-auto icon-box"><iconify-icon 
-                            icon="teenyicons:up-solid" class="up-down-arro"></iconify-icon></span>
-                </div>
-                <ul class="dropdown-menu ">
-                    <li><a class="dropdown-item" href="#">Global </a></li>
-                    <li><a class="dropdown-item" href="#">Community 1</a></li>
-                    <li><a class="dropdown-item" href="#">Algeria</a></li>
                 </ul>
             </div>
         </div>
-        <div class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <!-- <span class="navbar-toggler-icon"></span> -->
-            <iconify-icon icon="ci:menu-alt-05"></iconify-icon>
-        </div>
-        <div class="collapse navbar-collapse col-lg-8" id="navbarSupportedContent">
-            <ul class="navbar-nav menu-iteam  mb-2 mb-lg-0 ">
+    </header>
+    <!-- header section end -->
 
-                <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="Documents-page.html">
-                        <div class="logo-img"><i class="fa-solid fa-book"></i></div><span> Documents
-                        </span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="News-page.html"><div class="logo-img"> <i class="fa-solid fa-newspaper"></i></div><span> News</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="Event-page.html"><div class="logo-img"> <i class="fa-solid fa-location-dot"></i></div><span>
-                            Events</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="Discussion-page.html">
-                        <div class="logo-img"><i class="fa-solid fa-comments"></i></div><span> Discussion
-                            forum</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Quiz-page.html">
-                        <div class=" logo-img"><i class="fa-solid fa-chart-simple"></i></div><span> Quiz</span>
-                    </a>
-                </li>
-            </ul>
+    <div class="sticky-top">
+        <!-- nvabar-setion start -->
+        <nav class="navbar   nvabar-setion">
+            <div class="container">
+                <a class="navbar-brand "><img src="assets/img/logo/Group 34437@2x.png" alt=""></a>
+                <div class="d-flex">
+                    <p class="nav-title"> Imputabiliteafro expert platform </p>
+                </div>
+            </div>
+        </nav>
+        <!-- nvabar-setion End -->
+        <!-- secondary-menu-section start -->
+        <div class="navbar navbar-expand-lg secondary-menu-section">
+            <div class="container">
+                <div class="col-lg-4 col-md-4 ">
+                    <div class="dropdown  dropdown-section">
+                        <div class=" dropdown-toggle dropdown-title " data-bs-toggle="dropdown" aria-expanded="false">
+                            <span> Select Spaces </span>
+                            <span class="ms-auto icon-box"><iconify-icon icon="teenyicons:up-solid"
+                                    class="up-down-arro"></iconify-icon></span>
+                        </div>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">Global </a></li>
+                            <li><a class="dropdown-item" href="#">Community 1</a></li>
+                            <li><a class="dropdown-item" href="#">Algeria</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <iconify-icon icon="ci:menu-alt-05"></iconify-icon>
+                </div>
+                <div class="collapse navbar-collapse col-lg-8" id="navbarSupportedContent">
+                    <ul class="navbar-nav menu-iteam  mb-2 mb-lg-0 ">
 
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="Documents-page.html">
+                                <div class="logo-img"><i class="fa-solid fa-book"></i></div><span> Documents
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="News-page.html">
+                                <div class="logo-img"> <i class="fa-solid fa-newspaper"></i></div><span> News</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="Event-page.html">
+                                <div class="logo-img"> <i class="fa-solid fa-location-dot"></i></div><span>
+                                    Events</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="Discussion-page.html">
+                                <div class="logo-img"><i class="fa-solid fa-comments"></i></div><span> Discussion
+                                    forum</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Quiz-page.html">
+                                <div class=" logo-img"><i class="fa-solid fa-chart-simple"></i></div><span> Quiz</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
         </div>
+        <!-- secondary-menu-section End -->
     </div>
-</div>
-<!-- secondary-menu-section End -->
-</div>
 
 
     <!-- News-page-section start -->
@@ -186,108 +192,123 @@
                     <div class="Discussion-right-Section">
                         <div class="Discussion-table-section">
 
-                       
-                        <table class="dic-table" cellspacing="10">
-                            <thead>
-                              <tr>
-                                <th >Sr.no</th>
-                                <th  class="Topic-section">Topic</th>
-                                <th ><i class="fa-solid fa-comment"></i></th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                                <!-- 1 -->
-                              <tr>
-                                <td class="dic-number" scope="row">1</td>
-                                <td>
-                                    <p class="dic-title"><a href="Discussion-comments.html"> Title name will come here </a></p> 
-                                    <p class="dic-date">Created on: 08-03-2023</p>
-                                </td>
-                                <th >40</th>
-                              </tr>
-                              <!-- 2 -->
-                              <tr>
-                                <td class="dic-number" scope="row">2</td>
-                                <td>
-                                    <p class="dic-title"><a href="Discussion-comments.html"> Title name will come here title name will come here title name will come here </a></p>
-                                    <p class="dic-date">Created on: 08-03-2023</p>
-                                </td>
-                                <th >20</th>
-                              </tr>
-                              <!-- 3 -->
-                              <tr>
-                                <td class="dic-number" scope="row">3</td>
-                                <td>
-                                    <p class="dic-title"><a href="Discussion-comments.html"> Title name will come here </a></p>
-                                    <p class="dic-date">Created on: 08-03-2023</p>
-                                </td>
-                                <th >40</th>
-                              </tr>
-                              <!-- 4 -->
-                              <tr>
-                                <td class="dic-number" scope="row">4</td>
-                                <td>
-                                    <p class="dic-title"><a href="Discussion-comments.html"> Title name will come here title name will come here title name will come here </a></p>
-                                    <p class="dic-date">Created on: 08-03-2023</p>
-                                </td>
-                                <th >20</th>
-                              </tr>
-                              <!-- 5 -->
-                              <tr>
-                                <td class="dic-number" scope="row">5</td>
-                                <td>
-                                    <p class="dic-title"><a href="Discussion-comments.html"> Title name will come here </a></p> 
-                                    <p class="dic-date">Created on: 08-03-2023</p>
-                                </td>
-                                <th >40</th>
-                              </tr>
-                              <!-- 6 -->
-                              <tr>
-                                <td class="dic-number" scope="row">6</td>
-                                <td>
-                                    <p class="dic-title"><a href="Discussion-comments.html"> Title name will come here title name will come here title name will come here </a></p>
-                                    <p class="dic-date">Created on: 08-03-2023</p>
-                                </td>
-                                <th >20</th>
-                              </tr>
-                              <!-- 7 -->
-                              <tr>
-                                <td class="dic-number" scope="row">7</td>
-                                <td>
-                                    <p class="dic-title"><a href="Discussion-comments.html"> Title name will come here </a></p> 
-                                    <p class="dic-date">Created on: 08-03-2023</p>
-                                </td>
-                                <th >40</th>
-                              </tr>
-                              <!-- 8 -->
-                              <tr>
-                                <td class="dic-number" scope="row">8</td>
-                                <td>
-                                    <p class="dic-title"><a href="Discussion-comments.html"> Title name will come here title name will come here title name will come here </a></p>
-                                    <p class="dic-date">Created on: 08-03-2023</p>
-                                </td>
-                                <th >20</th>
-                              </tr>
-                              <!-- 9 -->
-                              <tr>
-                                <td class="dic-number" scope="row">9</td>
-                                <td>
-                                    <p class="dic-title"><a href="Discussion-comments.html"> Title name will come here </a></p> 
-                                    <p class="dic-date">Created on: 08-03-2023</p>
-                                </td>
-                                <th >40</th>
-                              </tr>
-                              <!-- 10 -->
-                              <tr>
-                                <td class="dic-number" scope="row">10</td>
-                                <td>
-                                    <p class="dic-title"><a href="Discussion-comments.html"> Title name will come here title name will come here title name will come here </a></p>
-                                    <p class="dic-date">Created on: 08-03-2023</p>
-                                </td>
-                                <th >20</th>
-                              </tr>
-                            </tbody>
-                          </table>
+
+                            <table class="dic-table" cellspacing="10">
+                                <thead>
+                                    <tr>
+                                        <th>Sr.no</th>
+                                        <th class="Topic-section">Topic</th>
+                                        <th><i class="fa-solid fa-comment"></i></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- 1 -->
+                                    <tr>
+                                        <td class="dic-number" scope="row">1</td>
+                                        <td>
+                                            <p class="dic-title"><a href="Discussion-comments.html"> Title name will
+                                                    come here </a></p>
+                                            <p class="dic-date">Created on: 08-03-2023</p>
+                                        </td>
+                                        <th>40</th>
+                                    </tr>
+                                    <!-- 2 -->
+                                    <tr>
+                                        <td class="dic-number" scope="row">2</td>
+                                        <td>
+                                            <p class="dic-title"><a href="Discussion-comments.html"> Title name will
+                                                    come here title name will come here title name will come here </a>
+                                            </p>
+                                            <p class="dic-date">Created on: 08-03-2023</p>
+                                        </td>
+                                        <th>20</th>
+                                    </tr>
+                                    <!-- 3 -->
+                                    <tr>
+                                        <td class="dic-number" scope="row">3</td>
+                                        <td>
+                                            <p class="dic-title"><a href="Discussion-comments.html"> Title name will
+                                                    come here </a></p>
+                                            <p class="dic-date">Created on: 08-03-2023</p>
+                                        </td>
+                                        <th>40</th>
+                                    </tr>
+                                    <!-- 4 -->
+                                    <tr>
+                                        <td class="dic-number" scope="row">4</td>
+                                        <td>
+                                            <p class="dic-title"><a href="Discussion-comments.html"> Title name will
+                                                    come here title name will come here title name will come here </a>
+                                            </p>
+                                            <p class="dic-date">Created on: 08-03-2023</p>
+                                        </td>
+                                        <th>20</th>
+                                    </tr>
+                                    <!-- 5 -->
+                                    <tr>
+                                        <td class="dic-number" scope="row">5</td>
+                                        <td>
+                                            <p class="dic-title"><a href="Discussion-comments.html"> Title name will
+                                                    come here </a></p>
+                                            <p class="dic-date">Created on: 08-03-2023</p>
+                                        </td>
+                                        <th>40</th>
+                                    </tr>
+                                    <!-- 6 -->
+                                    <tr>
+                                        <td class="dic-number" scope="row">6</td>
+                                        <td>
+                                            <p class="dic-title"><a href="Discussion-comments.html"> Title name will
+                                                    come here title name will come here title name will come here </a>
+                                            </p>
+                                            <p class="dic-date">Created on: 08-03-2023</p>
+                                        </td>
+                                        <th>20</th>
+                                    </tr>
+                                    <!-- 7 -->
+                                    <tr>
+                                        <td class="dic-number" scope="row">7</td>
+                                        <td>
+                                            <p class="dic-title"><a href="Discussion-comments.html"> Title name will
+                                                    come here </a></p>
+                                            <p class="dic-date">Created on: 08-03-2023</p>
+                                        </td>
+                                        <th>40</th>
+                                    </tr>
+                                    <!-- 8 -->
+                                    <tr>
+                                        <td class="dic-number" scope="row">8</td>
+                                        <td>
+                                            <p class="dic-title"><a href="Discussion-comments.html"> Title name will
+                                                    come here title name will come here title name will come here </a>
+                                            </p>
+                                            <p class="dic-date">Created on: 08-03-2023</p>
+                                        </td>
+                                        <th>20</th>
+                                    </tr>
+                                    <!-- 9 -->
+                                    <tr>
+                                        <td class="dic-number" scope="row">9</td>
+                                        <td>
+                                            <p class="dic-title"><a href="Discussion-comments.html"> Title name will
+                                                    come here </a></p>
+                                            <p class="dic-date">Created on: 08-03-2023</p>
+                                        </td>
+                                        <th>40</th>
+                                    </tr>
+                                    <!-- 10 -->
+                                    <tr>
+                                        <td class="dic-number" scope="row">10</td>
+                                        <td>
+                                            <p class="dic-title"><a href="Discussion-comments.html"> Title name will
+                                                    come here title name will come here title name will come here </a>
+                                            </p>
+                                            <p class="dic-date">Created on: 08-03-2023</p>
+                                        </td>
+                                        <th>20</th>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -295,29 +316,29 @@
         </div>
     </div>
 
-<!-- news-page-section End -->
-<footer>
-    <div class="container">
-        <div class="d-flex align-items-center justify-content-between">
-            <div class="col-lg-4 col-md-4 col-sm-6 ">
-                <div class="text-center">
-                <a href="#" class="connect-info">Connect with us</a>
-            </div>
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-6">
-                <div>
-                <ul class="footer-icon-box">
-                    <li class="icon"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li class="icon"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                    <li class="icon"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                            <li class="icon icon-b"><a href="#"><i class="fa-solid fa-rss"></i></a></li>
+    <!-- news-page-section End -->
+    <footer>
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="col-lg-4 col-md-4 col-sm-6 ">
+                    <div class="text-center">
+                        <a href="#" class="connect-info">Connect with us</a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-6">
+                    <div>
+                        <ul class="footer-icon-box">
+                            <li class="icon"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="icon"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li class="icon"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li class="icon icon-b"><a href="#"><i class="fa-solid fa-rss"></i></a></li>
 
-                </ul>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
     <!-- iconify icon -->
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>

@@ -9,8 +9,10 @@
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <!-- font-awesome icon link -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font-awesome icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
@@ -21,111 +23,115 @@
 </head>
 
 <body>
-  <!-- header section Start -->
-  <header>
-    <div class="container">
-        <div class=" ms-auto">
-            <ul class=" d-flex justify-content-end align-items-center">
-                <li><a href="Contact-admin.html" class="contact-admin">Contact admin</a></li>
-                <li class="ms-lg-3 ms-md-3 ms-sm-0">
-                    <div class="dropdown">
+    <!-- header section Start -->
+    <header>
+        <div class="container">
+            <div class=" ms-auto">
+                <ul class=" d-flex justify-content-end align-items-center">
+                    <li><a href="Contact-admin.html" class="contact-admin">Contact admin</a></li>
+                    <li class="ms-lg-3 ms-md-3 ms-sm-0">
+                        <div class="dropdown">
 
-                        <div class="  dropdown-toggle user-dropdown" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            <div class="user-icon"><img src="assets/img/icon/user.png" alt=""> </div> Welcome Mr.
-                            Persons Name
+                            <div class="  dropdown-toggle user-dropdown" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <div class="user-icon"><img src="assets/img/icon/user.png" alt=""> </div> Welcome Mr.
+                                Persons Name
 
+                            </div>
+                            <ul class="dropdown-menu user-dropdown-menu">
+                                <li><a class="dropdown-item" href="#">View profile</a></li>
+                                <li><a class="dropdown-item" href="#">Edit profile</a></li>
+                                <li><a class="dropdown-item" href="Members-page.html">View Members</a></li>
+                                <li><a class="dropdown-item" href="Countries-Communities.html">Country/Community</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
                         </div>
-                        <ul class="dropdown-menu user-dropdown-menu">
-                            <li><a class="dropdown-item" href="#">View profile</a></li>
-                            <li><a class="dropdown-item" href="#">Edit profile</a></li>
-                            <li><a class="dropdown-item" href="Members-page.html">View Members</a></li>
-                            <li><a class="dropdown-item" href="Countries-Communities.html">Country/Community</a></li>
-                            <li><a class="dropdown-item" href="#">Logout</a></li>
-                        </ul>
+                    </li>
+                    <div class="ms-lg-3 ms-md-3 ms-sm-0">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>English</option>
+                            <option>English</option>
+                            <option>English</option>
+                        </select>
                     </div>
-                </li>
-                <div class="ms-lg-3 ms-md-3 ms-sm-0">
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>English</option>
-                        <option>English</option>
-                        <option>English</option>
-                    </select>
-                </div>
-            </ul>
+                </ul>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
     <!-- header section end -->
 
-<div class="sticky-top"> 
-    <!-- nvabar-setion start -->
-    <nav class="navbar   nvabar-setion">
-        <div class="container">
-            <a class="navbar-brand "><img src="assets/img/logo/Group 34437@2x.png" alt=""></a>
-            <div class="d-flex">
-                <p class="nav-title"> Imputabiliteafro expert platform </p>
-            </div>
-        </div>
-    </nav>
-  <!-- nvabar-setion End -->
-    <!-- secondary-menu-section start -->
-    <div class="navbar navbar-expand-lg secondary-menu-section">
-        <div class="container">
-            <div class="col-lg-4 col-md-4 ">
-                <div class="dropdown  dropdown-section">
-                    <div class=" dropdown-toggle dropdown-title " data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <span>  Select Spaces </span>
-                        <span class="ms-auto icon-box"><iconify-icon 
-                                icon="teenyicons:up-solid" class="up-down-arro"></iconify-icon></span>
-                    </div>
-                    <ul class="dropdown-menu ">
-                        <li><a class="dropdown-item" href="#">Global </a></li>
-                        <li><a class="dropdown-item" href="#">Community 1</a></li>
-                        <li><a class="dropdown-item" href="#">Algeria</a></li>
-                    </ul>
+    <div class="sticky-top">
+        <!-- nvabar-setion start -->
+        <nav class="navbar   nvabar-setion">
+            <div class="container">
+                <a class="navbar-brand "><img src="assets/img/logo/Group 34437@2x.png" alt=""></a>
+                <div class="d-flex">
+                    <p class="nav-title"> Imputabiliteafro expert platform </p>
                 </div>
             </div>
-            <div class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <!-- <span class="navbar-toggler-icon"></span> -->
-                <iconify-icon icon="ci:menu-alt-05"></iconify-icon>
-            </div>
-            <div class="collapse navbar-collapse col-lg-8" id="navbarSupportedContent">
-                <ul class="navbar-nav menu-iteam  mb-2 mb-lg-0 ">
+        </nav>
+        <!-- nvabar-setion End -->
+        <!-- secondary-menu-section start -->
+        <div class="navbar navbar-expand-lg secondary-menu-section">
+            <div class="container">
+                <div class="col-lg-4 col-md-4 ">
+                    <div class="dropdown  dropdown-section">
+                        <div class=" dropdown-toggle dropdown-title " data-bs-toggle="dropdown" aria-expanded="false">
+                            <span> Select Spaces </span>
+                            <span class="ms-auto icon-box"><iconify-icon icon="teenyicons:up-solid"
+                                    class="up-down-arro"></iconify-icon></span>
+                        </div>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">Global </a></li>
+                            <li><a class="dropdown-item" href="#">Community 1</a></li>
+                            <li><a class="dropdown-item" href="#">Algeria</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <iconify-icon icon="ci:menu-alt-05"></iconify-icon>
+                </div>
+                <div class="collapse navbar-collapse col-lg-8" id="navbarSupportedContent">
+                    <ul class="navbar-nav menu-iteam  mb-2 mb-lg-0 ">
 
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="Documents-page.html">
-                            <div class="logo-img"><i class="fa-solid fa-book"></i></div><span> Documents
-                            </span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="News-page.html"><div class="logo-img"> <i class="fa-solid fa-newspaper"></i></div><span> News</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="Event-page.html"><div class="logo-img"> <i class="fa-solid fa-location-dot"></i></div><span>
-                                Events</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Discussion-page.html">
-                            <div class="logo-img"><i class="fa-solid fa-comments"></i></div><span> Discussion
-                                forum</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Quiz-page.html">
-                            <div class=" logo-img"><i class="fa-solid fa-chart-simple"></i></div><span> Quiz</span>
-                        </a>
-                    </li>
-                </ul>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Documents-page.html">
+                                <div class="logo-img"><i class="fa-solid fa-book"></i></div><span> Documents
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="News-page.html">
+                                <div class="logo-img"> <i class="fa-solid fa-newspaper"></i></div><span> News</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="Event-page.html">
+                                <div class="logo-img"> <i class="fa-solid fa-location-dot"></i></div><span>
+                                    Events</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Discussion-page.html">
+                                <div class="logo-img"><i class="fa-solid fa-comments"></i></div><span> Discussion
+                                    forum</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Quiz-page.html">
+                                <div class=" logo-img"><i class="fa-solid fa-chart-simple"></i></div><span> Quiz</span>
+                            </a>
+                        </li>
+                    </ul>
 
+                </div>
             </div>
         </div>
+        <!-- secondary-menu-section End -->
     </div>
-<!-- secondary-menu-section End -->
-</div>
 
 
     <div class="Document-details-page-section">
@@ -181,53 +187,87 @@
                     </aside>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-12 order-1 order-lg-2  order-md-2">
-                   <div class="doc-details-right-section">
+                    <div class="doc-details-right-section">
                         <div class="doc-details-box">
                             <div class="doc-details-title">
                                 <a href="#" class="main-title">Case ID 24 digits will come here</a>
                                 <div class="text-info-box">
-                                    <p >Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here</p>
+                                    <p>Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here</p>
                                 </div>
+                            </div>
+                            <div class="doc-details-btn-setion">
+                                <div class="all-btn-setion">
+                                    <p class="btn-box ">Newborn</p>
+                                    <p class="btn-box ">14 November 2022</p>
+                                    <p class="btn-box ">On going investigation</p>
+                                    <p class="btn-box ">A1</p>
+                                    <p class="btn-box ">Analysed</p>
                                 </div>
-                                <div class="doc-details-btn-setion">
-                                    <div class="all-btn-setion">
-                                        <p class="btn-box ">Newborn</p>
-                                        <p class="btn-box ">14 November 2022</p>
-                                        <p class="btn-box ">On going investigation</p>
-                                        <p class="btn-box ">A1</p>
-                                        <p class="btn-box ">Analysed</p>
-                                    </div>
+                            </div>
+                            <div class="list-group-doc">
+
+                                <div class="list-inline-box"> <span class="number-list">1</span>
+                                    <p>Classification sheet &lt; case ID 24 digits &gt; </p>
                                 </div>
-                                <div class="list-group-doc">
-                                    
-                                        <div class="list-inline-box"> <span class="number-list">1</span>  <p>Classification sheet &lt; case ID 24 digits &gt;  </p></div>
-                                        <div class="list-inline-box"> <span class="number-list">2</span>  <p>Investigation sheet &lt; case ID 24 digits &gt;  </p></div>
-                                        <div class="list-inline-box"> <span class="number-list">3</span>  <p>Medical file &lt; case ID 24 digits &gt;  </p></div>
-                                        <div class="list-inline-box"> <span class="number-list">4</span>  <p>Accountability report &lt; case ID 24 digits &gt;  </p></div>
-                                        <div class="list-inline-box"> <span class="number-list">5</span>  <p>Other documents &lt; case ID 24 digits &gt;  </p></div>
+                                <div class="list-inline-box"> <span class="number-list">2</span>
+                                    <p>Investigation sheet &lt; case ID 24 digits &gt; </p>
                                 </div>
-                                <div class="">
+                                <div class="list-inline-box"> <span class="number-list">3</span>
+                                    <p>Medical file &lt; case ID 24 digits &gt; </p>
+                                </div>
+                                <div class="list-inline-box"> <span class="number-list">4</span>
+                                    <p>Accountability report &lt; case ID 24 digits &gt; </p>
+                                </div>
+                                <div class="list-inline-box"> <span class="number-list">5</span>
+                                    <p>Other documents &lt; case ID 24 digits &gt; </p>
+                                </div>
+                            </div>
+                            <div class="">
                                 <div class="doc-contain-box">
                                     <a href="#" class="title-text">Arguments:</a>
-                                    <p>Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here</p>
+                                    <p>Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here</p>
                                 </div>
                                 <div class="doc-contain-box">
                                     <a href="#" class="title-text">Recommendations:</a>
-                                    <p>Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here</p>
+                                    <p>Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here</p>
                                 </div>
                                 <div class="doc-contain-box">
                                     <a href="#" class="title-text">Arguments:</a>
-                                    <p>Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here</p>
+                                    <p>Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here</p>
                                 </div>
                                 <div class="doc-contain-box">
                                     <a href="#" class="title-text">Bibliography:</a>
-                                    <p>Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here</p>
+                                    <p>Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here</p>
                                 </div>
                                 <div class="doc-contain-box">
                                     <a href="#" class="title-text">Comments:</a>
-                                    <p>Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here Sample text will come here</p>
+                                    <p>Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here Sample text will come here Sample text will come here
+                                        Sample text will come here</p>
                                 </div>
-                                
+
                             </div>
                             <div class="text-end back-btn-box">
                                 <a href="#" class="Back-doc">Back</a>
@@ -237,42 +277,44 @@
                         <div class="reviews-section">
                             <div class="reviews-box">
                                 <div class="img-section">
-                                <div class="img-reviews-box">
-                                    <img src="assets/img/all/profile.png" alt="">
-                                </div>
+                                    <div class="img-reviews-box">
+                                        <img src="assets/img/all/profile.png" alt="">
+                                    </div>
                                 </div>
                                 <div class="reviews-chate-box">
-                                    <div class="title-Setion-doc" >
+                                    <div class="title-Setion-doc">
 
                                         <p class="name-title">Name will come here </p>
                                         <p class="date-post">Posted on: 08-03-2023 </p>
                                     </div>
-                                    <p class="Description-text" >Description will come here description will come here description will come here description will come here Description will come here description will come here description will come here </p>
+                                    <p class="Description-text">Description will come here description will come here
+                                        description will come here description will come here Description will come here
+                                        description will come here description will come here </p>
 
                                 </div>
                             </div>
                             <div class="reviews-box">
                                 <div class="img-section">
-                                <div class="img-reviews-box">
-                                    <img src="assets/img/all/profile.png" alt="">
-                                </div>
+                                    <div class="img-reviews-box">
+                                        <img src="assets/img/all/profile.png" alt="">
+                                    </div>
                                 </div>
                                 <div class="reviews-commnent">
-                    
+
                                     <div class="reviews-chate-comment-box">
-                                        <textarea name="" id=""  rows="5" placeholder="Post new comment"></textarea>
-                                       
+                                        <textarea name="" id="" rows="5" placeholder="Post new comment"></textarea>
+
                                     </div>
-                                   
-                                
-                                <div class="post-btn">
-                                    <p>Post</p>
-                                </div>
+
+
+                                    <div class="post-btn">
+                                        <p>Post</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                   </div>
-                    
+                    </div>
+
                 </div>
             </div>
 
@@ -284,18 +326,18 @@
             <div class="d-flex align-items-center justify-content-between">
                 <div class="col-lg-4 col-md-4 col-sm-6 ">
                     <div class="text-center">
-                    <a href="#" class="connect-info">Connect with us</a>
-                </div>
+                        <a href="#" class="connect-info">Connect with us</a>
+                    </div>
                 </div>
                 <div class="col-lg-8 col-md-8 col-sm-6">
                     <div>
-                    <ul class="footer-icon-box">
-                        <li class="icon"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li class="icon"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                        <li class="icon"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                                <li class="icon icon-b"><a href="#"><i class="fa-solid fa-rss"></i></a></li>
+                        <ul class="footer-icon-box">
+                            <li class="icon"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="icon"><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li class="icon"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li class="icon icon-b"><a href="#"><i class="fa-solid fa-rss"></i></a></li>
 
-                    </ul>
+                        </ul>
                     </div>
                 </div>
             </div>
