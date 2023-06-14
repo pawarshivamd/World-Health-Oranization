@@ -902,6 +902,9 @@ header select:focus {
 
 /* =========== Quiz-page-section End =============*/
 /* =========== Quiz-answer-page-section Start =============*/
+.Quiz-answer-page-section .Quiz-answer-right-section {
+  margin-top: 10px;
+}
 .Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box {
   background-color: #EEEEEE;
   padding: 20px;

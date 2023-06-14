@@ -1,104 +1,121 @@
-@media (max-width:991px){
-    /* ==============   header section start  ============== */
-header {
-    ul {
-        padding: 0;
-        li {
-            .contact-admin {
-                font-size: 12px;
-                margin-right: 8px;
-            }
+@media (max-width:991px) {
 
-            .user-dropdown {
-                font-size: 12px;
-                .user-icon {
-                    width: 15px !important;
-                    margin-right: 5px;
+    /* ==============   header section start  ============== */
+    header {
+        ul {
+            padding: 0;
+
+            li {
+                .contact-admin {
+                    font-size: 12px;
+                    margin-right: 8px;
+                }
+
+                .user-dropdown {
+                    font-size: 12px;
+
+                    .user-icon {
+                        width: 15px !important;
+                        margin-right: 5px;
+                    }
                 }
             }
         }
-    }
-    .form-select{
-        font-size: 12px;
-    }
-}
 
-/* ================  header section End  ============= */
-    .nvabar-setion{
-        .navbar-brand{
+        .form-select {
+            font-size: 12px;
+        }
+    }
+
+    /* ================  header section End  ============= */
+    .nvabar-setion {
+        .navbar-brand {
             width: 90px;
         }
-        .nav-title{
+
+        .nav-title {
             font-size: 17px;
         }
     }
 
 
-.loging-page-section{
-    .left-contain{
-        padding: 30px;
-       .text-container{
-        .text-title{
-            font-size: 26px;
-            span{
-                font-size: 26px;
-            }
-        }
-        .info-title{
-            font-size: 17px;
-            color: var(--white);
-            padding-top: 30px;
-        }
-       } 
-    }
-    .right-contain{
-       
-        padding: 30PX;
-        .from-section{
-         
-            .input-text{
-                padding: 10px 5px;
-            }
-            .btn-sing-in{
-                padding: 10px 25px;
-            }
-          
-        }
-    }
-}
-.all-blog-contain .btn-box .Download-btn {
-    width: 116px;
-    padding: 5px 10px;
-    font-size: 14px;
-}
-.Latest-updates-section {
-    top: 99px;
-}
+    .loging-page-section {
+        .left-contain {
+            padding: 30px;
 
-/* ======== Document-details-page-section start =========*/
-.Document-details-page-section .doc-details-right-section .doc-details-box .back-btn-box {
-margin-right: 20px;
-}
+            .text-container {
+                .text-title {
+                    font-size: 26px;
 
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section .img-reviews-box {
-    width: 50px;
-    height: 50px;
-}
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section {
-    width: 80px;
-}
-/* ======== Document-details-page-section End =========*/
+                    span {
+                        font-size: 26px;
+                    }
+                }
+
+                .info-title {
+                    font-size: 17px;
+                    color: var(--white);
+                    padding-top: 30px;
+                }
+            }
+        }
+
+        .right-contain {
+
+            padding: 30PX;
+
+            .from-section {
+
+                .input-text {
+                    padding: 10px 5px;
+                }
+
+                .btn-sing-in {
+                    padding: 10px 25px;
+                }
+
+            }
+        }
+    }
+
+    .all-blog-contain .btn-box .Download-btn {
+        width: 116px;
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .Latest-updates-section {
+        top: 99px;
+    }
+
+    /* ======== Document-details-page-section start =========*/
+    .Document-details-page-section .doc-details-right-section .doc-details-box .back-btn-box {
+        margin-right: 20px;
+    }
+
+    .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section .img-reviews-box {
+        width: 50px;
+        height: 50px;
+    }
+
+    .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section {
+        width: 80px;
+    }
+
+    /* ======== Document-details-page-section End =========*/
     /* ========= Discussion-comments-page-section Start =========== */
 
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section {
-    width: 80px;
- 
-}
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-}
+    .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section {
+        width: 80px;
+
+    }
+
+    .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+
     /* ========= Discussion-comments-page-section End =========== */
     .countries-communities-page-section .countries-communities-body .table-section .dic-table thead tr .country {
         width: 244px;
@@ -106,159 +123,179 @@ margin-right: 20px;
 }
 
 @media (min-width:991px) {
-    .secondary-menu-section{
-        .dropdown-section{
-            &:hover{
-                .dropdown-menu{
+    .secondary-menu-section {
+        .dropdown-section {
+            &:hover {
+                .dropdown-menu {
                     position: absolute !important;
-                   display: block !important;
-                   margin-top: 0px;
+                    display: block !important;
+                    margin-top: 0px;
                 }
             }
         }
     }
 
-    .Document-page-section{
-        .Doc-contain-section{
-            .dropdown{
-                &:hover{
-                    .dropdown-menu{
+    .Document-page-section {
+        .Doc-contain-section {
+            .dropdown {
+                &:hover {
+                    .dropdown-menu {
                         position: absolute !important;
-                       display: block !important;
-                       margin-top: 1px;
+                        display: block !important;
+                        margin-top: 1px;
                     }
                 }
             }
         }
     }
-    .Member-page-section{
 
-        .member-contain-section{
-            .dropdown{
-                &:hover{
-                    .dropdown-menu{
+    .Member-page-section {
+
+        .member-contain-section {
+            .dropdown {
+                &:hover {
+                    .dropdown-menu {
                         position: absolute !important;
-                       display: block !important;
-                       margin-top: 1px;
+                        display: block !important;
+                        margin-top: 1px;
                     }
                 }
             }
         }
     }
 }
-@media (max-width:767px ){
+
+@media (max-width:767px) {
     .nvabar-setion .nav-title {
         font-size: 15px;
     }
+
     .secondary-menu-section .dropdown-section .dropdown-title {
         width: 128%;
         padding: 5px 5px;
     }
-    .secondary-menu-section .dropdown-section .dropdown-menu{
+
+    .secondary-menu-section .dropdown-section .dropdown-menu {
         width: 128%;
     }
 
     /* ========= Discussion-comments-page-section Start =========== */
-.Discussion-comments-page-section{
-    .Discussion-comments-box{
-        .dic-comment-head-setion{
-            margin:10px 0;
-            padding: 20px 0 ;
-            p{
-                color: var(--white);
-                font-size: 0.9rem;
-            }
-            .back-btn{
-                padding: 5px 15px ;
-            }
-        }
-        .dic-comment-box{
-            .reviews-box {
-                .img-section {
-                    .img-reviews-box {
-                        border-radius: 50%;
-                    }
+    .Discussion-comments-page-section {
+        .Discussion-comments-box {
+            .dic-comment-head-setion {
+                margin: 10px 0;
+                padding: 20px 0;
+
+                p {
+                    color: var(--white);
+                    font-size: 0.9rem;
                 }
-                .reviews-chate-box {
-                    .title-Setion-dic{
-                        display: flex;
-                        justify-content: space-between;
-                        flex-wrap: wrap;
-                        .date-post {
-                            margin-left: 0px;
-                            margin-top: 10px;
+
+                .back-btn {
+                    padding: 5px 15px;
+                }
+            }
+
+            .dic-comment-box {
+                .reviews-box {
+                    .img-section {
+                        .img-reviews-box {
+                            border-radius: 50%;
                         }
                     }
-                    
+
+                    .reviews-chate-box {
+                        .title-Setion-dic {
+                            display: flex;
+                            justify-content: space-between;
+                            flex-wrap: wrap;
+
+                            .date-post {
+                                margin-left: 0px;
+                                margin-top: 10px;
+                            }
+                        }
+
+                    }
                 }
             }
         }
     }
-}
 
-/* ========= Discussion-comments-page-section End =========== */
-.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form {
-    padding: 0 0px;
-}
-.Member-page-section .member-contain-section .member-boday {
-    justify-content: center;
-}
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    .date-post {
-        margin-left: 0px;
-        margin-top: 10px;
+    /* ========= Discussion-comments-page-section End =========== */
+    .Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form {
+        padding: 0 0px;
+    }
+
+    .Member-page-section .member-contain-section .member-boday {
+        justify-content: center;
+    }
+
+    .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .date-post {
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+    }
+
+    .Document-page-section .Doc-card-section .edit-setion div {
+        border-left: 1px solid black;
+        padding: 5px;
+
+    }
+
+    .Document-page-section .Doc-card-section .edit-setion {
+
+        margin-right: 10px;
     }
 }
-.Document-page-section .Doc-card-section .edit-setion div {
-    border-left: 1px solid black;
-    padding: 5px;
 
-}
-
-.Document-page-section .Doc-card-section .edit-setion {
-
-    margin-right: 10px;
-}
-}   
-@media (max-width:280px){
-    .nvabar-setion{
-        .navbar-brand{
+@media (max-width:280px) {
+    .nvabar-setion {
+        .navbar-brand {
             width: 50px;
         }
-        .nav-title{
+
+        .nav-title {
             font-size: 14px;
         }
     }
 
 
-.loging-page-section{
-    .left-contain{
-        padding: 20px;
-       .text-container{
-        .text-title{
-            font-size: 36px;
-            span{
-                font-size: 36px;
+    .loging-page-section {
+        .left-contain {
+            padding: 20px;
+
+            .text-container {
+                .text-title {
+                    font-size: 36px;
+
+                    span {
+                        font-size: 36px;
+                    }
+                }
             }
         }
-       } 
-    }
-    .right-contain{
-       
-        padding: 15PX;
-        .from-section{
-         
-            .input-text{
-                padding: 7px 5px;
+
+        .right-contain {
+
+            padding: 15PX;
+
+            .from-section {
+
+                .input-text {
+                    padding: 7px 5px;
+                }
+
+                .btn-sing-in {
+                    padding: 7px 10px;
+                }
+
             }
-            .btn-sing-in{
-                padding: 7px 10px;
-            }
-          
         }
     }
-}
 }
