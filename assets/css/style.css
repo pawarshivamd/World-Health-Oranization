@@ -206,8 +206,12 @@ header select:focus {
 .secondary-menu-section .dropdown-section .dropdown-title::after {
   border: none;
 }
-.secondary-menu-section .dropdown-section .dropdown-title .icon-box iconify-icon {
+.secondary-menu-section .dropdown-section .dropdown-title .icon-box i {
   rotate: 180deg;
+  font-size: 1.3rem;
+}
+.secondary-menu-section .dropdown-section .dropdown-title:hover i {
+  rotate: 0deg;
 }
 .secondary-menu-section .dropdown-section .dropdown-title:hover .up-down-arro {
   rotate: 0deg;
@@ -250,6 +254,11 @@ header select:focus {
   font-weight: 500;
 }
 .secondary-menu-section .menu-iteam li a iconify-icon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: var(--black);
+}
+.secondary-menu-section .menu-iteam li a i {
   font-size: 20px;
   margin-right: 10px;
   color: var(--black);
@@ -410,7 +419,14 @@ header select:focus {
 .Document-page-section .Doc-contain-section .dropdown .dropdown-title .icon-box iconify-icon {
   rotate: 180deg;
 }
+.Document-page-section .Doc-contain-section .dropdown .dropdown-title .icon-box i {
+  rotate: 180deg;
+  font-size: 1.3rem;
+}
 .Document-page-section .Doc-contain-section .dropdown .dropdown-title:hover iconify-icon {
+  rotate: 0deg;
+}
+.Document-page-section .Doc-contain-section .dropdown .dropdown-title:hover i {
   rotate: 0deg;
 }
 .Document-page-section .Doc-contain-section .dropdown .dropdown-menu {
@@ -658,6 +674,13 @@ header select:focus {
 }
 .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .Description-text {
   padding: 10px 0;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .edit-bar {
+  display: flex;
+}
+.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .edit-bar a {
+  color: var(--theam-colour);
+  margin-right: 1.5rem;
 }
 
 /* ============= Document-details-page-section End  =============== */
@@ -1000,10 +1023,17 @@ header select:focus {
 .Member-page-section .member-contain-section .dropdown .dropdown-title::after {
   border: none;
 }
+.Member-page-section .member-contain-section .dropdown .dropdown-title .icon-box i {
+  rotate: 180deg;
+  font-size: 1.3rem;
+}
 .Member-page-section .member-contain-section .dropdown .dropdown-title .icon-box iconify-icon {
   rotate: 180deg;
 }
 .Member-page-section .member-contain-section .dropdown .dropdown-title:hover iconify-icon {
+  rotate: 0deg;
+}
+.Member-page-section .member-contain-section .dropdown .dropdown-title:hover i {
   rotate: 0deg;
 }
 .Member-page-section .member-contain-section .dropdown .dropdown-menu {
@@ -1268,12 +1298,6 @@ footer .footer-icon-box .icon i {
 }
 footer .footer-icon-box .icon-b {
   border: none;
-}
-footer .footer-icon-box .icon-info {
-  border: none;
-}
-footer .footer-icon-box .icon-info iconify-icon {
-  rotate: 45deg;
 }
 
 /* ================== footer section End =============== *//*# sourceMappingURL=style.css.map */

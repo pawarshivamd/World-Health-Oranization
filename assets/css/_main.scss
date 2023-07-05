@@ -115,12 +115,16 @@ header {
             }
 
             .icon-box {
-                iconify-icon {
+                i {
                     rotate: 180deg;
+                    font-size: 1.3rem;
                 }
             }
 
             &:hover {
+                i{
+                    rotate: 0deg;
+                }
                 .up-down-arro {
                     rotate: 0deg;
                 }
@@ -178,6 +182,11 @@ header {
                 font-weight: 500;
 
                 iconify-icon {
+                    font-size: 20px;
+                    margin-right: 10px;
+                    color: var(--black);
+                }
+                   i {
                     font-size: 20px;
                     margin-right: 10px;
                     color: var(--black);
@@ -384,13 +393,22 @@ header {
                 }
 
                 .icon-box {
-                    iconify-icon {
+                    iconify-icon{
                         rotate: 180deg;
                     }
+                    i {
+                        rotate: 180deg;
+                    font-size: 1.3rem;
+                    }
+
+                    
                 }
 
                 &:hover {
-                    iconify-icon {
+                     iconify-icon{
+                        rotate: 0deg;
+                    }
+                    i {
                         rotate: 0deg;
                     }
 
@@ -713,6 +731,14 @@ header {
 
                     .Description-text {
                         padding: 10px 0;
+                    }
+                    .edit-bar{
+                        display: flex;
+                        a{
+                            color: var(--theam-colour);
+                            margin-right:1.5rem ;
+
+                        }
                     }
                 }
             }
@@ -1174,13 +1200,20 @@ header {
                 }
 
                 .icon-box {
-                    iconify-icon {
+                    i {
+                        rotate: 180deg;
+                    font-size: 1.3rem;
+                    }
+                    iconify-icon{
                         rotate: 180deg;
                     }
                 }
 
                 &:hover {
-                    iconify-icon {
+                     iconify-icon{
+                        rotate: 0deg;
+                    }
+                    i {
                         rotate: 0deg;
                     }
 
@@ -1537,13 +1570,6 @@ footer {
             border: none;
         }
 
-        .icon-info {
-            border: none;
-
-            iconify-icon {
-                rotate: 45deg;
-            }
-        }
     }
 }
 
