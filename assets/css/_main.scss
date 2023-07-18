@@ -301,7 +301,14 @@ header {
 
 .all-blog-contain {
     margin: 10px 0px;
-
+    .baner-img{
+        height: 300px;
+        img{
+            height: 100%;
+            object-fit: contain;
+            object-position: center top;
+        }
+    }
     .btn-box {
         .Download-btn {
             width: 175px;
@@ -490,32 +497,40 @@ header {
 .News-page-section {
     .news-grid-section {
         margin-bottom: 10px;
-
-        .card-box {
-            margin-top: 1.5rem;
-            border-radius: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        padding-inline:0.5rem ;   
+        .card {
+            width: 49%;
+            padding: 0;
             border: 1px solid var(--gray);
-
+            margin-top: 1.5rem;
+        }
+            .img-box{
+                height: 300px;
+                img{
+                    height: 100%;
+                    object-fit: contain;
+                    object-position: center top;
+                }
+            }
             .card-body {
                 padding: 10px 20px;
-
                 .date {
                     color: var(--siment);
-
                 }
 
                 .card-text {
-                    padding: 20px 0px;
+                    padding: 10px 0px;
                     font-size: 1.3rem;
                     color: var(--black);
                     line-height: 28px;
-
                     &:hover {
                         color: var(--theam-colour);
                     }
                 }
-
-            }
         }
     }
 }

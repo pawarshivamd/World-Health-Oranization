@@ -348,6 +348,16 @@ header select:focus {
 .all-blog-contain {
   margin: 10px 0px;
 }
+.all-blog-contain .baner-img {
+  height: 300px;
+}
+.all-blog-contain .baner-img img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center top;
+     object-position: center top;
+}
 .all-blog-contain .btn-box .Download-btn {
   width: 175px;
   border: none;
@@ -485,25 +495,41 @@ header select:focus {
 /* ================ News-page-section Start ===================== */
 .News-page-section .news-grid-section {
   margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  padding-inline: 0.5rem;
 }
-.News-page-section .news-grid-section .card-box {
-  margin-top: 1.5rem;
-  border-radius: 0;
+.News-page-section .news-grid-section .card {
+  width: 49%;
+  padding: 0;
   border: 1px solid var(--gray);
+  margin-top: 1.5rem;
 }
-.News-page-section .news-grid-section .card-box .card-body {
+.News-page-section .news-grid-section .img-box {
+  height: 300px;
+}
+.News-page-section .news-grid-section .img-box img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center top;
+     object-position: center top;
+}
+.News-page-section .news-grid-section .card-body {
   padding: 10px 20px;
 }
-.News-page-section .news-grid-section .card-box .card-body .date {
+.News-page-section .news-grid-section .card-body .date {
   color: var(--siment);
 }
-.News-page-section .news-grid-section .card-box .card-body .card-text {
-  padding: 20px 0px;
+.News-page-section .news-grid-section .card-body .card-text {
+  padding: 10px 0px;
   font-size: 1.3rem;
   color: var(--black);
   line-height: 28px;
 }
-.News-page-section .news-grid-section .card-box .card-body .card-text:hover {
+.News-page-section .news-grid-section .card-body .card-text:hover {
   color: var(--theam-colour);
 }
 

@@ -77,7 +77,9 @@
             }
         }
     }
-
+    .all-blog-contain .baner-img{
+        height: 200px;
+    }
     .all-blog-contain .btn-box .Download-btn {
         width: 116px;
         padding: 5px 10px;
@@ -120,6 +122,32 @@
     .countries-communities-page-section .countries-communities-body .table-section .dic-table thead tr .country {
         width: 244px;
     }
+    /* ================ News-page-section Start ===================== */
+.News-page-section {
+    .news-grid-section {
+        .card {
+            width: 100%;
+            border: 1px solid var(--gray);
+        }
+        .card-box {
+            .img-box{
+                height: 200px;
+            }
+            .card-body {
+                padding: 10px 15px;
+                .card-text {
+                    padding: 7px 0px;
+                    font-size: 1.3rem;
+                    color: var(--black);
+                    line-height: 28px;
+                }
+
+            }
+        }
+    }
+}
+
+/* ================ News-page-section End ===================== */
 }
 
 @media (min-width:991px) {
