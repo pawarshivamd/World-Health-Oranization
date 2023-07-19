@@ -355,8 +355,8 @@ header select:focus {
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
-  -o-object-position: center top;
-     object-position: center top;
+  -o-object-position: center;
+     object-position: center;
 }
 .all-blog-contain .btn-box .Download-btn {
   width: 175px;
@@ -386,10 +386,10 @@ header select:focus {
 
 /* =================   all pages same blog-post-section section  End ============= */
 /* ================ Document-page-section Start ===================== */
-.Document-page-section .Doc-contain-section {
+.Doc-contain-section {
   margin: 10px 0px;
 }
-.Document-page-section .Doc-contain-section .search-section {
+.Doc-contain-section .search-section {
   width: 100%;
   display: flex;
   align-items: center;
@@ -397,103 +397,104 @@ header select:focus {
   border: 1px solid var(--gray);
   margin: 0px 0px 10px 0px;
 }
-.Document-page-section .Doc-contain-section .search-section .search__input {
+.Doc-contain-section .search-section .search__input {
   width: 98%;
   border: none;
   padding: 5px 10px;
 }
-.Document-page-section .Doc-contain-section .search-section .search__button {
+.Doc-contain-section .search-section .search__button {
   background: transparent;
   border: none;
   display: flex;
   align-items: center;
   margin-right: 6px;
 }
-.Document-page-section .Doc-contain-section .search-section .search__button .search__icon {
+.Doc-contain-section .search-section .search__button .search__icon {
   font-size: 20px;
   color: var(--black);
 }
-.Document-page-section .Doc-contain-section .dropdown {
+.Doc-contain-section .dropdown {
   border: 1px solid var(--gray);
   margin: 5px 0px;
 }
-.Document-page-section .Doc-contain-section .dropdown .dropdown-title {
+.Doc-contain-section .dropdown .dropdown-title {
   position: relative;
   padding: 7px 5px;
   display: flex;
   background-color: var(--light-gray);
 }
-.Document-page-section .Doc-contain-section .dropdown .dropdown-title::after {
+.Doc-contain-section .dropdown .dropdown-title::after {
   border: none;
 }
-.Document-page-section .Doc-contain-section .dropdown .dropdown-title .icon-box iconify-icon {
+.Doc-contain-section .dropdown .dropdown-title .icon-box iconify-icon {
   rotate: 180deg;
 }
-.Document-page-section .Doc-contain-section .dropdown .dropdown-title .icon-box i {
+.Doc-contain-section .dropdown .dropdown-title .icon-box i {
   rotate: 180deg;
   font-size: 1.3rem;
 }
-.Document-page-section .Doc-contain-section .dropdown .dropdown-title:hover iconify-icon {
+.Doc-contain-section .dropdown .dropdown-title:hover iconify-icon {
   rotate: 0deg;
 }
-.Document-page-section .Doc-contain-section .dropdown .dropdown-title:hover i {
+.Doc-contain-section .dropdown .dropdown-title:hover i {
   rotate: 0deg;
 }
-.Document-page-section .Doc-contain-section .dropdown .dropdown-menu {
+.Doc-contain-section .dropdown .dropdown-menu {
   border-top: none;
   border-radius: 0;
   margin-top: 0;
   width: 100%;
   background-color: var(--light-gray);
 }
-.Document-page-section .Doc-contain-section .dropdown .dropdown-menu li:hover {
+.Doc-contain-section .dropdown .dropdown-menu li:hover {
   background-color: var(--white);
 }
-.Document-page-section .Doc-contain-section .dropdown .dropdown-menu li:hover a {
+.Doc-contain-section .dropdown .dropdown-menu li:hover a {
   color: var(--dark-blue);
 }
-.Document-page-section .Doc-contain-section .dropdown .dropdown-menu li:hover a:focus {
+.Doc-contain-section .dropdown .dropdown-menu li:hover a:focus {
   background-color: transparent;
 }
-.Document-page-section .Doc-card-section {
+
+.Doc-card-section {
   display: flex;
   background-color: var(--sky-blue);
   padding: 10px;
   margin-top: 10px;
 }
-.Document-page-section .Doc-card-section .number-cards {
+.Doc-card-section .number-cards {
   text-align: center;
   font-weight: 300;
   font-size: 1.5rem;
 }
-.Document-page-section .Doc-card-section .Doc-card-title {
+.Doc-card-section .Doc-card-title {
   color: var(--black);
   font-size: 1.3rem;
   line-height: 18px;
   cursor: pointer;
 }
-.Document-page-section .Doc-card-section .Doc-card-title:hover {
+.Doc-card-section .Doc-card-title:hover {
   color: var(--theam-colour);
 }
-.Document-page-section .Doc-card-section .edit-setion {
+.Doc-card-section .edit-setion {
   display: flex;
   justify-content: space-evenly;
 }
-.Document-page-section .Doc-card-section .edit-setion div {
+.Doc-card-section .edit-setion div {
   border-left: 1px solid black;
   padding: 10px;
 }
-.Document-page-section .Doc-card-section .edit-setion div i {
+.Doc-card-section .edit-setion div i {
   font-size: 1.3rem;
 }
-.Document-page-section .Doc-card-section .temorary-access {
+.Doc-card-section .temorary-access {
   color: var(--theam-colour);
   text-decoration: underline;
 }
 
 /* ================ Document-page-section End ===================== */
 /* ================ News-page-section Start ===================== */
-.News-page-section .news-grid-section {
+.news-grid-section {
   margin-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -501,172 +502,183 @@ header select:focus {
   align-items: stretch;
   padding-inline: 0.5rem;
 }
-.News-page-section .news-grid-section .card {
+.news-grid-section .card {
   width: 49%;
   padding: 0;
   border: 1px solid var(--gray);
   margin-top: 1.5rem;
 }
-.News-page-section .news-grid-section .img-box {
-  height: 300px;
+.news-grid-section .img-box {
+  height: 280px;
 }
-.News-page-section .news-grid-section .img-box img {
+.news-grid-section .img-box img {
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
   -o-object-position: center top;
      object-position: center top;
 }
-.News-page-section .news-grid-section .card-body {
+.news-grid-section .card-body {
   padding: 10px 20px;
 }
-.News-page-section .news-grid-section .card-body .date {
+.news-grid-section .card-body .date {
   color: var(--siment);
 }
-.News-page-section .news-grid-section .card-body .card-text {
+.news-grid-section .card-body .card-text {
   padding: 10px 0px;
   font-size: 1.3rem;
   color: var(--black);
   line-height: 28px;
 }
-.News-page-section .news-grid-section .card-body .card-text:hover {
+.news-grid-section .card-body .card-text:hover {
   color: var(--theam-colour);
 }
 
 /* ================ News-page-section End ===================== */
 /* ============= Event-page-section start  =============== */
-.Event-page-section .Event-body {
+.Event-body {
   margin-top: 10px;
 }
-.Event-page-section .Event-body .event-card-body {
+.Event-body .event-card-body {
   background-color: var(--light-gray);
   border-radius: 10px;
   margin-bottom: 10px;
 }
-.Event-page-section .Event-body .event-card-body .event-contain-body {
+.Event-body .event-card-body .img-box {
+  height: 200px;
+  overflow: hidden;
+}
+.Event-body .event-card-body .img-box img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+.Event-body .event-card-body .event-contain-body {
   padding: 10px 10px;
 }
-.Event-page-section .Event-body .event-card-body .event-contain-body a .main-title {
+.Event-body .event-card-body .event-contain-body a .main-title {
   padding: 20px 0px;
   font-size: 1.3rem;
   color: var(--black);
   line-height: 28px;
 }
-.Event-page-section .Event-body .event-card-body .event-contain-body a .main-title:hover {
+.Event-body .event-card-body .event-contain-body a .main-title:hover {
   color: var(--theam-colour);
 }
-.Event-page-section .Event-body .event-card-body .event-contain-body .date {
+.Event-body .event-card-body .event-contain-body .date {
   color: var(--siment);
   padding: 5px 0px;
 }
 
 /* ============= Event-page-section End  =============== */
 /* ============= Document-details-page-section Start  =============== */
-.Document-details-page-section .doc-details-right-section {
+.doc-details-right-section {
   margin-top: 10px;
 }
-.Document-details-page-section .doc-details-right-section .doc-details-box {
+.doc-details-right-section .doc-details-box {
   border-bottom: 1px solid var(--gray);
   padding-bottom: 50px;
 }
-.Document-details-page-section .doc-details-right-section .doc-details-box .doc-details-title {
+.doc-details-right-section .doc-details-box .doc-details-title {
   margin-top: 22px;
 }
-.Document-details-page-section .doc-details-right-section .doc-details-box .doc-details-title .main-title {
+.doc-details-right-section .doc-details-box .doc-details-title .main-title {
   color: var(--black);
   font-size: 1.3rem;
   line-height: 18px;
   cursor: pointer;
 }
-.Document-details-page-section .doc-details-right-section .doc-details-box .doc-details-title .main-title:hover {
+.doc-details-right-section .doc-details-box .doc-details-title .main-title:hover {
   color: var(--theam-colour);
 }
-.Document-details-page-section .doc-details-right-section .doc-details-box .doc-details-title .text-info-box {
+.doc-details-right-section .doc-details-box .doc-details-title .text-info-box {
   padding: 10px 0px;
 }
-.Document-details-page-section .doc-details-right-section .doc-details-box .doc-details-btn-setion .all-btn-setion {
+.doc-details-right-section .doc-details-box .doc-details-btn-setion .all-btn-setion {
   display: flex;
   align-items: center;
   margin: 10px 0px;
   flex-wrap: wrap;
 }
-.Document-details-page-section .doc-details-right-section .doc-details-box .doc-details-btn-setion .all-btn-setion .btn-box {
+.doc-details-right-section .doc-details-box .doc-details-btn-setion .all-btn-setion .btn-box {
   border: 1px solid var(--orange);
   padding: 7px 15px;
   border-radius: 20px;
   margin: 5px 5px;
   cursor: pointer;
 }
-.Document-details-page-section .doc-details-right-section .doc-details-box .list-group-doc {
+.doc-details-right-section .doc-details-box .list-group-doc {
   padding: 10px 0;
 }
-.Document-details-page-section .doc-details-right-section .doc-details-box .list-group-doc .list-inline-box {
+.doc-details-right-section .doc-details-box .list-group-doc .list-inline-box {
   display: flex;
   background-color: var(--sky-blue);
   padding: 10px 5px;
   margin: 10px 0;
 }
-.Document-details-page-section .doc-details-right-section .doc-details-box .list-group-doc .list-inline-box .number-list {
+.doc-details-right-section .doc-details-box .list-group-doc .list-inline-box .number-list {
   margin-inline: 20px;
 }
-.Document-details-page-section .doc-details-right-section .doc-details-box .doc-contain-box {
+.doc-details-right-section .doc-details-box .doc-contain-box {
   margin: 25px 0;
 }
-.Document-details-page-section .doc-details-right-section .doc-details-box .doc-contain-box .title-text {
+.doc-details-right-section .doc-details-box .doc-contain-box .title-text {
   color: var(--dark-blue);
   font-size: 1.3rem;
 }
-.Document-details-page-section .doc-details-right-section .doc-details-box .back-btn-box {
+.doc-details-right-section .doc-details-box .back-btn-box {
   margin-right: 40px;
 }
-.Document-details-page-section .doc-details-right-section .doc-details-box .back-btn-box .Back-doc {
+.doc-details-right-section .doc-details-box .back-btn-box .Back-doc {
   color: var(--light-blue);
   text-decoration: underline;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section {
+.doc-details-right-section .reviews-section {
   margin: 50px 0;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box {
+.doc-details-right-section .reviews-section .reviews-box {
   display: flex;
   margin: 20px 0;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section {
+.doc-details-right-section .reviews-section .reviews-box .img-section {
   width: 100px;
   display: flex;
   justify-content: center;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section .img-reviews-box {
+.doc-details-right-section .reviews-section .reviews-box .img-section .img-reviews-box {
   border-radius: 50%;
   width: 66px;
   height: 66px;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section .img-reviews-box img {
+.doc-details-right-section .reviews-section .reviews-box .img-section .img-reviews-box img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
   border-radius: 50%;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-commnent {
+.doc-details-right-section .reviews-section .reviews-box .reviews-commnent {
   width: 500px;
   margin-left: 20px;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-commnent .reviews-chate-comment-box {
+.doc-details-right-section .reviews-section .reviews-box .reviews-commnent .reviews-chate-comment-box {
   width: min(100% - 0px, 89%);
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-commnent .reviews-chate-comment-box textarea {
+.doc-details-right-section .reviews-section .reviews-box .reviews-commnent .reviews-chate-comment-box textarea {
   width: 100%;
   border: 1px solid var(--siment);
   padding: 10px;
   border-radius: 9px;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-commnent .reviews-chate-comment-box textarea:focus {
+.doc-details-right-section .reviews-section .reviews-box .reviews-commnent .reviews-chate-comment-box textarea:focus {
   outline: none;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-commnent .post-btn {
+.doc-details-right-section .reviews-section .reviews-box .reviews-commnent .post-btn {
   margin-top: 20px;
   cursor: pointer;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-commnent .post-btn p {
+.doc-details-right-section .reviews-section .reviews-box .reviews-commnent .post-btn p {
   background-color: var(--theam-colour);
   width: 70px;
   height: 45px;
@@ -679,87 +691,87 @@ header select:focus {
   color: var(--white);
   cursor: pointer;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-commnent .post-btn p:hover {
+.doc-details-right-section .reviews-section .reviews-box .reviews-commnent .post-btn p:hover {
   background-color: var(--light-blue);
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box {
+.doc-details-right-section .reviews-section .reviews-box .reviews-chate-box {
   width: 500px;
   margin-left: 20px;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc {
+.doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc {
   display: flex;
   justify-content: space-between;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc .name-title {
+.doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc .name-title {
   font-size: 1.3rem;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc .date-post {
+.doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc .date-post {
   color: var(--siment);
   font-size: 1rem;
   margin-left: 20px;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .Description-text {
+.doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .Description-text {
   padding: 10px 0;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .edit-bar {
+.doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .edit-bar {
   display: flex;
 }
-.Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .edit-bar a {
+.doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .edit-bar a {
   color: var(--theam-colour);
   margin-right: 1.5rem;
 }
 
 /* ============= Document-details-page-section End  =============== */
 /* ================ Discussion forum  page Start =================== */
-.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section {
+.Discussion-right-Section .Discussion-table-section {
   margin-top: 5px;
 }
-.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table {
+.Discussion-right-Section .Discussion-table-section .dic-table {
   width: 100%;
   border-spacing: 0px 5px !important;
   border-collapse: separate !important;
 }
-.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table thead tr {
+.Discussion-right-Section .Discussion-table-section .dic-table thead tr {
   background-color: var(--secondery-bule-dark);
 }
-.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table thead tr th {
+.Discussion-right-Section .Discussion-table-section .dic-table thead tr th {
   padding: 15px;
   color: var(--t-color-7a7a7a);
   font-size: 1.3rem;
   font-weight: 400;
 }
-.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table thead tr .Topic-section {
+.Discussion-right-Section .Discussion-table-section .dic-table thead tr .Topic-section {
   background-color: var(--secondery-bule-dark);
   width: 70% !important;
 }
-.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr:nth-child(odd) {
+.Discussion-right-Section .Discussion-table-section .dic-table tbody tr:nth-child(odd) {
   background-color: var(--sky-blue);
 }
-.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr:nth-child(even) {
+.Discussion-right-Section .Discussion-table-section .dic-table tbody tr:nth-child(even) {
   background-color: var(--secondery-bule-dark);
 }
-.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr th {
+.Discussion-right-Section .Discussion-table-section .dic-table tbody tr th {
   padding: 15px;
 }
-.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr td {
+.Discussion-right-Section .Discussion-table-section .dic-table tbody tr td {
   padding: 15px;
 }
-.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr td .dic-title {
+.Discussion-right-Section .Discussion-table-section .dic-table tbody tr td .dic-title {
   font-size: 16px;
 }
-.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr td .dic-title a {
+.Discussion-right-Section .Discussion-table-section .dic-table tbody tr td .dic-title a {
   color: var(--black);
 }
-.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr td .dic-date {
+.Discussion-right-Section .Discussion-table-section .dic-table tbody tr td .dic-date {
   font-size: 12px;
 }
-.Discussion-forum-page-section .Discussion-right-Section .Discussion-table-section .dic-table tbody tr .dic-number {
+.Discussion-right-Section .Discussion-table-section .dic-table tbody tr .dic-number {
   font-size: 12px;
 }
 
 /* ================ Discussion forum page End =================== */
 /* ========= Discussion-comments-page-section Start =========== */
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion {
+.Discussion-comments-box .dic-comment-head-setion {
   margin: 10px 0;
   background-color: var(--light-blue);
   padding: 20px 0;
@@ -767,83 +779,83 @@ header select:focus {
   justify-content: space-around;
   align-items: center;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion p {
+.Discussion-comments-box .dic-comment-head-setion p {
   color: var(--white);
   font-size: 1.3rem;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion .back-btn {
+.Discussion-comments-box .dic-comment-head-setion .back-btn {
   padding: 10px 20px;
   width: 80px;
   border-radius: 40px;
   border: 1px solid var(--white);
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion .back-btn a {
+.Discussion-comments-box .dic-comment-head-setion .back-btn a {
   color: var(--theam-colour);
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion .back-btn a .add {
+.Discussion-comments-box .dic-comment-head-setion .back-btn a .add {
   display: none;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion .back-btn:hover {
+.Discussion-comments-box .dic-comment-head-setion .back-btn:hover {
   background-color: var(--theam-colour);
   border: 1px solid var(--theam-colour);
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion .back-btn:hover .add {
+.Discussion-comments-box .dic-comment-head-setion .back-btn:hover .add {
   display: block;
   color: var(--white);
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion .back-btn:hover .back {
+.Discussion-comments-box .dic-comment-head-setion .back-btn:hover .back {
   display: none;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box {
+.Discussion-comments-box .dic-comment-box {
   border: 1px solid var(--gray);
   border-radius: 13px;
   margin: 10px 0;
   padding: 20px 0;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box-colour {
+.Discussion-comments-box .dic-comment-box .reviews-box-colour {
   background-color: var(--sky-blue);
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box {
+.Discussion-comments-box .dic-comment-box .reviews-box {
   display: flex;
   margin: 0px 0;
   padding: 10px 10px;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section {
+.Discussion-comments-box .dic-comment-box .reviews-box .img-section {
   width: 100px;
   display: flex;
   justify-content: center;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box {
+.Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box {
   border-radius: 50%;
   width: 66px;
   height: 66px;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box img {
+.Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box img {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
   border-radius: 50%;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent {
   width: 500px;
   margin-left: 20px;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .reviews-chate-comment-box {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .reviews-chate-comment-box {
   width: min(100% - 0px, 89%);
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .reviews-chate-comment-box textarea {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .reviews-chate-comment-box textarea {
   width: 100%;
   border: 1px solid var(--siment);
   padding: 10px;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .reviews-chate-comment-box textarea:focus {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .reviews-chate-comment-box textarea:focus {
   outline: none;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .post-btn {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .post-btn {
   margin-top: 20px;
   cursor: pointer;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .post-btn p {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .post-btn p {
   background-color: var(--theam-colour);
   width: 70px;
   height: 45px;
@@ -856,41 +868,41 @@ header select:focus {
   color: var(--white);
   cursor: pointer;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .post-btn p:hover {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-commnent .post-btn p:hover {
   background-color: var(--light-blue);
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box {
   width: 500px;
   margin-left: 20px;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .title-Setion-dic {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .title-Setion-dic {
   display: flex;
   justify-content: space-between;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .name-title {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .name-title {
   font-size: 1.3rem;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .date-post {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .date-post {
   color: var(--siment);
   font-size: 1rem;
   margin-left: 20px;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .Description-text {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .Description-text {
   padding: 10px 0;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .comment-i {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .comment-i {
   color: var(--theam-colour);
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .comment-i a {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .comment-i a {
   color: var(--theam-colour);
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .form-comment textarea {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .form-comment textarea {
   width: 100%;
   border: 1px solid var(--gray);
   padding: 10px;
   border-radius: 9px;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .form-comment .post-btn {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .form-comment .post-btn {
   margin-top: 10px;
   border: 1px solid var(--theam-colour);
   background-color: var(--theam-colour);
@@ -905,39 +917,39 @@ header select:focus {
   color: var(--white);
   cursor: pointer;
 }
-.Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .form-comment .post-btn:hover {
+.Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .form-comment .post-btn:hover {
   background-color: var(--light-blue);
 }
 
 /* ========= Discussion-comments-page-section End =========== */
 /* =========== Quiz-page-section Start =============*/
-.Quiz-page-section .Quiz-right-section {
+.Quiz-right-section {
   margin-top: 10px;
 }
-.Quiz-page-section .Quiz-right-section .Quiz-que-box {
+.Quiz-right-section .Quiz-que-box {
   background-color: #EEEEEE;
   padding: 20px;
   margin-bottom: 15px;
 }
-.Quiz-page-section .Quiz-right-section .Quiz-que-box .Quiz-title p {
+.Quiz-right-section .Quiz-que-box .Quiz-title p {
   padding: 10px 0;
 }
-.Quiz-page-section .Quiz-right-section .Quiz-que-box .Quiz-title p a {
+.Quiz-right-section .Quiz-que-box .Quiz-title p a {
   color: var(--black);
   font-size: 1.3rem;
 }
-.Quiz-page-section .Quiz-right-section .Quiz-que-box form .input-box {
+.Quiz-right-section .Quiz-que-box form .input-box {
   display: flex;
   align-items: baseline;
 }
-.Quiz-page-section .Quiz-right-section .Quiz-que-box form input {
+.Quiz-right-section .Quiz-que-box form input {
   margin: 8px 0;
   width: 20px;
 }
-.Quiz-page-section .Quiz-right-section .Quiz-que-box form label {
+.Quiz-right-section .Quiz-que-box form label {
   margin-left: 10px;
 }
-.Quiz-page-section .Quiz-right-section .Quiz-que-box form button {
+.Quiz-right-section .Quiz-que-box form button {
   margin: 15px 0;
   border: 1px solid var(--theam-colour);
   border-radius: 40px;
@@ -945,57 +957,57 @@ header select:focus {
   color: var(--white);
   background-color: var(--theam-colour);
 }
-.Quiz-page-section .Quiz-right-section .Quiz-que-box form button:hover {
+.Quiz-right-section .Quiz-que-box form button:hover {
   background-color: var(--light-blue);
 }
 
 /* =========== Quiz-page-section End =============*/
 /* =========== Quiz-answer-page-section Start =============*/
-.Quiz-answer-page-section .Quiz-answer-right-section {
+.Quiz-answer-right-section {
   margin-top: 10px;
 }
-.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box {
+.Quiz-answer-right-section .Quiz-que-box {
   background-color: #EEEEEE;
   padding: 20px;
   margin-bottom: 15px;
 }
-.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box .Quiz-title p {
+.Quiz-answer-right-section .Quiz-que-box .Quiz-title p {
   padding: 10px 0;
 }
-.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box .Quiz-title p a {
+.Quiz-answer-right-section .Quiz-que-box .Quiz-title p a {
   color: var(--black);
   font-size: 1.3rem;
 }
-.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form {
+.Quiz-answer-right-section .Quiz-que-box form {
   padding: 0 30px;
 }
-.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form .input-box {
+.Quiz-answer-right-section .Quiz-que-box form .input-box {
   display: flex;
   align-items: baseline;
 }
-.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form .progress-setion-box {
+.Quiz-answer-right-section .Quiz-que-box form .progress-setion-box {
   margin: 10px 0;
 }
-.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form .progress-setion-box .progress {
+.Quiz-answer-right-section .Quiz-que-box form .progress-setion-box .progress {
   border: 1px solid #D9D9D9;
   background-color: #D9D9D9;
   height: 15px;
 }
-.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form .progress-setion-box .progress .progress-bar {
+.Quiz-answer-right-section .Quiz-que-box form .progress-setion-box .progress .progress-bar {
   background-color: var(--dark-green);
   border-top-right-radius: 7px;
   border-bottom-right-radius: 7px;
   text-align: end;
   padding: 7px 10px 7px 0px;
 }
-.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form input {
+.Quiz-answer-right-section .Quiz-que-box form input {
   margin: 8px 0;
   width: 20px;
 }
-.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form label {
+.Quiz-answer-right-section .Quiz-que-box form label {
   margin-left: 10px;
 }
-.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form button {
+.Quiz-answer-right-section .Quiz-que-box form button {
   margin: 15px 0;
   border: 1px solid var(--theam-colour);
   border-radius: 40px;
@@ -1003,16 +1015,16 @@ header select:focus {
   color: var(--white);
   background-color: var(--theam-colour);
 }
-.Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form button:hover {
+.Quiz-answer-right-section .Quiz-que-box form button:hover {
   background-color: var(--light-blue);
 }
 
 /* =========== Quiz-answer-page-section End =============*/
 /* ============= member-page-setion-start =============*/
-.Member-page-section .member-contain-section {
+.member-contain-section {
   margin: 10px 0px;
 }
-.Member-page-section .member-contain-section .search-section {
+.member-contain-section .search-section {
   width: 100%;
   display: flex;
   align-items: center;
@@ -1020,76 +1032,76 @@ header select:focus {
   border: 1px solid var(--gray);
   margin: 0px 0px 10px 0px;
 }
-.Member-page-section .member-contain-section .search-section .search__input {
+.member-contain-section .search-section .search__input {
   width: 98%;
   border: none;
   padding: 5px 10px;
 }
-.Member-page-section .member-contain-section .search-section .search__button {
+.member-contain-section .search-section .search__button {
   background: transparent;
   border: none;
   display: flex;
   align-items: center;
   margin-right: 6px;
 }
-.Member-page-section .member-contain-section .search-section .search__button .search__icon {
+.member-contain-section .search-section .search__button .search__icon {
   font-size: 20px;
   color: var(--black);
 }
-.Member-page-section .member-contain-section .dropdown {
+.member-contain-section .dropdown {
   border: 1px solid var(--gray);
   margin: 5px 0px;
 }
-.Member-page-section .member-contain-section .dropdown .dropdown-title {
+.member-contain-section .dropdown .dropdown-title {
   position: relative;
   padding: 7px 5px;
   display: flex;
   background-color: var(--light-gray);
 }
-.Member-page-section .member-contain-section .dropdown .dropdown-title::after {
+.member-contain-section .dropdown .dropdown-title::after {
   border: none;
 }
-.Member-page-section .member-contain-section .dropdown .dropdown-title .icon-box i {
+.member-contain-section .dropdown .dropdown-title .icon-box i {
   rotate: 180deg;
   font-size: 1.3rem;
 }
-.Member-page-section .member-contain-section .dropdown .dropdown-title .icon-box iconify-icon {
+.member-contain-section .dropdown .dropdown-title .icon-box iconify-icon {
   rotate: 180deg;
 }
-.Member-page-section .member-contain-section .dropdown .dropdown-title:hover iconify-icon {
+.member-contain-section .dropdown .dropdown-title:hover iconify-icon {
   rotate: 0deg;
 }
-.Member-page-section .member-contain-section .dropdown .dropdown-title:hover i {
+.member-contain-section .dropdown .dropdown-title:hover i {
   rotate: 0deg;
 }
-.Member-page-section .member-contain-section .dropdown .dropdown-menu {
+.member-contain-section .dropdown .dropdown-menu {
   border-top: none;
   border-radius: 0;
   margin-top: 0;
   width: 100%;
   background-color: var(--light-gray);
 }
-.Member-page-section .member-contain-section .dropdown .dropdown-menu li:hover {
+.member-contain-section .dropdown .dropdown-menu li:hover {
   background-color: var(--white);
 }
-.Member-page-section .member-contain-section .dropdown .dropdown-menu li:hover a {
+.member-contain-section .dropdown .dropdown-menu li:hover a {
   color: var(--dark-blue);
 }
-.Member-page-section .member-contain-section .dropdown .dropdown-menu li:hover a:focus {
+.member-contain-section .dropdown .dropdown-menu li:hover a:focus {
   background-color: transparent;
 }
-.Member-page-section .member-contain-section .member-boday {
+.member-contain-section .member-boday {
   display: flex;
   flex-wrap: wrap;
   gap: 20px 0px;
   margin-top: 10px;
 }
-.Member-page-section .member-contain-section .member-boday .card {
+.member-contain-section .member-boday .card {
   border: none;
   display: flex;
   justify-content: center;
 }
-.Member-page-section .member-contain-section .member-boday .card .img-box {
+.member-contain-section .member-boday .card .img-box {
   overflow: hidden;
   height: 150px;
   width: min(100% - 10px, 150px);
@@ -1098,30 +1110,30 @@ header select:focus {
   justify-content: center;
   align-items: center;
 }
-.Member-page-section .member-contain-section .member-boday .card .card-body .card-text {
+.member-contain-section .member-boday .card .card-body .card-text {
   text-align: center;
 }
-.Member-page-section .member-contain-section .member-boday .card .card-body .card-text a {
+.member-contain-section .member-boday .card .card-body .card-text a {
   color: var(--black);
   font-size: 1.1rem;
 }
-.Member-page-section .member-contain-section .member-boday .card .card-body .card-text a:hover {
+.member-contain-section .member-boday .card .card-body .card-text a:hover {
   color: var(--theam-colour);
 }
 
 /* ============= member-page-setion-End =============*/
 /* ============= Member-detail-page-section start ====================*/
-.Member-detail-page-section .member-detail-contain-section {
+.member-detail-contain-section {
   margin-top: 10px;
 }
-.Member-detail-page-section .member-detail-contain-section .member-detail-head-section {
+.member-detail-contain-section .member-detail-head-section {
   background-color: var(--light-gray);
   padding: 15px;
 }
-.Member-detail-page-section .member-detail-contain-section .member-detail-head-section .title-text {
+.member-detail-contain-section .member-detail-head-section .title-text {
   font-size: 1.3rem;
 }
-.Member-detail-page-section .member-detail-contain-section .member-detail-head-section .img-box {
+.member-detail-contain-section .member-detail-head-section .img-box {
   overflow: hidden;
   height: 150px;
   width: min(100% - 10px, 150px);
@@ -1130,46 +1142,46 @@ header select:focus {
   justify-content: center;
   align-items: center;
 }
-.Member-detail-page-section .member-detail-contain-section .member-detail-head-section .e-mail-section {
+.member-detail-contain-section .member-detail-head-section .e-mail-section {
   display: flex;
   align-items: baseline;
   margin: 10px 0;
 }
-.Member-detail-page-section .member-detail-contain-section .member-detail-head-section .e-mail-section a {
+.member-detail-contain-section .member-detail-head-section .e-mail-section a {
   margin-left: 10px;
   color: var(--black);
 }
-.Member-detail-page-section .member-detail-contain-section .member-detail-head-section .link-body {
+.member-detail-contain-section .member-detail-head-section .link-body {
   margin: 10px 0;
 }
-.Member-detail-page-section .member-detail-contain-section .member-detail-head-section .link-body a {
+.member-detail-contain-section .member-detail-head-section .link-body a {
   color: var(--orange);
   text-decoration: underline;
 }
-.Member-detail-page-section .member-detail-contain-section .member-box {
+.member-detail-contain-section .member-box {
   margin: 10px 0;
   display: flex;
   align-items: initial;
   flex-wrap: wrap;
 }
-.Member-detail-page-section .member-detail-contain-section .member-box .first-title {
+.member-detail-contain-section .member-box .first-title {
   padding: 5px 10px;
   display: flex;
   background-color: #D2D6D2;
   place-items: center;
   font-size: 1.3rem;
 }
-.Member-detail-page-section .member-detail-contain-section .member-box .second-p {
+.member-detail-contain-section .member-box .second-p {
   padding: 10px;
   background-color: var(--unnamed-color-e6f0f1);
 }
-.Member-detail-page-section .member-detail-contain-section .member-contain {
+.member-detail-contain-section .member-contain {
   margin: 10px 0;
 }
-.Member-detail-page-section .member-detail-contain-section .btn-section {
+.member-detail-contain-section .btn-section {
   margin-top: 2rem;
 }
-.Member-detail-page-section .member-detail-contain-section .btn-section button {
+.member-detail-contain-section .btn-section button {
   color: var(--white);
   border-radius: 30px;
   border: 1px solid var(--theam-colour);
@@ -1180,31 +1192,31 @@ header select:focus {
   width: 170px;
   padding: 8px 5px;
 }
-.Member-detail-page-section .member-detail-contain-section .btn-section button:hover {
+.member-detail-contain-section .btn-section button:hover {
   border: 1px solid var(--light-blue);
   background-color: var(--light-blue);
 }
 
 /* ============= Member-detail-page-section End ====================*/
 /* ========= contact-admin-page-section Start ============*/
-.contact-admin-page-section .contact-admin-body {
+.contact-admin-body {
   margin-top: 10px;
 }
-.contact-admin-page-section .contact-admin-body .head-title p {
+.contact-admin-body .head-title p {
   font-size: 1.3rem;
   color: #545454;
 }
-.contact-admin-page-section .contact-admin-body .connect-form-setion form .cheakbox-section {
+.contact-admin-body .connect-form-setion form .cheakbox-section {
   display: inline-flex;
   margin: 3px 0;
 }
-.contact-admin-page-section .contact-admin-body .connect-form-setion form textarea {
+.contact-admin-body .connect-form-setion form textarea {
   width: 100%;
   border: 0.5px solid var(--gray);
   padding: 10px;
   margin: 10px 0;
 }
-.contact-admin-page-section .contact-admin-body .connect-form-setion form .btn-section button {
+.contact-admin-body .connect-form-setion form .btn-section button {
   color: var(--white);
   border-radius: 30px;
   border: 1px solid var(--theam-colour);
@@ -1215,80 +1227,80 @@ header select:focus {
   width: 100px;
   padding: 8px 5px;
 }
-.contact-admin-page-section .contact-admin-body .connect-form-setion form .btn-section button:hover {
+.contact-admin-body .connect-form-setion form .btn-section button:hover {
   border: 1px solid var(--light-blue);
   background-color: var(--light-blue);
 }
 
 /* ========= contact-admin-page-section End ============*/
 /* ============ countries-communities-page-section start ============== */
-.countries-communities-page-section .countries-communities-body {
+.countries-communities-body {
   margin-top: 10px;
 }
-.countries-communities-page-section .countries-communities-body .head-title {
+.countries-communities-body .head-title {
   margin: 10px 0;
 }
-.countries-communities-page-section .countries-communities-body .head-title p {
+.countries-communities-body .head-title p {
   font-size: 1.3rem;
   color: #545454;
 }
-.countries-communities-page-section .countries-communities-body .input-box {
+.countries-communities-body .input-box {
   display: flex;
   align-items: center;
 }
-.countries-communities-page-section .countries-communities-body .input-box input {
+.countries-communities-body .input-box input {
   accent-color: var(--theam-colour);
 }
-.countries-communities-page-section .countries-communities-body .input-box label {
+.countries-communities-body .input-box label {
   margin-left: 10px;
 }
-.countries-communities-page-section .countries-communities-body .table-section .tab-pane {
+.countries-communities-body .table-section .tab-pane {
   overflow-x: auto;
 }
-.countries-communities-page-section .countries-communities-body .table-section .dic-table {
+.countries-communities-body .table-section .dic-table {
   margin-top: 15px;
   min-width: 700px;
   border-spacing: 0px 5px !important;
   border-collapse: separate !important;
 }
-.countries-communities-page-section .countries-communities-body .table-section .dic-table thead tr {
+.countries-communities-body .table-section .dic-table thead tr {
   background-color: var(--secondery-bule-dark);
 }
-.countries-communities-page-section .countries-communities-body .table-section .dic-table thead tr th {
+.countries-communities-body .table-section .dic-table thead tr th {
   padding: 15px;
   font-size: 1.3rem;
   font-weight: 400;
 }
-.countries-communities-page-section .countries-communities-body .table-section .dic-table thead tr .country {
+.countries-communities-body .table-section .dic-table thead tr .country {
   width: 300px;
 }
-.countries-communities-page-section .countries-communities-body .table-section .dic-table tbody tr {
+.countries-communities-body .table-section .dic-table tbody tr {
   background-color: var(--sky-blue);
 }
-.countries-communities-page-section .countries-communities-body .table-section .dic-table tbody tr td {
+.countries-communities-body .table-section .dic-table tbody tr td {
   padding: 15px;
 }
-.countries-communities-page-section .countries-communities-body .table-section .dic-table tbody tr td a {
+.countries-communities-body .table-section .dic-table tbody tr td a {
   font-size: 16px;
   color: var(--black);
 }
-.countries-communities-page-section .countries-communities-body .table-section .dic-table tbody tr .dic-number {
+.countries-communities-body .table-section .dic-table tbody tr .dic-number {
   font-size: 12px;
 }
 
 /* ============ countries-communities-page-section End ============== */
 /* =============== Users-Community-page-section start ==================*/
-.Users-Community-page-section .Users-Community-right-body {
+.Users-Community-right-body {
   margin: 10px 0;
 }
-.Users-Community-page-section .Users-Community-right-body .head-title {
+.Users-Community-right-body .head-title {
   font-size: 1.3rem;
   margin: 10px 0;
 }
-.Users-Community-page-section .Users-Community-right-body .btn-section {
+.Users-Community-right-body .btn-section {
   margin-top: 20px;
 }
-.Users-Community-page-section .Users-Community-right-body .btn-section .btn-box {
+.Users-Community-right-body .btn-section .btn-box {
   border: 1px solid var(--orange);
   padding: 7px 15px;
   border-radius: 20px;

@@ -91,47 +91,46 @@
     }
 
     /* ======== Document-details-page-section start =========*/
-    .Document-details-page-section .doc-details-right-section .doc-details-box .back-btn-box {
+    .doc-details-right-section .doc-details-box .back-btn-box {
         margin-right: 20px;
     }
 
-    .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section .img-reviews-box {
+    .doc-details-right-section .reviews-section .reviews-box .img-section .img-reviews-box {
         width: 50px;
         height: 50px;
     }
 
-    .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section {
+    .doc-details-right-section .reviews-section .reviews-box .img-section {
         width: 80px;
     }
 
     /* ======== Document-details-page-section End =========*/
     /* ========= Discussion-comments-page-section Start =========== */
 
-    .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section {
+     .Discussion-comments-box .dic-comment-box .reviews-box .img-section {
         width: 80px;
 
     }
 
-    .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box {
+     .Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box {
         border-radius: 50%;
         width: 50px;
         height: 50px;
     }
 
     /* ========= Discussion-comments-page-section End =========== */
-    .countries-communities-page-section .countries-communities-body .table-section .dic-table thead tr .country {
+     .countries-communities-body .table-section .dic-table thead tr .country {
         width: 244px;
     }
     /* ================ News-page-section Start ===================== */
-.News-page-section {
+
     .news-grid-section {
         .card {
             width: 100%;
             border: 1px solid var(--gray);
-        }
-        .card-box {
+      
             .img-box{
-                height: 200px;
+                height: 180px ;
             }
             .card-body {
                 padding: 10px 15px;
@@ -145,9 +144,21 @@
             }
         }
     }
-}
+
 
 /* ================ News-page-section End ===================== */
+/* ============= Event-page-section start  =============== */
+
+.Event-body {
+    .event-card-body {
+        .img-box{
+            height: 180px;
+        }
+    }
+}
+
+
+/* ============= Event-page-section End  =============== */
 }
 
 @media (min-width:991px) {
@@ -163,7 +174,6 @@
         }
     }
 
-    .Document-page-section {
         .Doc-contain-section {
             .dropdown {
                 &:hover {
@@ -175,9 +185,8 @@
                 }
             }
         }
-    }
+    
 
-    .Member-page-section {
 
         .member-contain-section {
             .dropdown {
@@ -190,7 +199,7 @@
                 }
             }
         }
-    }
+    
 }
 
 @media (max-width:767px) {
@@ -208,7 +217,6 @@
     }
 
     /* ========= Discussion-comments-page-section Start =========== */
-    .Discussion-comments-page-section {
         .Discussion-comments-box {
             .dic-comment-head-setion {
                 margin: 10px 0;
@@ -248,18 +256,18 @@
                 }
             }
         }
-    }
+    
 
     /* ========= Discussion-comments-page-section End =========== */
-    .Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form {
+    .Quiz-answer-right-section .Quiz-que-box form {
         padding: 0 0px;
     }
 
-    .Member-page-section .member-contain-section .member-boday {
+     .member-contain-section .member-boday {
         justify-content: center;
     }
 
-    .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc {
+     .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -270,13 +278,13 @@
         }
     }
 
-    .Document-page-section .Doc-card-section .edit-setion div {
+     .Doc-card-section .edit-setion div {
         border-left: 1px solid black;
         padding: 5px;
 
     }
 
-    .Document-page-section .Doc-card-section .edit-setion {
+     .Doc-card-section .edit-setion {
 
         margin-right: 10px;
     }
@@ -326,4 +334,10 @@
             }
         }
     }
+}
+@media (max-width:1024px) and (min-width:1023px) {
+        
+.secondary-menu-section .menu-iteam li{
+    padding: 0 3px;
+}
 }

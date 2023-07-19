@@ -6,7 +6,6 @@ header {
 
     ul {
         margin: 0;
-
         li {
             .login-i {
                 color: var(--black);
@@ -306,7 +305,7 @@ header {
         img{
             height: 100%;
             object-fit: contain;
-            object-position: center top;
+            object-position: center ;
         }
     }
     .btn-box {
@@ -351,7 +350,7 @@ header {
 
 /* ================ Document-page-section Start ===================== */
 
-.Document-page-section {
+
 
 
     .Doc-contain-section {
@@ -490,11 +489,11 @@ header {
             text-decoration: underline;
         }
     }
-}
+
 
 /* ================ Document-page-section End ===================== */
 /* ================ News-page-section Start ===================== */
-.News-page-section {
+
     .news-grid-section {
         margin-bottom: 10px;
         display: flex;
@@ -509,7 +508,7 @@ header {
             margin-top: 1.5rem;
         }
             .img-box{
-                height: 300px;
+                height: 280px;
                 img{
                     height: 100%;
                     object-fit: contain;
@@ -533,11 +532,11 @@ header {
                 }
         }
     }
-}
+
 
 /* ================ News-page-section End ===================== */
 /* ============= Event-page-section start  =============== */
-.Event-page-section {
+
     .Event-body {
         margin-top: 10px;
 
@@ -545,7 +544,15 @@ header {
             background-color: var(--light-gray);
             border-radius: 10px;
             margin-bottom: 10px;
-
+            .img-box{
+                height: 200px;
+                overflow: hidden;
+                img{
+                    height: 100%;
+                    object-fit: contain;
+                    object-position: center;
+                }
+            }
             .event-contain-body {
                 padding: 10px 10px;
 
@@ -569,11 +576,11 @@ header {
             }
         }
     }
-}
+
 
 /* ============= Event-page-section End  =============== */
 /* ============= Document-details-page-section Start  =============== */
-.Document-details-page-section {
+
     .doc-details-right-section {
         margin-top: 10px;
 
@@ -760,12 +767,12 @@ header {
 
         }
     }
-}
+
 
 /* ============= Document-details-page-section End  =============== */
 
 /* ================ Discussion forum  page Start =================== */
-.Discussion-forum-page-section {
+
     .Discussion-right-Section {
         .Discussion-table-section {
             // overflow-x: scroll;
@@ -837,13 +844,13 @@ header {
             }
         }
     }
-}
+
 
 /* ================ Discussion forum page End =================== */
 
 
 /* ========= Discussion-comments-page-section Start =========== */
-.Discussion-comments-page-section {
+
     .Discussion-comments-box {
         .dic-comment-head-setion {
             margin: 10px 0;
@@ -1031,12 +1038,12 @@ header {
             }
         }
     }
-}
+
 
 /* ========= Discussion-comments-page-section End =========== */
 
 /* =========== Quiz-page-section Start =============*/
-.Quiz-page-section {
+
     .Quiz-right-section {
         margin-top: 10px;
 
@@ -1086,12 +1093,12 @@ header {
             }
         }
     }
-}
+
 
 /* =========== Quiz-page-section End =============*/
 
 /* =========== Quiz-answer-page-section Start =============*/
-.Quiz-answer-page-section {
+
     .Quiz-answer-right-section {
         margin-top: 10px;
 
@@ -1162,13 +1169,13 @@ header {
             }
         }
     }
-}
+
 
 /* =========== Quiz-answer-page-section End =============*/
 /* ============= member-page-setion-start =============*/
 
 
-.Member-page-section {
+
     .member-contain-section {
         margin: 10px 0px;
 
@@ -1299,12 +1306,12 @@ header {
             }
         }
     }
-}
+
 
 /* ============= member-page-setion-End =============*/
 
 /* ============= Member-detail-page-section start ====================*/
-.Member-detail-page-section {
+
     .member-detail-contain-section {
         margin-top: 10px;
 
@@ -1392,11 +1399,11 @@ header {
             }
         }
     }
-}
+
 
 /* ============= Member-detail-page-section End ====================*/
 /* ========= contact-admin-page-section Start ============*/
-.contact-admin-page-section {
+
     .contact-admin-body {
         margin-top: 10px;
 
@@ -1443,11 +1450,11 @@ header {
             }
         }
     }
-}
+
 
 /* ========= contact-admin-page-section End ============*/
 /* ============ countries-communities-page-section start ============== */
-.countries-communities-page-section {
+
     .countries-communities-body {
         margin-top: 10px;
 
@@ -1523,11 +1530,10 @@ header {
         }
 
     }
-}
+
 
 /* ============ countries-communities-page-section End ============== */
 /* =============== Users-Community-page-section start ==================*/
-.Users-Community-page-section {
     .Users-Community-right-body {
         margin: 10px 0;
 
@@ -1549,7 +1555,7 @@ header {
             }
         }
     }
-}
+
 
 /* =============== Users-Community-page-section End ==================*/
 

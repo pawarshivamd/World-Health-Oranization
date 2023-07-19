@@ -59,48 +59,53 @@
     top: 99px;
   }
   /* ======== Document-details-page-section start =========*/
-  .Document-details-page-section .doc-details-right-section .doc-details-box .back-btn-box {
+  .doc-details-right-section .doc-details-box .back-btn-box {
     margin-right: 20px;
   }
-  .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section .img-reviews-box {
+  .doc-details-right-section .reviews-section .reviews-box .img-section .img-reviews-box {
     width: 50px;
     height: 50px;
   }
-  .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .img-section {
+  .doc-details-right-section .reviews-section .reviews-box .img-section {
     width: 80px;
   }
   /* ======== Document-details-page-section End =========*/
   /* ========= Discussion-comments-page-section Start =========== */
-  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section {
+  .Discussion-comments-box .dic-comment-box .reviews-box .img-section {
     width: 80px;
   }
-  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box {
+  .Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box {
     border-radius: 50%;
     width: 50px;
     height: 50px;
   }
   /* ========= Discussion-comments-page-section End =========== */
-  .countries-communities-page-section .countries-communities-body .table-section .dic-table thead tr .country {
+  .countries-communities-body .table-section .dic-table thead tr .country {
     width: 244px;
   }
   /* ================ News-page-section Start ===================== */
-  .News-page-section .news-grid-section .card {
+  .news-grid-section .card {
     width: 100%;
     border: 1px solid var(--gray);
   }
-  .News-page-section .news-grid-section .card-box .img-box {
-    height: 200px;
+  .news-grid-section .card .img-box {
+    height: 180px;
   }
-  .News-page-section .news-grid-section .card-box .card-body {
+  .news-grid-section .card .card-body {
     padding: 10px 15px;
   }
-  .News-page-section .news-grid-section .card-box .card-body .card-text {
+  .news-grid-section .card .card-body .card-text {
     padding: 7px 0px;
     font-size: 1.3rem;
     color: var(--black);
     line-height: 28px;
   }
   /* ================ News-page-section End ===================== */
+  /* ============= Event-page-section start  =============== */
+  .Event-body .event-card-body .img-box {
+    height: 180px;
+  }
+  /* ============= Event-page-section End  =============== */
 }
 @media (min-width: 991px) {
   .secondary-menu-section .dropdown-section:hover .dropdown-menu {
@@ -108,12 +113,12 @@
     display: block !important;
     margin-top: 0px;
   }
-  .Document-page-section .Doc-contain-section .dropdown:hover .dropdown-menu {
+  .Doc-contain-section .dropdown:hover .dropdown-menu {
     position: absolute !important;
     display: block !important;
     margin-top: 1px;
   }
-  .Member-page-section .member-contain-section .dropdown:hover .dropdown-menu {
+  .member-contain-section .dropdown:hover .dropdown-menu {
     position: absolute !important;
     display: block !important;
     margin-top: 1px;
@@ -131,50 +136,50 @@
     width: 128%;
   }
   /* ========= Discussion-comments-page-section Start =========== */
-  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion {
+  .Discussion-comments-box .dic-comment-head-setion {
     margin: 10px 0;
     padding: 20px 0;
   }
-  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion p {
+  .Discussion-comments-box .dic-comment-head-setion p {
     color: var(--white);
     font-size: 0.9rem;
   }
-  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-head-setion .back-btn {
+  .Discussion-comments-box .dic-comment-head-setion .back-btn {
     padding: 5px 15px;
   }
-  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box {
+  .Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box {
     border-radius: 50%;
   }
-  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .title-Setion-dic {
+  .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .title-Setion-dic {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  .Discussion-comments-page-section .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .title-Setion-dic .date-post {
+  .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .title-Setion-dic .date-post {
     margin-left: 0px;
     margin-top: 10px;
   }
   /* ========= Discussion-comments-page-section End =========== */
-  .Quiz-answer-page-section .Quiz-answer-right-section .Quiz-que-box form {
+  .Quiz-answer-right-section .Quiz-que-box form {
     padding: 0 0px;
   }
-  .Member-page-section .member-contain-section .member-boday {
+  .member-contain-section .member-boday {
     justify-content: center;
   }
-  .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc {
+  .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  .Document-details-page-section .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc .date-post {
+  .doc-details-right-section .reviews-section .reviews-box .reviews-chate-box .title-Setion-doc .date-post {
     margin-left: 0px;
     margin-top: 10px;
   }
-  .Document-page-section .Doc-card-section .edit-setion div {
+  .Doc-card-section .edit-setion div {
     border-left: 1px solid black;
     padding: 5px;
   }
-  .Document-page-section .Doc-card-section .edit-setion {
+  .Doc-card-section .edit-setion {
     margin-right: 10px;
   }
 }
@@ -202,5 +207,10 @@
   }
   .loging-page-section .right-contain .from-section .btn-sing-in {
     padding: 7px 10px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 1023px) {
+  .secondary-menu-section .menu-iteam li {
+    padding: 0 3px;
   }
 }/*# sourceMappingURL=responsive.css.map */
