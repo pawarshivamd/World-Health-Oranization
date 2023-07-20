@@ -78,7 +78,7 @@
         }
     }
     .all-blog-contain .baner-img{
-        height: 200px;
+        height: 170px;
     }
     .all-blog-contain .btn-box .Download-btn {
         width: 116px;
@@ -147,18 +147,7 @@
 
 
 /* ================ News-page-section End ===================== */
-/* ============= Event-page-section start  =============== */
 
-.Event-body {
-    .event-card-body {
-        .img-box{
-            height: 180px;
-        }
-    }
-}
-
-
-/* ============= Event-page-section End  =============== */
 }
 
 @media (min-width:991px) {
@@ -335,7 +324,7 @@
         }
     }
 }
-@media (max-width:1024px) and (min-width:1023px) {
+@media (max-width:1280px) and (min-width:992px) {
         
 .secondary-menu-section .menu-iteam li{
     padding: 0 3px;

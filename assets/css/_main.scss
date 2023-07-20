@@ -301,11 +301,11 @@ header {
 .all-blog-contain {
     margin: 10px 0px;
     .baner-img{
-        height: 300px;
+        height: 350px;
         img{
             height: 100%;
-            object-fit: contain;
-            object-position: center ;
+            object-fit: cover;
+            object-position: center center ;
         }
     }
     .btn-box {
@@ -511,7 +511,7 @@ header {
                 height: 280px;
                 img{
                     height: 100%;
-                    object-fit: contain;
+                    object-fit: cover;
                     object-position: center top;
                 }
             }
@@ -549,8 +549,9 @@ header {
                 overflow: hidden;
                 img{
                     height: 100%;
-                    object-fit: contain;
+                    object-fit: cover;
                     object-position: center;
+                    border-radius: 10px;
                 }
             }
             .event-contain-body {

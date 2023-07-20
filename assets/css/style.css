@@ -349,14 +349,14 @@ header select:focus {
   margin: 10px 0px;
 }
 .all-blog-contain .baner-img {
-  height: 300px;
+  height: 350px;
 }
 .all-blog-contain .baner-img img {
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -o-object-position: center;
-     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }
 .all-blog-contain .btn-box .Download-btn {
   width: 175px;
@@ -513,8 +513,8 @@ header select:focus {
 }
 .news-grid-section .img-box img {
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
   -o-object-position: center top;
      object-position: center top;
 }
@@ -550,10 +550,11 @@ header select:focus {
 }
 .Event-body .event-card-body .img-box img {
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
   -o-object-position: center;
      object-position: center;
+  border-radius: 10px;
 }
 .Event-body .event-card-body .event-contain-body {
   padding: 10px 10px;
