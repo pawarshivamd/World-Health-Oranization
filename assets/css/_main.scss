@@ -259,8 +259,6 @@ header {
 /* =================   all pages same aside    latest updates section  start ============= */
 .Latest-updates-section {
     border: 0.5px solid var(--gray);
-    position: sticky;
-    top: 129px;
     margin: 10px 0px;
 
     .latest-box {
@@ -291,8 +289,50 @@ header {
     }
 }
 
+.left-site-list-section{
+    margin-top: 10px;
+    .card {
+       position: relative;
+       overflow: hidden;
+       border: none;
+       border-radius: 0;
+   }
 
+   .default-card{
+    background-color: #FFB032 !important;
+   }
+   .card-body {
+       background-color: var(--dark-green);
+       margin-bottom: 5px;
+       padding: 0px 18px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
 
+       &:hover{
+        .card-title{
+            color: var(--white);
+        }
+        .card-link{
+            color: var(--white);
+           }
+           background-color: var(--orange);
+       }
+       .card-title{
+           color: var(--black);
+           font-size: 1.174rem;
+           margin-bottom: 0;
+       }
+       .card-link{
+        color: var(--black);
+        font-size: 2rem;
+       }
+       .card-btn-link{
+        color: var(--white);
+        font-size: 2rem;
+       }
+   }
+}
 
 /* =================   all pages same aside    latest updates section  End ============= */
 
@@ -306,6 +346,61 @@ header {
             height: 100%;
             object-fit: cover;
             object-position: center center ;
+        }
+       
+    }
+    .edit-title-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px 0;
+        .date-title{
+            color: var(--siment);
+            .green-title{
+                color: var(--dark-green);
+            }
+        }
+
+        .edit-setion{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-width: 160px;
+            margin-left: auto;
+            .translate-btn{
+                border: 1px solid var(--theam-colour);
+                color: var(--white);
+                border-radius: 20px;
+                background-color: var(--theam-colour);
+                & a{
+                    color: var(--white);
+                }
+                &:hover{
+                    background-color: var(--light-blue);
+                }
+            }
+            .edit-btn{
+                border-left: 1px solid #000000;
+                min-width: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0 10px;
+                .edit{
+                    color: var(--black);
+                }
+            }
+            .trash-btn{
+                min-width: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-left: 1px solid #000000;
+                .trash{
+                    color: var(--black);
+                }
+            }
         }
     }
     .btn-box {
@@ -346,8 +441,225 @@ header {
 }
 
 /* =================   all pages same blog-post-section section  End ============= */
+/* ============== user admin table section start ================= */
+.user-iner-table{
+    white-space: nowrap; 
+    border-collapse: separate;
+    border-spacing: 0 0.5em;
+}
+.user-admin-table-section {
+    overflow-x: auto;
+    width: 100%;
+  }
+  
+  .table-user {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap; 
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    .number-of-user{
+        width: 3%;
+      }
+      .name-td-box{
+        width: 25%;
+        vertical-align: top;
 
+      }
+      .select-td-box{
+        width: 20%;
+        vertical-align: top;
+      }
+      .td-two-list-box{
+        width: 42%;
+      }
+      .edit-td-box{
+        width: 10%;
+        vertical-align: top;
+      }
+    .main-box-tr{
+        background-color:#F2FBFF;
+        .number-of-user{
+            vertical-align: top;
+        }
+        .user-title{
+            color: var(--black);
+            text-decoration: underline;
+            font-weight: 600;
+        }
+        .user-table-select{
+            height: 25px;
+            background-color: var(--light-gray);
+            padding: 1px 3px;
+        }
+        .temorary-acc-link{
+            color: var(--theam-colour);
+        }
+        .edit-link{
+            color: var(--black);
+            border-left: 1px solid var(--black);
+            padding: 7px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .user-delete-link{
+            color: var(--black);
+            border-left: 1px solid var(--black);
+            padding: 7px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .td-two-list-box{
+            max-width: 215px;
+        }
+    }
+    .contain-bg-gray-box{
+        background-color: var(--light-gray);
+        .blank-td-numbr{
+            width: 3%;
+        }
+        .administrator-td-width{
+            width: 25%;
+        }
+        .Temp-acces-td-width{
+            width: 20%;
+        }
+        .date-td-width{
+            width: 21%;
+        }
+        .Approval-td-width{
+            width: 21%;
+        }
+        .blank-td-edit-width{
+            width: 10%;
+        }
 
+        .administrator-link{
+            color: var(--black);
+        }
+        .approval-pending-text{
+            color: var(--orange);
+        }
+        .approved-text{
+            color: var(--dark-green);
+        }
+    }
+}
+  
+  .table-user th,
+  .table-user td {
+    /* border: 2px solid green; */ 
+    padding: 5px; 
+    text-wrap: wrap;
+
+  }
+/* ============== user admin table section End ================= */
+
+/* ======================= flag-page start ========================= */
+.flag-body{
+    .flag-card{
+        background-color: var(--sky-blue);
+        margin-bottom: 15px;
+       .flag-head-box{
+        display: flex;
+        padding: 10px 10px;
+        width: 100%;
+        .number-list{
+            width: min(100% - 0px , 5% );
+        }
+        .title-box{
+            width: min(100% - 0 , 95%);
+            .main-title-contain{
+             max-width: 100%;
+             width: min(100% - 0px , 70% );
+             display: flex;
+             .main-title{
+                font-size: 16px;
+                font-weight: 500;
+             }
+             .icon-comment{
+                margin-left: auto;
+                .comment-number{
+                    font-size: 20px;
+                    margin-left: 5px;
+                }
+             }
+            } 
+            .sub-title{
+                color: var(--siment);
+                .green-title{
+                    color: var(--dark-green);
+                }
+            }
+        }
+       } 
+       .flag-footer-box{
+        .reviews-box {
+            display: flex;
+            margin: 2px 0;
+            padding: 10px 10px;
+            border: 1px solid #707070;
+            border-radius: 13px;
+            .img-section {
+                width: 100px;
+                display: flex;
+                justify-content: center;
+
+                .img-reviews-box {
+
+                    border-radius: 50%;
+                    width: 66px;
+                    height: 66px;
+
+                    img {
+                        object-fit: cover;
+                        height: 100%;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            .reviews-chate-box {
+                width: 100%;
+                margin-left: 20px;
+
+                .title-Setion-dic {
+                    display: flex;
+                    flex-wrap: wrap;
+                    .name-title {
+                        font-size: 1.3rem;
+                        font-weight: 500;
+                     }
+
+                    .date-post {
+                        color: var(--siment);
+                        font-size: 1rem;
+                        margin-top: 7px;
+                        margin-left: 20px;
+                    }
+                }
+
+                .Description-text {
+                    padding: 10px 0;
+                    font-size: 17px;
+                    font-weight: 400;
+                }
+                .comment-edit-action{
+                    a{
+                        font-size: 1.1rem;
+                        color: var(--theam-colour);
+                    }
+                    .flag-color{
+                        color: red;
+                    }
+                }
+           
+            }
+        }
+       }
+    }
+}
+/* ======================= flag-page End ========================= */
+   
 /* ================ Document-page-section Start ===================== */
 
 
@@ -362,7 +674,7 @@ header {
             align-items: center;
             justify-content: space-between;
             border: 1px solid var(--gray);
-            margin: 0px 0px 10px 0px;
+            margin: 16px 0px 10px 0px;
 
             .search__input {
                 width: 98%;
@@ -393,7 +705,8 @@ header {
                 padding: 7px 5px;
                 display: flex;
                 background-color: var(--light-gray);
-
+                width: 100%;
+                border: none;
                 &::after {
                     border: none;
                 }
@@ -447,49 +760,109 @@ header {
         }
     }
 
-    .Doc-card-section {
-        display: flex;
-        background-color: var(--sky-blue);
-        padding: 10px;
-        margin-top: 10px;
-
-        .number-cards {
-            text-align: center;
-            font-weight: 300;
-            font-size: 1.5rem;
-        }
-
-        .Doc-card-title {
-            color: var(--black);
-            font-size: 1.3rem;
-            line-height: 18px;
-            cursor: pointer;
-
-            &:hover {
-                color: var(--theam-colour);
-            }
-        }
-
-        .edit-setion {
+    .document-body{
+        .document-card-body{
+            padding: 12px 20px;
+            background-color: #F2FBFF;
             display: flex;
-            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-bottom: 16px;
+            .main-title{
+                font-size: 16px;
+            }
+            .sub-title{
+                font-size: 14px;
+                color: var(--siment);
+                margin-bottom: 7px;
+            }
+            .Document-edit-setion{
 
-            div {
-                border-left: 1px solid black;
-                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                min-width: 210px;
+                margin-left: auto;
+                .translate-btn{
+                    border: 1px solid var(--theam-colour);
+                    color: var(--white);
+                    border-radius: 20px;
+                    width: 114px;
+                    background-color: var(--theam-colour);
 
-                i {
-                    font-size: 1.3rem;
+                    a{
+                        color: var(--white);
+                    }
+                    &:hover{
+                        background-color: var(--light-blue);
+                    }
+                }
+                .download-btn{
+                    min-width: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    a{
+                        color: var(--black);
+                    }
+                }
+                .edit-btn {
+                    border-left: 1px solid #000000;
+                    min-width: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    i{
+                        color: var(--black);
+                    }
+                }
+                .trash-btn {
+                    min-width: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-left: 1px solid #000000;
+                    i{
+                        color: var(--black);
+                    }
                 }
             }
         }
-
-        .temorary-access {
+    .from-details-section{
+        // width: min(100% - 0px , 80%);
+        // border: 1px solid red;
+        .document-from-box{
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: baseline;
+            margin-bottom: 15px;
+           .title-docu{
+            font-size: 16px;
+            font-weight: 500;
+            width: min(100% - 0 , 20%);
+           }
+           .doc-link{
             color: var(--theam-colour);
             text-decoration: underline;
+            margin: 10px 0;
+            font-size: 16px;
+           } 
+           .all-btn-setion{
+            display: flex;
+            align-items: center;
+            margin: 0px 0px;
+            flex-wrap: wrap;
+            .btn-box{
+                 border: 1px solid var(--orange);
+                padding: 7px 15px;
+                border-radius: 20px;
+                margin: 5px 5px;
+                cursor: pointer;
+            }
+           }
         }
     }
 
+    }
 
 /* ================ Document-page-section End ===================== */
 /* ================ News-page-section Start ===================== */
@@ -535,7 +908,7 @@ header {
 
 
 /* ================ News-page-section End ===================== */
-/* ============= Event-page-section start  =============== */
+/* ============= Event and News page-section start  =============== */
 
     .Event-body {
         margin-top: 10px;
@@ -545,21 +918,68 @@ header {
             border-radius: 10px;
             margin-bottom: 10px;
             .img-box{
-                height: 200px;
+                height: 172px;
                 overflow: hidden;
                 img{
                     height: 100%;
                     object-fit: cover;
                     object-position: center;
-                    border-radius: 10px;
+                    // border-radius: 10px;
                 }
             }
             .event-contain-body {
                 padding: 10px 10px;
-
+                .edit-card-title{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-wrap: wrap;
+                    .date-title{
+                        color: var(--siment);
+                    }
+                    .edit-setion{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        min-width: 150px;
+                        .translate-btn{
+                            border: 1px solid var(--theam-colour);
+                            color: var(--white);
+                            border-radius: 20px;
+                            background-color: var(--theam-colour);
+                            & a{
+                                color: var(--white);
+                            }
+                            &:hover{
+                                background-color: var(--light-blue);
+                            }
+                        }
+                        .edit-btn{
+                            border-left: 1px solid #000000;
+                            min-width: 30px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            .edit{
+                                color: var(--black);
+                            }
+                        }
+                        .trash-btn{
+                            min-width: 30px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-left: 1px solid #000000;
+                            .trash{
+                                color: var(--black);
+                            }
+                        }
+                    }
+                }
+               
                 a {
                     .main-title {
-                        padding: 20px 0px;
+                        padding: 7px 0px;
                         font-size: 1.3rem;
                         color: var(--black);
                         line-height: 28px;
@@ -570,16 +990,19 @@ header {
                     }
                 }
 
-                .date {
+                .footet-title {
                     color: var(--siment);
                     padding: 5px 0px;
+                    .green-title{
+                        color: var(--dark-green);
+                    }
                 }
             }
         }
     }
 
 
-/* ============= Event-page-section End  =============== */
+/* ============= Event and News page-section End  =============== */
 /* ============= Document-details-page-section Start  =============== */
 
     .doc-details-right-section {
@@ -776,48 +1199,21 @@ header {
 
     .Discussion-right-Section {
         .Discussion-table-section {
-            // overflow-x: scroll;
+            overflow-x: auto; 
+            max-width: 100%;
             margin-top: 5px;
 
             .dic-table {
                 width: 100%;
-                border-spacing: 0px 5px !important;
+                border-spacing: 0px 15px !important;
                 border-collapse: separate !important;
-
-                thead {
-                    tr {
-                        background-color: var(--secondery-bule-dark);
-
-                        th {
-                            padding: 15px;
-                            color: var(--t-color-7a7a7a);
-                            font-size: 1.3rem;
-                            font-weight: 400;
-                        }
-
-                        .Topic-section {
-                            background-color: var(--secondery-bule-dark);
-
-                            width: 70% !important;
-                        }
-                    }
-
-                }
 
                 tbody {
                     tr {
-                        &:nth-child(odd) {
 
-                            background-color: var(--sky-blue);
-                        }
-
-                        &:nth-child(even) {
-
-                            background-color: var(--secondery-bule-dark);
-                        }
-
+                        background-color:#F2FBFF;
                         th {
-                            padding: 15px;
+                            padding: 10px;
                         }
 
                         td {
@@ -825,7 +1221,7 @@ header {
 
                             .dic-title {
                                 font-size: 16px;
-
+                                font-weight: 500;
                                 a {
                                     color: var(--black);
 
@@ -833,12 +1229,57 @@ header {
                             }
 
                             .dic-date {
-                                font-size: 12px;
+                                font-size: 14px;
+                                color: var(--siment);
+                            }
+                            .fa-comment{
+                                color: var(--black);
+                            }
+                            .comment-number{
+                                margin-left: 7px;
+                                font-size: 20px;
+                                font-weight: 500;
+                                color: var(--black);
+                            }
+                            .edit-link {
+                                color: var(--black);
+                                border-left: 1px solid var(--black);
+                                padding: 7px;
+                                padding-left: 20px;
+
+                                font-size: 16px;
+                                cursor: pointer;
+                            }
+                            .user-delete-link {
+                                color: var(--black);
+                                border-left: 1px solid var(--black);
+                                padding: 7px;
+                                padding-left: 20px;
+                                font-size: 16px;
+                                cursor: pointer;
+                            }
+                            .green-title{
+                                color: var(--dark-green);
                             }
                         }
 
                         .dic-number {
                             font-size: 12px;
+                            vertical-align: top;
+                            padding-top: 17px;
+                            width: 3%;
+                        }
+                        .dic-title-td{
+                            width: 60%;
+                        }
+                        .dic-comment-td{
+                            vertical-align: top;
+                            width: 10%;
+                            
+                        }
+                        .edit-td-box{
+                            width: 20%;
+                            vertical-align: top;
                         }
                     }
                 }
@@ -856,52 +1297,34 @@ header {
         .dic-comment-head-setion {
             margin: 10px 0;
             background-color: var(--light-blue);
-            padding: 20px 0;
+            padding: 20px 20px;
             display: flex;
-            justify-content: space-around;
+            flex-wrap: wrap;
+            justify-content: space-between;
             align-items: center;
 
-            p {
+            .main-title{
                 color: var(--white);
                 font-size: 1.3rem;
             }
-
-            .back-btn {
-                padding: 10px 20px;
-                width: 80px;
-                border-radius: 40px;
-                border: 1px solid var(--white);
-
-                a {
-                    color: var(--theam-colour);
-
-                    .add {
-                        display: none;
-                    }
-                }
-
-                &:hover {
-                    .add {
-                        display: block;
-                        color: var(--white);
-                    }
-
-                    .back {
-                        display: none;
-                    }
-
-                    background-color: var(--theam-colour);
-                    border: 1px solid var(--theam-colour);
-
-                }
+            .sub-title{
+                color: var(--white);
+                font-size: 1rem;
+            }
+            .pending-coment-title{
+                color: var(--white);
+                font-size: 1.3rem;
             }
         }
-
+            .Description-title{
+                font-size: 1.3rem;
+                font-weight: 500;
+            }
         .dic-comment-box {
             border: 1px solid var(--gray);
             border-radius: 13px;
-            margin: 10px 0;
-            padding: 20px 0;
+            margin: 20px 0;
+            padding: 0px 0;
 
             .reviews-box-colour {
                 background-color: var(--sky-blue);
@@ -911,7 +1334,7 @@ header {
                 display: flex;
                 margin: 0px 0;
                 padding: 10px 10px;
-
+                border-radius: 10px;
                 .img-section {
                     width: 100px;
                     display: flex;
@@ -975,27 +1398,31 @@ header {
                 }
 
                 .reviews-chate-box {
-                    width: 500px;
+                    width: min(100% - 0px , 80%);
                     margin-left: 20px;
 
                     .title-Setion-dic {
                         display: flex;
-                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        
                     }
 
                     .name-title {
                         font-size: 1.3rem;
-
+                        font-weight: 500;
                     }
-
+                    
                     .date-post {
                         color: var(--siment);
                         font-size: 1rem;
+                        margin-top: 7px;
                         margin-left: 20px;
                     }
 
                     .Description-text {
                         padding: 10px 0;
+                        font-size: 17px;
+                         font-weight: 400;
                     }
 
                     .comment-i {
@@ -1003,7 +1430,10 @@ header {
 
                         a {
                             color: var(--theam-colour);
-
+                            font-size: 1.1rem;
+                        }
+                        .flag-color{
+                            color: red;
                         }
                     }
 

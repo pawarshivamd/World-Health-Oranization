@@ -1,4 +1,7 @@
 @media (max-width: 991px) {
+  .table-user {
+    width: 870px;
+  }
   /* ==============   header section start  ============== */
   header ul {
     padding: 0;
@@ -58,7 +61,107 @@
   .Latest-updates-section {
     top: 99px;
   }
+  .left-site-list-section {
+    margin-top: 10px;
+  }
+  .left-site-list-section .card-body {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+  }
+  .left-site-list-section .card-body .card-title {
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+  .left-site-list-section .card-body .card-link {
+    font-size: 1.18rem;
+  }
+  .left-site-list-section .card-body .card-btn-link {
+    font-size: 1.18rem;
+  }
   /* ======== Document-details-page-section start =========*/
+  .document-body .document-card-body {
+    padding: 12px 20px;
+    background-color: #F2FBFF;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .document-body .document-card-body .main-title {
+    font-size: 16px;
+  }
+  .document-body .document-card-body .sub-title {
+    font-size: 14px;
+    color: var(--siment);
+    margin-bottom: 7px;
+  }
+  .document-body .document-card-body .Document-edit-setion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 210px;
+    margin-left: auto;
+  }
+  .document-body .document-card-body .Document-edit-setion .translate-btn {
+    border: 1px solid var(--theam-colour);
+    color: var(--white);
+    border-radius: 20px;
+    width: 114px;
+    background-color: var(--theam-colour);
+  }
+  .document-body .document-card-body .Document-edit-setion .translate-btn a {
+    color: var(--white);
+  }
+  .document-body .document-card-body .Document-edit-setion .translate-btn:hover {
+    background-color: var(--light-blue);
+  }
+  .document-body .document-card-body .Document-edit-setion .download-btn {
+    min-width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .document-body .document-card-body .Document-edit-setion .download-btn a {
+    color: var(--black);
+  }
+  .document-body .document-card-body .Document-edit-setion .edit-btn {
+    border-left: 1px solid #000000;
+    min-width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .document-body .document-card-body .Document-edit-setion .edit-btn i {
+    color: var(--black);
+  }
+  .document-body .document-card-body .Document-edit-setion .trash-btn {
+    min-width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #000000;
+  }
+  .document-body .document-card-body .Document-edit-setion .trash-btn i {
+    color: var(--black);
+  }
+  .document-body .from-details-section .document-from-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .document-body .from-details-section .document-from-box .title-docu {
+    font-size: 16px;
+    font-weight: 500;
+    width: 70%;
+  }
+  .document-body .from-details-section .document-from-box .doc-link {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  .document-body .from-details-section .document-from-box .all-btn-setion .btn-box {
+    padding: 7px 15px;
+    margin: 5px 5px;
+  }
   .doc-details-right-section .doc-details-box .back-btn-box {
     margin-right: 20px;
   }
@@ -78,6 +181,15 @@
     border-radius: 50%;
     width: 50px;
     height: 50px;
+  }
+  .Discussion-comments-box .Description-title {
+    font-size: 1.1rem;
+  }
+  .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .name-title {
+    font-size: 1.2rem;
+  }
+  .Discussion-comments-box .dic-comment-box .reviews-box .reviews-chate-box .Description-text {
+    font-size: 14px;
   }
   /* ========= Discussion-comments-page-section End =========== */
   .countries-communities-body .table-section .dic-table thead tr .country {
@@ -101,6 +213,105 @@
     line-height: 28px;
   }
   /* ================ News-page-section End ===================== */
+  /* ======================= flag-page start ========================= */
+  .flag-body .flag-card {
+    background-color: var(--sky-blue);
+    margin-bottom: 10px;
+  }
+  .flag-body .flag-card .flag-head-box {
+    display: flex;
+    padding: 10px 10px;
+    width: 100%;
+  }
+  .flag-body .flag-card .flag-head-box .number-list {
+    width: min(100% - 0px, 5%);
+  }
+  .flag-body .flag-card .flag-head-box .title-box {
+    width: 95%;
+  }
+  .flag-body .flag-card .flag-head-box .title-box .main-title-contain {
+    max-width: 100%;
+    width: min(100% - 0px, 100%);
+    display: flex;
+  }
+  .flag-body .flag-card .flag-head-box .title-box .main-title-contain .main-title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .flag-body .flag-card .flag-head-box .title-box .main-title-contain .icon-comment {
+    margin-left: auto;
+  }
+  .flag-body .flag-card .flag-head-box .title-box .main-title-contain .icon-comment .comment-number {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .flag-body .flag-card .flag-head-box .title-box .sub-title {
+    color: var(--siment);
+  }
+  .flag-body .flag-card .flag-head-box .title-box .sub-title .green-title {
+    color: var(--dark-green);
+  }
+  .flag-body .flag-card .flag-footer-box .reviews-box {
+    display: flex;
+    margin: 2px 0;
+    padding: 10px 5px;
+    border: 1px solid #707070;
+    border-radius: 13px;
+  }
+  .flag-body .flag-card .flag-footer-box .reviews-box .img-section {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  .flag-body .flag-card .flag-footer-box .reviews-box .img-section .img-reviews-box {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .flag-body .flag-card .flag-footer-box .reviews-box .img-section .img-reviews-box img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .flag-body .flag-card .flag-footer-box .reviews-box .reviews-chate-box {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .flag-body .flag-card .flag-footer-box .reviews-box .reviews-chate-box .title-Setion-dic {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flag-body .flag-card .flag-footer-box .reviews-box .reviews-chate-box .title-Setion-dic .name-title {
+    font-size: 1.2rem;
+  }
+  .flag-body .flag-card .flag-footer-box .reviews-box .reviews-chate-box .title-Setion-dic .date-post {
+    color: var(--siment);
+    font-size: 1rem;
+    margin-top: 7px;
+    margin-left: 20px;
+  }
+  .flag-body .flag-card .flag-footer-box .reviews-box .reviews-chate-box .Description-text {
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .flag-body .flag-card .flag-footer-box .reviews-box .reviews-chate-box .comment-edit-action a {
+    font-size: 1.1rem;
+  }
+  /* ======================= flag-page End ========================= */
+  /* ================ Discussion forum  page Start =================== */
+  .Discussion-right-Section .Discussion-table-section {
+    overflow-x: auto;
+    max-width: 100%;
+    margin-top: 5px;
+  }
+  .Discussion-right-Section .Discussion-table-section .dic-table {
+    width: 860px;
+    border-spacing: 0px 5px !important;
+    border-collapse: separate !important;
+  }
+  /* ================ Discussion forum page End =================== */
 }
 @media (min-width: 991px) {
   .secondary-menu-section .dropdown-section:hover .dropdown-menu {
@@ -120,6 +331,16 @@
   }
 }
 @media (max-width: 767px) {
+  .table-user {
+    width: 870px;
+  }
+  .flag-body .flag-card .flag-footer-box .reviews-box .reviews-chate-box .title-Setion-dic {
+    justify-content: space-between;
+  }
+  .flag-body .flag-card .flag-footer-box .reviews-box .reviews-chate-box .title-Setion-dic .date-post {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
   .nvabar-setion .nav-title {
     font-size: 15px;
   }
@@ -131,17 +352,6 @@
     width: 128%;
   }
   /* ========= Discussion-comments-page-section Start =========== */
-  .Discussion-comments-box .dic-comment-head-setion {
-    margin: 10px 0;
-    padding: 20px 0;
-  }
-  .Discussion-comments-box .dic-comment-head-setion p {
-    color: var(--white);
-    font-size: 0.9rem;
-  }
-  .Discussion-comments-box .dic-comment-head-setion .back-btn {
-    padding: 5px 15px;
-  }
   .Discussion-comments-box .dic-comment-box .reviews-box .img-section .img-reviews-box {
     border-radius: 50%;
   }
