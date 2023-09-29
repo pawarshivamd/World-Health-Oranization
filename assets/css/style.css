@@ -384,6 +384,9 @@ header select:focus {
   color: var(--white);
   font-size: 2rem;
 }
+.left-site-list-section .card-body .card-btn-hide {
+  visibility: hidden;
+}
 
 /* =================   all pages same aside    latest updates section  End ============= */
 /* =================   all pages same blog-post-section section  start ============= */
@@ -516,9 +519,15 @@ header select:focus {
 .table-user .edit-td-box {
   width: 10%;
   vertical-align: top;
+  text-wrap: nowrap;
 }
 .table-user .main-box-tr {
   background-color: #F2FBFF;
+  /* 
+      .td-two-list-box{
+       max-width: 215px;
+       } 
+   */
 }
 .table-user .main-box-tr .number-of-user {
   vertical-align: top;
@@ -550,9 +559,6 @@ header select:focus {
   font-size: 16px;
   cursor: pointer;
 }
-.table-user .main-box-tr .td-two-list-box {
-  max-width: 215px;
-}
 .table-user .contain-bg-gray-box {
   background-color: var(--light-gray);
 }
@@ -569,10 +575,10 @@ header select:focus {
   width: 21%;
 }
 .table-user .contain-bg-gray-box .Approval-td-width {
-  width: 21%;
+  width: 26%;
 }
 .table-user .contain-bg-gray-box .blank-td-edit-width {
-  width: 10%;
+  width: 5%;
 }
 .table-user .contain-bg-gray-box .administrator-link {
   color: var(--black);

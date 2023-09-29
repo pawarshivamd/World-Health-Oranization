@@ -331,6 +331,9 @@ header {
         color: var(--white);
         font-size: 2rem;
        }
+       .card-btn-hide{
+        visibility: hidden;
+       }
    }
 }
 
@@ -476,6 +479,7 @@ header {
       .edit-td-box{
         width: 10%;
         vertical-align: top;
+        text-wrap: nowrap;
       }
     .main-box-tr{
         background-color:#F2FBFF;
@@ -501,6 +505,7 @@ header {
             padding: 7px;
             font-size: 16px;
             cursor: pointer;
+
         }
         .user-delete-link{
             color: var(--black);
@@ -509,9 +514,11 @@ header {
             font-size: 16px;
             cursor: pointer;
         }
-        .td-two-list-box{
-            max-width: 215px;
-        }
+        /* 
+            .td-two-list-box{
+             max-width: 215px;
+             } 
+         */
     }
     .contain-bg-gray-box{
         background-color: var(--light-gray);
@@ -528,10 +535,10 @@ header {
             width: 21%;
         }
         .Approval-td-width{
-            width: 21%;
+            width: 26%;
         }
         .blank-td-edit-width{
-            width: 10%;
+            width: 5%;
         }
 
         .administrator-link{
